@@ -1,7 +1,6 @@
-/*! CustomCSS*/ :root {
+/*! CustomCSS*/ :root
 .toolbar-1t6TWx .iconWrapper-2OrFZ1 .icon-22AiRD {color:var(--main-color);} .toolbar-1t6TWx .iconWrapper-2OrFZ1:hover .icon-22AiRD {color:var(--hover-color);} 
 .buttonWrapper-1ZmCpA .icon-3D60ES {color:var(--main-color);} 
 .buttonWrapper-1ZmCpA:hover .icon-3D60ES {color:var(--hover-color);} .button-14-BFJ> .contents-18-Yxp>svg {color:var(--button-color);} 
 .rtcConnectionQualityFine-2J6i8z .pingForeground-2uAOZ3, .rtcConnectionStatusConnected-VRZDjy {color:var(--success-color);} .listDefault-2y5Z9D{padding-left:24px} .voiceUser-14U_Ns{z-index:1}.voiceUser-14U_Ns .content-3xS9Lh{border-radius:3px;transition:all .15s ease-in-out} .voiceUser-14U_Ns .avatarContainer-2inGBK{position:relative;transition:all .1s ease-in-out} .voiceUser-14U_Ns .avatarContainer-2inGBK:after{content:"";position:absolute;width:0;top:0;bottom:0;left:50%;background:linear-gradient(to right, var(--voice-user-color) 10%, transparent);opacity:.5;transition:all .1s ease-in-out,  width .15s ease-in-out;pointer-events:none;z-index:-1}.voiceUser-14U_Ns .avatarSpeaking-3MqCHL{box-shadow:0 0 0 2px var(--voice-user-color),inset 0 0 3px rgba(0,0,0,0.5)}.voiceUser-14U_Ns .avatarSpeaking-3MqCHL:after{top:-2px;bottom:-2px;width:100px}.voiceUser-14U_Ns .username-lm8y6T{color:rgba(255,255,255,0.5);transition:all .1s ease-in-out}.voiceUser-14U_Ns .usernameSpeaking-2xbKKh{color:#fff !important}.icon-3BcwQu>path{display:none} 
-}
 .attachButtonPlus-jWVFah {-webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; width: 24px; eight: 24px; fill:var(--main-color);}
