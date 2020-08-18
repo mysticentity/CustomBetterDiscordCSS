@@ -12,3 +12,5 @@
 .attachButton-2WznTc:hover .attachButtonPlus-jWVFah {-webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; width: 24px; height: 24px; fill:var(--hover-color);}
 .attachButtonPlay-3iJ0mf {color: var(--main-color);}
 .voiceUser-14U_Ns .icon-3BcwQu, .username-lm8y6T {color: var(--main-color);}
+.buttonWrapper-1ZmCpA .icon-3D60ES {color:var(--main-color);}
+.buttonWrapper-1ZmCpA:hover .icon-3D60ES {color:var(--hover-color);}
