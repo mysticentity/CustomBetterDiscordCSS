@@ -1,6 +1,6 @@
 /*! CustomCSS*/ :root
 .toolbar-1t6TWx .iconWrapper-2OrFZ1 .icon-22AiRD {color:var(--main-color);} 
-.toolbar-1t6TWx .iconWrapper-2OrFZ1:hover .icon-22AiRD {background:linear-gradient(to right, var(--hover-color) 10%, transparent);opacity:.50;}
+.toolbar-1t6TWx .iconWrapper-2OrFZ1:hover .icon-22AiRD {background:linear-gradient(to right, var(--hover-color) 50%, transparent);opacity:.50;}
 .buttonWrapper-1ZmCpA .icon-3D60ES {color:var(--main-color);} 
 .buttonWrapper-1ZmCpA:hover .icon-3D60ES {color:var(--hover-color);} .button-14-BFJ> .contents-18-Yxp>svg {color:var(--button-color);}
 .container-PNkimc .header-2o-2hj {color: var(--main-color); font-weight: 600; text-shadow: 0 0 3px #000;}
