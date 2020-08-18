@@ -8,8 +8,7 @@
 .container-1r6BKw .base-1x0h_U {margin-left: 5px; color:var(--main-color); text-shadow: 0 0 3px #000;}
 .defaultColor-1_ajX0 {color: var(--main-color);}
 .container-2Pjhx- .name-uJV0GL {color: var(--main-color) !important;}
-.container-2Pjhx-:hover .name-uJV0GL {color: var(--hover-color) !important;}
-
+.container-2Pjhx-:hover .name-uJV0GL {background: tansparent !important;}
 .container-3baos1:before, .container-3baos1:after {color:var(--main-color);}
 .container-1r6BKw .topic-TCb_qw {color:var(--main-color);}
 .scrollableContainer-2NUZem {border: 2px solid var(--hover-color);}
