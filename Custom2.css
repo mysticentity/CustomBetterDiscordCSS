@@ -23,5 +23,5 @@
 .buttonWrapper-1ZmCpA:hover .icon-3D60ES {color:var(--hover-color);}
 .winButton-iRh8-Z {color: var(--main-color);}
 .winButton-iRh8-Z:hover {color: var(--hover-color);}
-.typeWindows-1za-n7>.winButtonClose-1HsbF-:hover {background: var(--hover-color);}
+.typeWindows-1za-n7>.winButtonClose-1HsbF-:hover {background:linear-gradient(to right, var(--hover-color) 10%, transparent);opacity:.5;}
 .sprite-2iCowe {background-image: url(https://mysticentity.github.io/CustomBetterDiscordCSS/greenEmotesv2.png); filter: grayscale(0%)!important; background-position: 50%; background-repeat: no-repeat; width: 22px; height: 22px; display: block;
