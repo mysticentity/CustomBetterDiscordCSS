@@ -1,5 +1,5 @@
 /*! CustomCSS*/ :root
-.toolbar-1t6TWx .iconWrapper-2OrFZ1 .icon-22AiRD {color:var(--main-color);} 
+.toolbar-1t6TWx .iconWrapper-2OrFZ1 .icon-22AiRD {background: none; color:var(--main-color);} 
 .toolbar-1t6TWx .iconWrapper-2OrFZ1:hover .icon-22AiRD {color:var(--hover-color);}
 .wrapper-1BJsBx:hover .childWrapper-anI2G9, .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {background: transparent;}
 .buttonWrapper-1ZmCpA .icon-3D60ES {color:var(--main-color);} 
