@@ -1,6 +1,7 @@
 /*! CustomCSS*/ :root
-.toolbar-1t6TWx .iconWrapper-2OrFZ1 .icon-22AiRD {background: none; color:var(--main-color);} 
+.toolbar-1t6TWx .iconWrapper-2OrFZ1 .icon-22AiRD {color:var(--main-color);} 
 .toolbar-1t6TWx .iconWrapper-2OrFZ1:hover .icon-22AiRD {color:var(--hover-color);}
+.toolbar-1t6TWx .iconWrapper-2OrFZ1.selected-1GqIat, .toolbar-1t6TWx .iconWrapper-2OrFZ1.icon-22AiRD.popout-open {background: none);}
 .wrapper-1BJsBx:hover .childWrapper-anI2G9, .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {background: transparent;}
 .buttonWrapper-1ZmCpA .icon-3D60ES {color:var(--main-color);} 
 .buttonWrapper-1ZmCpA:hover .icon-3D60ES {color:var(--hover-color);} .button-14-BFJ> .contents-18-Yxp>svg {color:var(--button-color);}
