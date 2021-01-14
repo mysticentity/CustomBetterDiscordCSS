@@ -5,6 +5,9 @@
 .wrapper-1BJsBx:hover .childWrapper-anI2G9, .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {background: transparent;}
 .buttonWrapper-1ZmCpA .icon-3D60ES {color:var(--main-color);} 
 .buttonWrapper-1ZmCpA:hover .icon-3D60ES {color:var(--hover-color);} .button-14-BFJ> .contents-18-Yxp>svg {color:var(--button-color);}
+.quickSelectValue-lImyM6 da-quickSelectValue {color:var(--main-color);}
+.quickSelectArrow-1QublR da-quickSelectArrow {color:var(--main-color);}
+.contents-18-Yxp da-contents button-3AYNKb da-button button-318s1X da-button {color:var(--main-color);}
 .container-PNkimc .header-2o-2hj {color: var(--main-color); font-weight: 600; text-shadow: 0 0 3px #000;}
 .container-1r6BKw .base-1x0h_U {margin-left: 5px; color:var(--main-color); text-shadow: 0 0 3px #000;}
 .defaultColor-1_ajX0 {color: var(--main-color);}
