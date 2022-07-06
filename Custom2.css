@@ -5,7 +5,7 @@
 .toolbar-3_r2xA .iconWrapper-2awDjA.selected-29KTGM, .toolbar-3_r2xA .iconWrapper-2awDjA.icon-2xnN2Y.popout-open {
 background-color: transparent!important;}
 .container-1NXEtd .header-3OsQeK, .name-3Uvkvr .button-2BMPJJ {
-color: var(--main-color);}
+color: var(--main-color)!important;}
 .container-ZMc96U .children-3xh0VB .title-17SveM { color: var(--main-color);}
 .channelTextArea-1VQBuV .button-2fCJ0o { color: var(--main-color)!important;}
 /*.wrapper-3kah-n:hover .childWrapper-1j_1ub, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {background-color:var(--svg-bcolor);}*/
