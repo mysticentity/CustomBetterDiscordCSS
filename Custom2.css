@@ -46,7 +46,7 @@ color: var(--main-color);}
 .typeWindows-1za-n7>.winButtonClose-1HsbF-:hover {background:linear-gradient(to right, var(--hover-color) 10%, transparent);opacity:.5;}
 .circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am { background: --main-color; color: white;}
 .circleIconButton-jET_ig {background: rgba(0,0,0,0.3); color: var(--main-color);}
-.sprite-2lxwfc {background-image: url(https://mysticentity.github.io/CustomBetterDiscordCSS/greenEmotesv2.png); filter: grayscale(0%)!important; background-position: 50%; background-repeat: no-repeat; width: 22px; height: 22px; display: block;}
+.buttonContainer-2lnNiN .app-2CXKsg button .sprite-2lxwfc {background-image: url(https://mysticentity.github.io/CustomBetterDiscordCSS/greenEmotesv2.png); filter: grayscale(0%)!important; background-position: 50%; background-repeat: no-repeat; width: 22px; height: 22px; display: block;}
 .wrapper-1ucjTd.modeUnread-1zpFdA .content-3at_AU .name-3_Dsmg, .wrapper-1ucjTd.modeUnread-1zpFdA .content-3at_AU .icon-1_QxNX{text-shadow: 0 0 0px !important; filter: none;}
 .theme-dark .headerNormal-T_seeN, /*A border for user profiles, popouts*/ .theme-dark .topSectionNormal-2-vo2m {background-color: rgba(0,0,0,0.4);border: 2px solid var(--main-color);}
 .headerTop-3C2Zn0{background-color: rgba(0,0,0,0.4);border-left: 2px solid var(--main-color);border-right: 2px solid var(--main-color);border-top: 2px solid var(--main-color);border-bottom: 2px solid var(--main-color);}
