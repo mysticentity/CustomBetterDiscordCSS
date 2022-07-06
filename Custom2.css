@@ -1,5 +1,9 @@
 /*! CustomCSS*/ :root
 .wrapper-3kah-n:hover .childWrapper-1j_1ub, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {background: transparent !important;}
+.toolbar-3_r2xA .iconWrapper-2awDjA .icon-2xnN2Y
+{color: var(--main-color);!important}
+.toolbar-3_r2xA .iconWrapper-2awDjA.selected-29KTGM, .toolbar-3_r2xA .iconWrapper-2awDjA.icon-2xnN2Y.popout-open {
+background-color: transparent;}
 /*.wrapper-3kah-n:hover .childWrapper-1j_1ub, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {background-color:var(--svg-bcolor);}*/
 /*.toolbar-1t6TWx .iconWrapper-2OrFZ1 .icon-22AiRD {color:var(--main-color);} 
 .toolbar-1t6TWx .iconWrapper-2OrFZ1:hover .icon-22AiRD {color:var(--hover-color);}
