@@ -13,6 +13,7 @@ background-color: transparent!important;}
 .goalText-mbRUAP .text-xs-medium-2LRpEj, .text-xs-normal-3SiVjE, .count-e4ipkH, .container-YkUktl, .subtext-2HDqJ7 {color: var(--main-color) !important;}
 .headerText-2cy0o5, .participantName-1xQQfc, .header-1BxQhu, .bottomControls-34xgN7, .controlIcon-10O-4h {color: var(--main-color) !important;}
 #app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] .button-Jt-tIg {color: var(--hover-color) !important;}
+.button-12Fmur>.contents-3ca1mk>svg {color: var(--main-color) !important}
 /*.wrapper-3kah-n:hover .childWrapper-1j_1ub, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {background-color:var(--svg-bcolor);}*/
 /*.toolbar-1t6TWx .iconWrapper-2OrFZ1 .icon-22AiRD {color:var(--main-color);} 
 .toolbar-1t6TWx .iconWrapper-2OrFZ1:hover .icon-22AiRD {color:var(--hover-color);}
