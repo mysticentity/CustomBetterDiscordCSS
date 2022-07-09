@@ -16,6 +16,7 @@ background-color: transparent!important;}
 #app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] .button-Jt-tIg {color: var(--hover-color) !important;}
 .button-12Fmur>.contents-3ca1mk>svg {color: var(--main-color) !important;}
 .channelName-3KPsGw, .subtitle-3PyFgf {color: var(--hover-color);}
+.channelName-3KPsGw, .subtitle-3PyFgf:active {color: black;}
 .nameAndDecorators-2A8Bbk {color: var(--hover-color) !important;}
 .premiumTrialAcknowledgedBadge-2QxbU_ {background-color: var(--hover-color) !important; color:black !important; }
 .avatar-1HDIsL {color: var(--hover-color) !important;}
