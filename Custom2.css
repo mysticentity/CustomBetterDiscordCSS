@@ -64,6 +64,7 @@ background-color: transparent!important;}
 .theme-dark .headerNormal-T_seeN, /*A border for user profiles, popouts*/ .theme-dark .topSectionNormal-2-vo2m {background-color: rgba(0,0,0,0.4);border: 2px solid var(--main-color);}
 .headerTop-3C2Zn0{background-color: rgba(0,0,0,0.4);border-left: 2px solid var(--main-color);border-right: 2px solid var(--main-color);border-top: 2px solid var(--main-color);border-bottom: 2px solid var(--main-color);}
 .activity-11LB_k{background-color: rgba(0,0,0,0.4);border-left: 2px solid var(--main-color);border-right: 2px solid var(--main-color);border-bottom: 2px solid var(--main-color);}
+.message-2CShn3 .timestamp-p1Df1m {text-align: center; color: var(--hover-color);}
 
 @font-face {
   font-family: 'Terminal';
