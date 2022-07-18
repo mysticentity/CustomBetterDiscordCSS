@@ -64,3 +64,10 @@ background-color: transparent!important;}
 .theme-dark .headerNormal-T_seeN, /*A border for user profiles, popouts*/ .theme-dark .topSectionNormal-2-vo2m {background-color: rgba(0,0,0,0.4);border: 2px solid var(--main-color);}
 .headerTop-3C2Zn0{background-color: rgba(0,0,0,0.4);border-left: 2px solid var(--main-color);border-right: 2px solid var(--main-color);border-top: 2px solid var(--main-color);border-bottom: 2px solid var(--main-color);}
 .activity-11LB_k{background-color: rgba(0,0,0,0.4);border-left: 2px solid var(--main-color);border-right: 2px solid var(--main-color);border-bottom: 2px solid var(--main-color);}
+
+@font-face {
+  font-family: 'Terminal';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/*Download a font, host it on a file site and link the raw here*/) format('truetype');
+  }
