@@ -72,3 +72,20 @@ background-color: transparent!important;}
   font-weight: 400;
   src: url(https://mysticentity.github.io/CustomBetterDiscordCSS/vgaoem.fon) format('truetype');
   }
+
+.headerWrapper-3iTlIT {
+  background-color: var(--user-popout-overlay);
+  height: var(--profile-popout-picture-size);
+}
+
+.avatarHoverTarget-1zzfRL > .avatar-2Vndt_, svg.avatarHint-k7pYop {
+  height: calc(var(--profile-popout-picture-size)) !important;
+  width: calc(var(--profile-popout-picture-size)) !important;
+  /*makes profile picture size (and its opacity filter on hover) in the profile popout bigger*/
+}
+
+svg.avatarHint-k7pYop {
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  /*specifies transition setting when hovering over it*/
+}
