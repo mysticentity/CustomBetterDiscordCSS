@@ -1,0 +1,44 @@
+/* Channel animation */
+.mainContent-20q_Hp{
+  transition: all 1s;
+}
+.mainContent-20q_Hp:hover{
+  transition: all 0.2s;
+  transform: scale(0.9); }
+
+/* Makes the ClearVision logo rainbow. because why not */
+@keyframes gradient-border {
+    0%, 200% {
+        background-position: 0 0;
+    }
+
+    99.999999999999999% {
+        background-position: 130% 0;
+    }
+}
+.typeWindows-2-g3UY > .wordmark-2u86JB:before {
+  background-image: linear-gradient(to left, red, orange, yellow, lime, cyan, cornflowerblue, blue, purple, magenta) ;
+    animation: gradient-border 2s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    margin-bottom: 3px;
+    z-index: 1;
+  font-size: 14px;
+}
+
+/* Expanded Searchbar + Animation */
+
+div[class^="toolbar-"] div[class^="search-"] > div[class^="searchBar-"]  {
+  border-radius: 8px;
+  /*rounds corners of search bar*/
+  width: 125px;
+  /*search bar size when left alone*/
+  transition-duration: 275ms;
+  /*transition time for expanding search bar*/
+}
+div[class^="toolbar-"] div[class^="search-"] > div[class^="searchBar-"]:hover, div[class^="toolbar-"] div[class~="focused"] > div[class^="searchBar-"] {
+  width: 175px;
+  /*search bar on size hover & select*/
+}
