@@ -78,6 +78,10 @@ background-color: transparent!important;}
   height: var(--profile-popout-picture-size);
 }
 
+.headerWrapper-3iTlIT > .avatarPositionPremium-1zPBq9 {
+  top: 16px;
+}
+
 .avatarHoverTarget-1zzfRL > .avatar-2Vndt_, svg.avatarHint-k7pYop {
   height: calc(var(--profile-popout-picture-size)) !important;
   width: calc(var(--profile-popout-picture-size)) !important;
@@ -88,4 +92,26 @@ svg.avatarHint-k7pYop {
   transition-duration: 200ms;
   transition-timing-function: ease-in-out;
   /*specifies transition setting when hovering over it*/
+}
+
+/* Makes the ClearVision logo green. because why not */
+@keyframes gradient-border {
+    0%, 200% {
+        background-position: 0 0;
+    }
+
+    99.999999999999999% {
+        background-position: 130% 0;
+    }
+}
+.typeWindows-2-g3UY > .wordmark-2u86JB:before {
+  background-image: linear-gradient(to left, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f);
+    animation: gradient-border 2s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    margin-bottom: 3px;
+    z-index: 1;
+  font-size: 14px;
 }
