@@ -115,3 +115,15 @@ svg.avatarHint-k7pYop {
     z-index: 1;
   font-size: 14px;
 }
+
+.typeWindows-2-g3UY>.wordmark-2u86JB:after {
+  background-image: linear-gradient(to left, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f);
+    animation: gradient-border 2s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    margin-bottom: 0px;
+    z-index: 1;
+  font-size: 9px;
+}
