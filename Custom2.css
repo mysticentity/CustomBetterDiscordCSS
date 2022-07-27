@@ -56,7 +56,7 @@ background-color: transparent!important;}
 .buttonWrapper-1ZmCpA:hover .icon-3D60ES {color:var(--hover-color);}
 .winButton-iRh8-Z {color: var(--main-color);}
 .winButton-iRh8-Z:hover {color: var(--hover-color);}
-..typeWindows-2-g3UY>.winButtonClose-3Q8ZH5:hover {background:linear-gradient(to right, var(--hover-color) 10%, transparent);opacity:.5;}
+.typeWindows-2-g3UY>.winButton-3UMjdg:hover {background:linear-gradient(to right, var(--hover-color) 10%, transparent);opacity:.5;}
 .circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am { background: --main-color; color: white;}
 .circleIconButton-jET_ig {background: rgba(0,0,0,0.3); color: var(--main-color);}
 .buttonContainer-2lnNiN .emojiButton-3FRTuj .sprite-2lxwfc {background-image: url(https://mysticentity.github.io/CustomBetterDiscordCSS/greenEmotesv2.png); filter: grayscale(0%); background-position: 50%; background-repeat: no-repeat; width: 22px; height: 22px; display: block !important;}
