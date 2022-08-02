@@ -139,6 +139,52 @@
 		
 }
 
+/*Hide side bar and give more room for chatbox (side bar comes back on hover*/
+.sidebar-1tnWFu {
+    width: 22.5px;
+    height: calc(100% + 111px);
+    transition: 0.5s;
+}
+
+.sidebar-1tnWFu:hover {
+    width: 220px;
+    height: 100%;
+}
+
+/*Hides the server list for horizontal servers (Server List comes back on hover*/
+#app-mount .app-3xd6d0 .base-2jDfDU {
+   position: initial !important;
+}
+#app-mount .guilds-2JjMmN {
+   z-index: 150;
+   background-color: transparent;
+   margin-top: -5px;
+   height: 80px !important;
+   transition: 0.5s;
+}
+#app-mount .guilds-2JjMmN .tutorialContainer-1pL9QS {
+   margin-bottom: 125px;
+}
+#app-mount .name-3Uvkvr {
+   margin-left: var(--server-size);
+}
+#app-mount .guilds-2JjMmN:hover {
+   height: calc(100vw - 400px) !important;
+}
+#app-mount .sidebar-1tnWFu {
+    width: 22.5px;
+    height: calc(100% + 111px);
+    transition: 0.5s;
+}
+#app-mount .sidebar-1tnWFu:hover {
+    width: 220px;
+    height: 100%;
+}
+#app-mount .children-3xh0VB {
+    margin-left: 25px;
+} 
+
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] .button-Jt-tIg{font-size: 12px;}
 
 
 
