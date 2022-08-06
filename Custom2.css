@@ -137,3 +137,11 @@ color: var(--main-color)!important;}
 
 .additionalActionsIcon-3Cy8UU {
 background: url(https://mysticentity.github.io/CustomBetterDiscordCSS/Expand_More.svg) center/36px no-repeat !important;}
+  
+  .textarea-_59yqs::placeholder {
+  color: #13A10E;
+}
+
+.connectedAccountNameText-2m46Qn {
+color: var(--main-color)!important;
+}
