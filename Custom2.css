@@ -127,3 +127,12 @@ svg.avatarHint-k7pYop {
     z-index: 1;
   font-size: 9px;
 }
+
+.nameTagWithCustomStatus-5c-v3-, .nameTag-H6kSJ0, .username-1g6Iq1 {
+color: var(--main-color)!important;}
+
+.tabBar-2hXqzU>.item-3XjbnG.selected-g-kMVV, .tabBar-2hXqzU>.item-3XjbnG, .tabBar-2hXqzU> .tabBarItem-30Te4-[style*="color: rgb(255, 255, 255)"] .item-3XjbnG {
+color: var(--main-color)!important;}
+
+.additionalActionsIcon-3Cy8UU {
+background: url(https://mysticentity.github.io/CustomBetterDiscordCSS/Expand_More.svg) center/36px no-repeat !important;}
