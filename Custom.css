@@ -69,6 +69,21 @@ background-color: transparent!important;}
 .headerText-cdBwty {color:var(--main-color)!important;}
 .userActionMenu-3-DfuT .overflowMenuIcon-35A0oT {color:var(--main-color);}
 
+.textarea-_59yqs::placeholder, .body-1Ukv50 .userInfoSection-2u2hir>.note-3M15gE>textarea::placeholder {
+  color: var(--main-color);
+}
+
+.emoji-V71N2V, .icon-Lupfh- {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+color: var(--main-color); 
+}
+
+.UserDetails-activity-container {
+color: var(--main-color);
+}
+
 @font-face {
   font-family: 'Terminal';
   font-style: normal;
