@@ -84,6 +84,15 @@ color: var(--main-color);
 color: var(--main-color);
 }
 
+.offline-22aM7E {
+    opacity: 100%;
+    filter: blur(0)!important;
+}
+
+.members-3WRCEx .member-2gU6Ar.offline-22aM7E .avatar-6qzftW {
+    filter: grayscale(0%) blur(0);
+}
+
 @font-face {
   font-family: 'Terminal';
   font-style: normal;
