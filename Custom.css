@@ -175,6 +175,9 @@ background: url(https://mysticentity.github.io/CustomBetterDiscordCSS/Expand_Mor
   .textarea-_59yqs::placeholder {
   color: #13A10E;
 }
+  .inputDefault-3FGxgL, .input-2g-os5, .input-2z42oC::placeholder {
+      color:var(--main-color)!important;
+}
 
 .connectedAccountNameText-2m46Qn {
 color: var(--main-color)!important;
