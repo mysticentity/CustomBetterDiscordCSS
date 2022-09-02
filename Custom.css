@@ -68,6 +68,13 @@ background-color: transparent!important;}
 .username-Iwoq2j, .textOverflow-1Hn8ac {color: var(--main-color)!important;}
 .headerText-cdBwty {color:var(--main-color)!important;}
 .userActionMenu-3-DfuT .overflowMenuIcon-35A0oT {color:var(--main-color);}
+.headerText-1-WmDq .date-YN6TCS {color:var(--main-color);}
+.discrimBase-1VOoau {color: var(--main-color);}
+.customStatusText-3wj79x {color: var(--main-color);}
+
+.unreadMentionsIndicatorBottom-3RJMnQ, .unreadMentionsBar-ZXXoOH:before, .unread-2wipsx:after, .mention-3XBnnZ:after {
+    Display:none;
+    }
 
 .textarea-_59yqs::placeholder, .body-1Ukv50 .userInfoSection-2u2hir>.note-3M15gE>textarea::placeholder {
   color: var(--main-color);
