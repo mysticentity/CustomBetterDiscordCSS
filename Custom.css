@@ -162,6 +162,23 @@ svg.avatarHint-k7pYop {
   font-size: 9px;
 }
 
+/* Makes the ClearVision logo in the bottom left green. because why not */
+.container-YkUktl:before {
+  background-image: linear-gradient(to left, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f);
+    animation: gradient-border 2s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+  
+}
+  .container-YkUktl:after {
+   background-image: linear-gradient(to left, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f);
+    animation: gradient-border 2s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+}
+
 .nameTagWithCustomStatus-5c-v3-, .nameTag-H6kSJ0, .username-1g6Iq1 {
 color: var(--main-color)!important;}
 .username-3JLfHz {color:var(--main-color);}
