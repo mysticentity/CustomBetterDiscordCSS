@@ -73,6 +73,12 @@ background-color: transparent!important;}
 .discrimBase-1VOoau {color: var(--main-color);}
 .customStatusText-3wj79x {color: var(--main-color);}
 .text-md-medium-2avxhQ, .text-md-normal-304U3g {color: var(--main-color)!important;}
+.bd-settings-title:not(.bd-settings-group-title) {color: var(--main-color)!important;}
+.bd-addon-list .bd-addon-header {
+  color: var(--main-color)!important;
+}
+.bd-meta {
+  color: var(--hover-color)!important;}
 
 .contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us{
   display: inline-block;
