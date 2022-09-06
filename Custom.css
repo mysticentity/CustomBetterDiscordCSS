@@ -73,6 +73,21 @@ background-color: transparent!important;}
 .discrimBase-1VOoau {color: var(--main-color);}
 .customStatusText-3wj79x {color: var(--main-color);}
 
+.contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us{
+  display: inline-block;
+  text-overflow: ellipsis;
+  max-width: 30%;
+  white-space: nowrap;
+}
+
+.roleName-2ZJJYR{
+color:var(--main-color)!important;
+}
+
+.username-h_Y3Us{
+    color: var(--text-normal)!important;
+}
+
 .unreadMentionsIndicatorBottom-3RJMnQ, .unreadMentionsBar-ZXXoOH:before, .unread-2wipsx:after, .mention-3XBnnZ:after {
     Display:none;
     }
