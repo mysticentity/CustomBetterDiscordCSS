@@ -15,7 +15,7 @@ background-color: transparent!important;}
 .container-YkUktl, .subtext-2HDqJ7 {color: var(--main-color) !important;}
 .headerText-2cy0o5, .participantName-1xQQfc, .header-1BxQhu, .bottomControls-34xgN7, .controlIcon-10O-4h {color: var(--main-color) !important;}
 #app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] .button-Jt-tIg {color: var(--hover-color) !important;}
-.button-12Fmur>.contents-3ca1mk>svg {color: var(--main-color) !important;}
+.button-12Fmur>.contents-3ca1mk>svg {color: var(--main-color) opacity: .7 !important;}
 /*.channelName-3KPsGw, .subtitle-3PyFgf {color: var(--hover-color);}*/
 .wrapper-NhbLHG .name-28HaxV {color: var(--hover-color);}
 .wrapper-NhbLHG:active .name-28HaxV {color: black;}
