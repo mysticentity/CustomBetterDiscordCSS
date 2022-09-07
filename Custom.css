@@ -80,6 +80,10 @@ background-color: transparent!important;}
 .bd-meta {
   color: var(--hover-color)!important;}
 
+.foreground-3Wtm7n {
+    color: var(--main-color);
+}
+
 .contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us{
   display: inline-block;
   text-overflow: ellipsis;
