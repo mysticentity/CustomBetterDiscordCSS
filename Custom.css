@@ -86,7 +86,7 @@ background-color: transparent!important;}
 
 .base-2v-uc0:hover{background:none;}
 .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover, .clickable-2V8YKY[aria-selected=true]>.base-2v-uc0 {
-    background-color:#eceae8; opacity: .6;}
+    background-color:#eceae8!important; opacity: .6!important; }
 
 .contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us{
   display: inline-block;
