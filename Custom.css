@@ -84,6 +84,10 @@ background-color: transparent!important;}
     color: var(--main-color);
 }
 
+.UserDetails-dates-container svg { 
+ fill: #13A10E !important;
+}
+
 .base-2v-uc0:hover{background:none;}
 .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover, .clickable-2V8YKY[aria-selected=true]>.base-2v-uc0 {
     background-color:#eceae8!important; opacity: .6!important; }
