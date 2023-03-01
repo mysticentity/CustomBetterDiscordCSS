@@ -136,6 +136,10 @@ color: var(--main-color);
 .members-3WRCEx .member-2gU6Ar.offline-22aM7E .avatar-6qzftW {
     filter: grayscale(0%) blur(0);
 }
+
+.membersWrap-3NUR2t {
+    background: black;
+}
 .theme-dark .scroller-3X7KbA {
     background: black;
 }
