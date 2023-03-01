@@ -136,6 +136,17 @@ color: var(--main-color);
 .members-3WRCEx .member-2gU6Ar.offline-22aM7E .avatar-6qzftW {
     filter: grayscale(0%) blur(0);
 }
+.theme-dark .scroller-3X7KbA {
+    background: black;
+}
+
+.base-2jDfDU .container-ZMc96U {
+    background: black;
+}
+
+.scroller-kQBbkU {
+    background-color: black;
+}
 
 @font-face {
   font-family: 'Terminal';
