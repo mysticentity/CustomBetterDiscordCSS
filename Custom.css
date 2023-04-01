@@ -77,6 +77,49 @@ background-color: transparent!important;}
 .bd-addon-list .bd-addon-header {
   color: var(--main-color)!important;
 }
+
+.content-PlPs77, .header-3WhTwB {display:none;}
+.list-3FIpnh>div:first-child {
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: black;
+}
+
+.mainCard-3KBsBI {
+    background-color: black;
+    border-radius: 12px;
+}
+
+.tag-19iIl1, .tagsButton-4pwOKH, .pill-3pRQlO.small-1j51ag {
+    background-color: black;
+}
+
+.profilePanel-2PWEok {
+display: none;    
+}
+
+.theme-dark .container-YkUktl {
+    background-color: black;
+}
+
+.withTagAsButton-OsgQ9L, .withTagless-10ooWt {
+    background-color: black;}
+
+    .form-3gdLxP {
+background-color: black;}
+
+.container-YkUktl .title-338goq {
+    color: var(--main-color);
+}
+
+.button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {
+    background-color: black;
+    color: var(--main-color);
+}
+
+.search-2Mwzzq .searchBar-jGtisZ, .libraryFilter-1nwg6T, .browseSearch-e9jF-f {
+    background-color: black;
+}
 .bd-meta {
   color: var(--hover-color)!important;}
 
