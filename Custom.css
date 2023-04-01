@@ -78,6 +78,15 @@ background-color: transparent!important;}
   color: var(--main-color)!important;
 }
 
+@media only screen and (max-height: 900px)
+<style> .medium-2JV7bE, .sizeMedium-2Q3COE {
+    background-color: black;
+}
+
+.footer-IubaaS {
+    background-color: black;
+}
+
 .content-PlPs77, .header-3WhTwB {display:none;}
 .list-3FIpnh>div:first-child {
     padding-left: 24px;
