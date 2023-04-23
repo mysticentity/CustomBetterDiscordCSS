@@ -311,3 +311,67 @@ color: var(--main-color)!important;
   color: var(--main-color)!important;
 }
 
+.tabBar-ra-EuL .item-3mHhwr {
+    color: var(--main-color)!important;
+}
+
+.input-2m5SfJ {
+    background: black;
+}
+
+.container-2oNtJn {
+    background-color: var(--main-color);
+}
+
+.tabBar-ra-EuL .addFriend-emTWY1.addFriend-emTWY1.addFriend-emTWY1[aria-selected=true] {
+    background-color: var(--background-modifier-selected);}
+
+    .input-1bmui3 {
+    background-color: black;
+}
+
+.addFriendInputWrapper-kkoSV9 {
+    background-color: black;
+    box-shadow: 0 0 0 2px var(--main-color);
+    border: none;
+}
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:disabled, .lookFilled-1H2Jvj.colorBrand-2M3O3N[aria-disabled=true] {
+    background-color: var(--main-color)!important;
+}
+
+.actionButtons-2vEOUh {
+background-color: black;
+}
+
+.container-1zzFcN {
+    border-color: rgba(0,0,0,0);
+    background-color: black;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx {
+    color: var(--main-color);
+    background-color: var(--background-modifier-selected);
+}
+
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
+    color: var(--main-color);
+    background-color: var(--background-modifier-selected);
+}
+
+.text-sm-medium-2-Xzsi, .text-sm-normal-AEQz4v {
+    color: var(--main-color)!important;
+}
+
+.button-12Fmur {
+    opacity: 1;
+    color: var(--main-color);
+}
+
+.panels-3wFtMD>:first-child {
+    background-color: black;
+}
+
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+    color: var(--main-color);
+}
+
