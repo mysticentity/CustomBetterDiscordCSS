@@ -355,7 +355,7 @@ background-color: black;
 
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
     color: var(--main-color);
-    background-color: var(--background-modifier-selected);
+    background-color: var(--background-modifier-selected)!important;
 }
 
 .text-sm-medium-2-Xzsi, .text-sm-normal-AEQz4v {
@@ -373,5 +373,14 @@ background-color: black;
 
 .searchBar-3TnChZ .searchBarComponent-3N7dCG {
     color: var(--main-color);
+}
+
+.container-1zzFcN {
+    background-color:black;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
+    color: var(--main-color);
+    background-color: var(--background-modifier-selected);
 }
 
