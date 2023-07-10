@@ -385,3 +385,18 @@ background-color: black;
     background-color: var(--background-modifier-selected);
 }
 
+.headerText-2cy0o5, .participantName-1xQQfc, .header-1BxQhu, .bottomControls-34xgN7, .controlIcon-10O-4h:hover {color: var(--background-modifier-selected)!important;}
+
+.scrollerBase-1Pkza4 {
+    background-color: black!important;
+}
+
+.panelBanner-2KnOzw {
+  background-color: black!important;
+;
+}
+
+.userPanelOverlayBackground-3Zmcq2, .userProfileModalOverlayBackground-2dAaBg {
+    background-color: black!important;
+}
+
