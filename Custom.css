@@ -400,3 +400,10 @@ background-color: black;
     background-color: black!important;
 }
 
+.defaultColor-1GKx81 {
+    color: var(--main-color);
+}
+
+.userTagUsernameBase-267ALn {
+    color: var(--hover-color);
+}
