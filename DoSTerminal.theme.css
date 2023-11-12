@@ -1,0 +1,429 @@
+/**
+ * @name DOSTerminal
+ * @author Princeblueblood
+ * @version 2.0
+ * @description Highly customizable theme for BetterDiscord made for people who love the old DoS Terminal look. Based on clearvision's v6 theme.
+ * @source https://github.com/ClearVision/ClearVision-v6, https://clearvision.gitlab.io/v6/main.css;
+ * @website 
+ * @invite 
+ */
+
+
+/* IMPORT CSS */
+
+@import url('https://clearvision.github.io/ClearVision-v6/main.css'); /*(https://mysticentity.github.io/CustomBetterDiscordCSS/main.css); */
+@import url(https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css);
+@import url(https://mysticentity.github.io/CustomBetterDiscordCSS/RadialStatus.css);
+@import url(https://mysticentity.github.io/CustomBetterDiscordCSS/Custom.css);
+
+
+/* SETTINGS */
+:root {
+
+	/* ACCENT COLORS */
+	--main-color: #13A10E; /* main accent color (hex, rgb or hsl) [default: #13A10E] */
+	--hover-color: #16C60C; /*Main hovor color [default: #16C60C]*/
+	--svg-bcolor: #ff8300;
+    --background-secondary: #000000;
+	--voice-user-color: #16C60C; /*Main Voice color [default: #16C60C] */
+	--button-color: #0eff00;
+	--text-normal: #16C60C; /*Main text color [default: #16C60C]*/
+	--text-muted: #16C60C; /*Main muted text color [default: #16C60C] */
+	--success-color: #16C60C;  /* success accent color (hex, rgb or hsl) [default: #13A10E] */
+	--danger-color: #C50F1F; /* danger accent color (hex, rgb or hsl) [default: #C50F1F] */
+	--ping-color: #000000;
+	--server-color: #2780e6;
+	--server-hover-color: #1e63b3;
+	--header-secondary: #13A10E;
+	--interactive-muted #16C60C;
+	--interactive-normal #16C60C;
+	--interactive-hover #16C60C;
+	--interactive-active #16C60C;
+	--interactive-selected #16C60C;
+	--interactive-hover: #16C60C;
+	--profile-popout-picture-size: 75px;
+
+	/* STATUS COLORS */
+	--online-color: #13A10E; /* online status color (hex, rgb or hsl) [default: #13A10E] */
+	--idle-color: #F9F1A5; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
+	--dnd-color: #C50F1F; /* dnd status color (hex, rgb or hsl) [default: #C50F1F] */
+	--streaming-color: #593695; /* streaming status color (hex, rgb or hsl) [default: #593695] */
+	--offline-color: #808080; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
+	
+	/* CIRCLE STATUS AVATARS SETTINGS */
+    --rs-small-spacing: 0px;
+    --rs-large-spacing: 0px;
+    --rs-width: 2px;
+    --rs-avatar-shape: 50%;
+	--rs-online-color: #13A10E; /* online status color (hex, rgb or hsl) [default: #13A10E] */
+    --rs-idle-color: #C19C00; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
+    --rs-dnd-color: #C50F1F; /* dnd status color (hex, rgb or hsl) [default: #982929] */
+    --rs-offline-color: #808080; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
+    --rs-streaming-color: #881798; /* streaming status color (hex, rgb or hsl) [default: #881798] */
+   
+   /* HORIZONTAL SERVER LIST */
+    --HSL-size: 50px; /* Size of Server Icons */
+    --HSL-spacing: 10px; /* Space between servers */
+	
+	/* GENERAL */
+	--main-font:Liberation Mono, Menlo, Courier, monospace; /* main font for app (font must be installed) [default: Terminal, Liberation Mono, Menlo, Courier, monospace;] */
+	--code-font:Liberation Mono, Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Terminal, Liberation Mono, Menlo, Courier, monospace;] */
+	--server-columns: 1; /* amount of server list columns [default: 1] */
+	--font-primary: var(--main-font);
+	--channels-width: 220px; /* channel list width (240px for Discord default) [default: 220px] */
+	--members-width: 240px; /* member list width [default: 240px] */
+	--avatar-roundness: 50%; /* avatar roundness (0% for squares, 50% for circles) [default: 50%] */
+	
+
+	/* APP BACKGROUND */
+	--background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
+	--background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
+	--background-image: url(https://mysticentity.github.io/CustomBetterDiscordCSS/BlackestOfBlack.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]*/
+	--background-position: center; /* app background position [default: center] */
+	--background-size: cover; /* app background size [default: cover] */
+	--background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
+	--background-attachment: fixed; /* app background attachment [default: fixed] */
+	--background-brightness: 100%; /* app background brightness (< 100% for darken, > 100% for lighten) [default: 100%] */
+	--background-contrast: 100%; /* app background contrast [default: 100%] */
+	--background-saturation: 100%; /* app background saturation [default: 100%] */
+	--background-invert: 0%; /* app background invert (0 - 100%)  [default: 0%] */
+	--background-grayscale: 0%; /* app background grayscale ( 0 - 100%) [default: 0%] */
+	--background-sepia: 0%; /* app background sepia (0 - 100%) [default: 0%] */
+	--background-blur: 0px; /* app background blur [default: 0px] */
+	
+	/* HOME BUTTON ICON */
+	--home-icon: url(https://mysticentity.github.io/CustomBetterDiscordCSS/DiscordIcon.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.gitlab.io/icons/discord.svg)]*/
+	--home-position: center; /* home button icon position [default: center] */
+	--home-size: 40px; /* home button icon size [default: 40px] */
+	
+	/* MODAL BACKDROP */
+	--backdrop-overlay: rgba(0, 0, 0, 0.8); /* modal backdrop overlay color/gradient [default: rgba(0, 0, 0, 0.8)] */
+	--backdrop-image: var(--background-image); /* modal backdrop image (link must be HTTPS) [default: var(---background-image)] */
+	--backdrop-position: var(--background-position); /* modal backdrop position [default: var(---background-position)] */
+	--backdrop-size: var(--background-size); /* modal backdrop size [default: var(---background-size)] */
+	--backdrop-repeat: var(--background-repeat); /* modal backdrop repeat [default: var(---background-repeat)] */
+	--backdrop-attachment: var(--background-attachment); /* modal backdrop attachment [default: var(--background-attachment)] */
+	--backdrop-brightness: var(--background-brightness); /* modal backdrop brightness (< 100% for darken, > 100% for lighten) [default: var(---background-brightness)] */
+	--backdrop-contrast: var(--background-contrast); /* modal backdrop contrast [default: var(---background-contrast)] */
+	--backdrop-saturation: var(--background-saturation); /* modal backdrop saturation [default: var(---background-saturation)] */
+	--backdrop-invert: var(--background-invert); /* modal backdrop invert (0 - 100%)  [default: var(---background-invert)] */
+	--backdrop-grayscale: var(--background-grayscale); /* modal backdrop grayscale ( 0 - 100%) [default: var(---background-grayscale)] */
+	--backdrop-sepia: var(--background-sepia); /* modal backdrop sepia (0 - 100%) [default: var(---background-sepia)] */
+	--backdrop-blur: var(--background-blur); /* modal backdrop blur [default: var(--background-blur)] */
+	
+	/* USER POPOUT BACKGROUND */
+	--user-popout-image: var(--background-image); /* app background image (link must be HTTPS) [default: var(---background-image)] */
+	--user-popout-position: var(--background-position); /* user popout background position [default: var(---background-position)] */
+	--user-popout-size: var(--background-size); /* user popout background size [default: var(---background-size)] */
+	--user-popout-repeat: var(--background-repeat); /* user popout background repeat [default: var(---background-repeat)] */
+	--user-popout-attachment: var(--background-attachment); /* user popout background attachment [default: var(--background-attachment)] */
+	--user-popout-brightness: var(--background-brightness); /* user popout background brightness (< 100% for darken, > 100% for lighten) [default: var(---background-brightness)] */
+	--user-popout-contrast: var(--background-contrast); /* user popout background contrast [default: var(---background-contrast)] */
+	--user-popout-saturation: var(--background-saturation); /* user popout background saturation [default: var(---background-saturation)] */
+	--user-popout-invert: var(--background-invert); /* user popout background invert (0 - 100%) [default: var(---background-invert)] */
+	--user-popout-grayscale: var(--background-grayscale); /* user popout background grayscale (0 - 100%) [default: var(---background-grayscale)] */
+	--user-popout-sepia: var(--background-sepia); /* user popout background sepia (0 - 100%) [default: var(---background-sepia)] */
+	--user-popout-blur: calc(var(--background-blur) + 3px); /* user popout background blur [default: calc(var(--background-blur) + 3px)] */
+	
+	/* USER MODAL BACKGROUND */
+	--user-modal-image: var(--background-image); /* app background image (link must be HTTPS) [default: var(---background-image)] */
+	--user-modal-position: var(--background-position); /* user modal background position [default: var(---background-position)] */
+	--user-modal-size: var(--background-size); /* user modal background size [default: var(---background-size)] */
+	--user-modal-repeat: var(--background-repeat); /* user modal background repeat [default: var(---background-repeat)] */
+	--user-modal-attachment: var(--background-attachment); /* user modal background attachment [default: var(--background-attachment)] */
+	--user-modal-brightness: var(--background-brightness); /* user modal background brightness (< 100% for darken, > 100% for lighten) [default: var(---background-brightness)] */
+	--user-modal-contrast: var(--background-contrast); /* user modal background contrast [default: var(---background-contrast)] */
+	--user-modal-saturation: var(--background-saturation); /* user modal background saturation [default: var(---background-saturation)] */
+	--user-modal-invert: var(--background-invert); /* user modal background invert (0 - 100%) [default: var(---background-invert)] */
+	--user-modal-grayscale: var(--background-grayscale); /* user modal background grayscale (0 - 100%) [default: var(---background-grayscale)] */
+	--user-modal-sepia: var(--background-sepia); /* user modal background sepia (0 - 100%) [default: var(---background-sepia)] */
+	--user-modal-blur: calc(var(--background-blur) + 3px); /* user modal background blur [default: calc(var(--background-blur) + 3px)] */
+	
+		
+}
+
+
+/*Hides the server list for horizontal servers (Server List comes back on hover
+
+#app-mount .app-3xd6d0 .base-2jDfDU {
+   position: initial !important;
+}
+#app-mount .guilds-2JjMmN {
+   z-index: 150;
+   background-color: black;!important
+   margin-top: -5px;
+   height: 80px !important;
+   transition: 0.5s;
+}
+
+#app-mount .guilds-2JjMmN [class*=pill] {
+    transform: rotate(90deg) translateY(-50%);
+	top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 4px) !important;
+    margin-left: -2px;
+	margin-bottom: 125px;
+}
+
+
+#app-mount .name-3Uvkvr {
+   margin-left: var(--server-size);
+}
+#app-mount .guilds-2JjMmN:hover {
+   height: calc(100vw - 400px) !important;
+}
+#app-mount .sidebar-1tnWFu {
+    width: 22.5px;
+    height: calc(100% + 111px);
+    transition: 0.5s;
+}
+#app-mount .sidebar-1tnWFu:hover {
+    width: 275px;
+    height: 100%;
+}
+#app-mount .children-3xh0VB {
+    margin-left: 25px;
+}
+
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] .button-Jt-tIg{font-size: 12px;}
+
+.theme-dark .scroller-3X7KbA {
+    background: black;
+}
+
+.base-2jDfDU .container-ZMc96U {
+    background: black;
+}
+
+.scroller-kQBbkU {
+    background-color: black;
+}
+
+ STATUS PICKER  
+#account-status-picker+.layer-2aCOJ3 .submenu-1apzyU{
+  min-width: 0px;
+  width: 100px;
+}
+#account-status-picker--online+div{
+  display: none;
+}
+#account-status-picker--online > div > div,
+#account-status-picker--idle > div > div,
+#account-status-picker--dnd > div > div,
+#account-status-picker--invisible > div > div{
+  display: none;
+}
+#account-status-picker--online > div,
+#account-status-picker--idle > div,
+#account-status-picker--dnd > div,
+#account-status-picker--invisible > div{
+  display: flex;
+  justify-content: center;
+}
+#account-status-picker--online > div:hover,
+#account-status-picker--idle > div:hover,
+#account-status-picker--dnd > div:hover,
+#account-status-picker--invisible > div:hover {
+  color: #fff;
+}
+#account-status-picker--online,
+#account-status-picker--idle,
+#account-status-picker--dnd,
+#account-status-picker--invisible{
+  height: 35px;
+}
+#account-status-picker--online.focused-3qFvc8 {
+  background: var(--online-color);
+}
+#account-status-picker--idle.focused-3qFvc8{
+  background: var(--idle-color);
+}
+#account-status-picker--dnd.focused-3qFvc8{
+  background: var(--dnd-color);
+}
+#account-status-picker--invisible.focused-3qFvc8{
+  background: var(--offline-color);
+}
+
+
+
+.overflow-1wOqNV {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    color: var(--main-color);
+} */
+
+/*Hides the server list for horizontal servers (Server List comes back on hover*/
+
+#app-mount .app_b1f720 .base__3e6af {
+   position: initial !important;
+}
+#app-mount .guilds__2b93a {
+   z-index: 150;
+   background-color: black;!important
+   margin-top: -5px;
+   height: 80px !important;
+   transition: 0.5s;
+}
+
+#app-mount .guilds__2b93a [class*=pill] {
+    transform: rotate(90deg) translateY(-50%);
+	top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 4px) !important;
+    margin-left: -2px;
+	margin-bottom: 125px;
+}
+
+
+#app-mount .name_c08dbc {
+   margin-left: var(--server-size);
+}
+#app-mount .guilds__2b93a:hover {
+   height: calc(100vw - 400px) !important;
+}
+#app-mount .sidebar_ded4b5 {
+    width: 22.5px;
+    height: calc(100% + 111px);
+    transition: 0.5s;
+}
+#app-mount .sidebar_ded4b5:hover {
+    width: 275px;
+    height: 100%;
+}
+#app-mount .children__32014 {
+    margin-left: 25px;
+}
+
+#app-mount .guilds__2b93a .frame-oXWS21[class*=listItem] .button-Jt-tIg{font-size: 12px;}
+
+.theme-dark .scroller__3d071 {
+    background: black;
+}
+
+.base__3e6af .container__11d72 {
+    background: black;
+}
+
+.scroller__1f96e {
+    background-color: black;
+}
+
+/* STATUS PICKER */ 
+#account-status-picker+.layer-2aCOJ3 .submenu-1apzyU{
+  min-width: 0px;
+  width: 100px;
+}
+#account-status-picker--online+div{
+  display: none;
+}
+#account-status-picker--online > div > div,
+#account-status-picker--idle > div > div,
+#account-status-picker--dnd > div > div,
+#account-status-picker--invisible > div > div{
+  display: none;
+}
+#account-status-picker--online > div,
+#account-status-picker--idle > div,
+#account-status-picker--dnd > div,
+#account-status-picker--invisible > div{
+  display: flex;
+  justify-content: center;
+}
+#account-status-picker--online > div:hover,
+#account-status-picker--idle > div:hover,
+#account-status-picker--dnd > div:hover,
+#account-status-picker--invisible > div:hover {
+  color: #fff;
+}
+#account-status-picker--online,
+#account-status-picker--idle,
+#account-status-picker--dnd,
+#account-status-picker--invisible{
+  height: 35px;
+}
+#account-status-picker--online.focused-3qFvc8 {
+  background: var(--online-color);
+}
+#account-status-picker--idle.focused-3qFvc8{
+  background: var(--idle-color);
+}
+#account-status-picker--dnd.focused-3qFvc8{
+  background: var(--dnd-color);
+}
+#account-status-picker--invisible.focused-3qFvc8{
+  background: var(--offline-color);
+}
+
+
+
+.overflow__87fe8 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    color: var(--main-color);
+}
+
+/* Makes the ClearVision logo green. because why not */
+@keyframes gradient-border {
+    0%, 200% {
+        background-position: 0 0;
+    }
+
+    99.999999999999999% {
+        background-position: 130% 0;
+    }
+}
+.typeWindows__5fa63 > .wordmark__0d178:before {
+  background-image: linear-gradient(to left, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f);
+    animation: gradient-border 2s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    margin-bottom: 3px;
+    z-index: 1;
+  font-size: 14px;
+}
+
+.typeWindows__5fa63>.wordmark__0d178:after {
+  background-image: linear-gradient(to left, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f);
+    animation: gradient-border 2s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    margin-bottom: 0px;
+    z-index: 1;
+  font-size: 9px;
+}
+
+/* Makes the ClearVision logo in the bottom left green. because why not */
+.container_ca50b9:before {
+  background-image: linear-gradient(to left, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f);
+    animation: gradient-border 2s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+  
+}
+  .container_ca50b9:after {
+   background-image: linear-gradient(to left, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f);
+    animation: gradient-border 2s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+}
+
+.headerText__3eeb8, .participantName_f01666, .header_b40d88, .bottomControls__96434, .controlIcon__25700:hover {color: var(--background-modifier-selected)!important;}
+
+theme-dark .activityProfile__61b44 .activityName__47e51, .theme-dark .activityProfile__61b44 .content_d7cb7f, .theme-dark .activityProfile__61b44 .details__445eb, .theme-dark .activityProfile__61b44 .name_b6124d, .theme-dark .activityProfile__61b44 .nameNormal__1d540, .theme-dark .activityProfile__61b44 .nameWrap__7263f, .theme-dark .activityProfileV2__4de28 .activityName__47e51, .theme-dark .activityProfileV2__4de28 .content_d7cb7f, .theme-dark .activityProfileV2__4de28 .details__445eb, .theme-dark .activityProfileV2__4de28 .name_b6124d, .theme-dark .activityProfileV2__4de28 .nameNormal__1d540, .theme-dark .activityProfileV2__4de28 .nameWrap__7263f, .theme-dark .activityUserPopout_c7e67d .activityName__47e51, .theme-dark .activityUserPopout_c7e67d .content_d7cb7f, .theme-dark .activityUserPopout_c7e67d .details__445eb, .theme-dark .activityUserPopout_c7e67d .name_b6124d, .theme-dark .activityUserPopout_c7e67d .nameNormal__1d540, .theme-dark .activityUserPopout_c7e67d .nameWrap__7263f, .theme-dark .activityUserPopoutV2__32328 .activityName__47e51, .theme-dark .activityUserPopoutV2__32328 .content_d7cb7f, .theme-dark .activityUserPopoutV2__32328 .details__445eb, .theme-dark .activityUserPopoutV2__32328 .name_b6124d, .theme-dark .activityUserPopoutV2__32328 .nameNormal__1d540, .theme-dark .activityUserPopoutV2__32328 .nameWrap__7263f, .theme-light .activityProfile__61b44 .activityName__47e51, .theme-light .activityProfile__61b44 .content_d7cb7f, .theme-light .activityProfile__61b44 .details__445eb, .theme-light .activityProfile__61b44 .name_b6124d, .theme-light .activityProfile__61b44 .nameNormal__1d540, .theme-light .activityProfile__61b44 .nameWrap__7263f, .theme-light .activityProfileV2__4de28 .activityName__47e51, .theme-light .activityProfileV2__4de28 .content_d7cb7f, .theme-light .activityProfileV2__4de28 .details__445eb, .theme-light .activityProfileV2__4de28 .name_b6124d, .theme-light .activityProfileV2__4de28 .nameNormal__1d540, .theme-light .activityProfileV2__4de28 .nameWrap__7263f, .theme-light .activityUserPopout_c7e67d .activityName__47e51, .theme-light .activityUserPopout_c7e67d .content_d7cb7f, .theme-light .activityUserPopout_c7e67d .details__445eb, .theme-light .activityUserPopout_c7e67d .name_b6124d, .theme-light .activityUserPopout_c7e67d .nameNormal__1d540, .theme-light .activityUserPopout_c7e67d .nameWrap__7263f, .theme-light .activityUserPopoutV2__32328 .activityName__47e51, .theme-light .activityUserPopoutV2__32328 .content_d7cb7f, .theme-light .activityUserPopoutV2__32328 .details__445eb, .theme-light .activityUserPopoutV2__32328 .name_b6124d, .theme-light .activityUserPopoutV2__32328 .nameNormal__1d540, .theme-light .activityUserPopoutV2__32328 .nameWrap__7263f {
+    color: var(--main-color);
+}
+
+
+
+
+
+
+
+
