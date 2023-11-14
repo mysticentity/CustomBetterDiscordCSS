@@ -94,6 +94,9 @@
         "CHANNELS_DEFAULT": [
             "#13A10E"
         ],
+        "CHANNEL_ICON": [
+            "#13A10E"
+        ],
         "TEXT_LINK": [
             "#13A10E"
         ],
