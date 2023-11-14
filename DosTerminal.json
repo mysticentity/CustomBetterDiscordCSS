@@ -1,0 +1,142 @@
+JSON
+{
+    "name": "DosTerminal",
+    "description": "Original theme made by Princeblueblood",
+    "authors": [
+        {
+            "name": "Princeblueblood",
+            "id": "131929165292240896"
+        }
+
+    ],
+    "semanticColors": {
+        "HEADER_PRIMARY": [
+            "#13A10E"
+        ],
+        "HEADER_SECONDARY": [
+            "#13A10E"
+        ],
+        "TEXT_NORMAL": [
+            "#16C60C"
+        ],
+        "TEXT_MUTED": [
+            "#16C60C"
+        ],
+        "INTERACTIVE_NORMAL": [
+            "#16C60C"
+        ],
+        "INTERACTIVE_HOVER": [
+            "#16C60C"
+        ],
+        "INTERACTIVE_ACTIVE": [
+            "#16C60C"
+        ],
+        "INTERACTIVE_MUTED": [
+            "#16C60C"
+        ],
+        "BACKGROUND_PRIMARY": [
+            "#000000"
+        ],
+        "BACKGROUND_SECONDARY": [
+            "#000000"
+        ],
+        "BACKGROUND_SECONDARY_ALT": [
+            "#000000"
+        ],
+        "BACKGROUND_TERTIARY": [
+            "#000000"
+        ],
+        "BACKGROUND_ACCENT": [
+            "#000000"
+        ],
+        "BACKGROUND_FLOATING": [
+            "#000000"
+        ],
+        "BACKGROUND_MOBILE_PRIMARY": [
+            "#000000"
+        ],
+        "BACKGROUND_MOBILE_SECONDARY": [
+            "#000000"
+        ],
+        "BACKGROUND_NESTED_FLOATING": [
+            "#000000"
+        ],
+       
+        "BACKGROUND_MESSAGE_HOVER": [
+            "#16C60C"
+        ],
+        "BACKGROUND_MODIFIER_HOVER": [
+            "#16C60C"
+        ],
+        "BACKGROUND_MODIFIER_ACTIVE": [
+            "#16C60C"
+        ],
+        "BACKGROUND_MODIFIER_SELECTED": [
+            "#16C60C"
+        ],
+        "BACKGROUND_MODIFIER_ACCENT": [
+            "16C60C"
+        ],
+        "SCROLLBAR_THIN_THUMB": [
+            "#13A10E"
+        ],
+        "SCROLLBAR_THIN_TRACK": [
+            "transparent"
+        ],
+        "SCROLLBAR_AUTO_THUMB": [
+            "#13A10E"
+        ],
+        "SCROLLBAR_AUTO_TRACK": [
+            "#13A10E"
+        ],
+        "CHANNELTEXTAREA_BACKGROUND": [
+            "#372E29"
+        ],
+        "CHANNELS_DEFAULT": [
+            "#13A10E"
+        ],
+        "TEXT_LINK": [
+            "#13A10E"
+        ],
+        "TEXT_DANGER": [
+            "#C50F1F"
+        ],
+        "KEYBOARD": [
+            "#13A10E"
+        ],
+        "CHANNEL_ICON": [
+            "#EFDFD7"
+        ],
+        "CHAT_BACKGROUND": [
+            "#110D0A"
+        ]
+    },
+    "rawColors": {
+        "PRIMARY_500": "#9E8376",
+        "PRIMARY_100": "#EFDFD7",
+        "PRIMARY_200": "#F4EAE5",
+        "PRIMARY_300": "#9E8376",
+        "PRIMARY_360": "#9E8376",
+        "PRIMARY_400": "#9E8376",
+        "PRIMARY_600": "#100D0A",
+        "PRIMARY_630": "#1B1411",
+        "PRIMARY_660": "#1B1411",
+        "PRIMARY_700": "#100D0A",
+        "PRIMARY_800": "#100D0A",
+        "BRAND_260": "#957261",
+        "BRAND_360": "#D0A996",
+        "BRAND_500": "#957261",
+        "BRAND_560": "#D0A996",
+        "YELLOW_300": "#957261",
+        "GREEN_600": "#EFDFD7",
+        "RED_400": "#9E8376",
+        "WHITE_500": "#EFDFD7",
+        "GREEN_360": "#503E38"
+    },
+	"Background": {
+		"blur": 0,
+		"url": "https://mysticentity.github.io/CustomBetterDiscordCSS/BlackestOfBlack.jpg",
+		"alpha": 0.42
+	},
+    "spec": 2
+}
