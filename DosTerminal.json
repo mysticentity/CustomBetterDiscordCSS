@@ -89,7 +89,7 @@
             "#13A10E"
         ],
         "CHANNELTEXTAREA_BACKGROUND": [
-            "#372E29"
+            "#16C60C"
         ],
         "CHANNELS_DEFAULT": [
             "#13A10E"
@@ -104,10 +104,10 @@
             "#13A10E"
         ],
         "CHANNEL_ICON": [
-            "#EFDFD7"
+            "#16C60C"
         ],
         "CHAT_BACKGROUND": [
-            "#110D0A"
+            "#0a0a0a"
         ]
     },
     "rawColors": {
