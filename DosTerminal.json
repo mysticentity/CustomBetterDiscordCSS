@@ -108,7 +108,13 @@
         ],
         "CHAT_BACKGROUND": [
             "#000000"
-        ]
+        ],
+	    ],
+    "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": [
+      "#000000",
+      "#000000",
+      "#000000"
+	   ], 
     },
     "rawColors": {
         "PRIMARY_500": "#16C60C",
