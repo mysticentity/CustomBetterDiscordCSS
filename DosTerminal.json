@@ -25,10 +25,10 @@
             "#16C60C"
         ],
         "INTERACTIVE_HOVER": [
-            "#0f0f0f"
+            "#16C60C"
         ],
         "INTERACTIVE_ACTIVE": [
-            "#16C60C"
+            "#0f0f0f"
         ],
         "INTERACTIVE_MUTED": [
             "#16C60C"
