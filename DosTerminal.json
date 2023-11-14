@@ -1,280 +1,136 @@
 {
-    "/**\n * @name DOSTerminal\n * @author Princeblueblood\n * @version 2.0\n * @description Highly customizable theme for BetterDiscord made for people who love the old DoS Terminal look. Based on clearvision's v6 theme.\n * @source https://github.com/ClearVision/ClearVision-v6, https://clearvision.gitlab.io/v6/main.css;\n * @website \n * @invite \n */\n\n\n/* IMPORT CSS */\n\n@import url('https://clearvision.github.io/ClearVision-v6/main.css'); /*(https://mysticentity.github.io/CustomBetterDiscordCSS/main.css); */\n@import url(https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css);\n@import url(https://mysticentity.github.io/CustomBetterDiscordCSS/RadialStatus.css);\n@import url(https://mysticentity.github.io/CustomBetterDiscordCSS/Custom.css);\n\n\n/* SETTINGS */\n:root": {
-        "/* ACCENT COLORS */\n\t--main-color": "#13A10E",
-        "/* main accent color (hex, rgb or hsl) [default": "#13A10E] */\n\t--hover-color",
-        "/*Main hovor color [default": "#16C60C]*/\n\t--svg-bcolor",
-        "--background-secondary": "#000000",
-        "--voice-user-color": "#16C60C",
-        "/*Main Voice color [default": "#16C60C] */\n\t--button-color",
-        "--text-normal": "#16C60C",
-        "/*Main text color [default": "#16C60C]*/\n\t--text-muted",
-        "/*Main muted text color [default": "#16C60C] */\n\t--success-color",
-        "/* success accent color (hex, rgb or hsl) [default": "#13A10E] */\n\t--danger-color",
-        "/* danger accent color (hex, rgb or hsl) [default": "#C50F1F] */\n\t--ping-color",
-        "--server-color": "#2780e6",
-        "--server-hover-color": "#1e63b3",
-        "--header-secondary": "#13A10E",
-        "--interactive-hover": "#16C60C",
-        "--profile-popout-picture-size": "75px",
-        "/* STATUS COLORS */\n\t--online-color": "#13A10E",
-        "/* online status color (hex, rgb or hsl) [default": "#13A10E] */\n    --rs-idle-color",
-        "/* idle status color (hex, rgb or hsl) [default": "#faa61a] */\n    --rs-dnd-color",
-        "/* dnd status color (hex, rgb or hsl) [default": "#982929] */\n    --rs-offline-color",
-        "/* streaming status color (hex, rgb or hsl) [default": "#881798] */\n   \n   /* HORIZONTAL SERVER LIST */\n    --HSL-size",
-        "/* offline/invisible status color (hex, rgb or hsl) [default": "#808080] */\n    --rs-streaming-color",
-        "--rs-large-spacing": "0px",
-        "--rs-width": "2px",
-        "--rs-avatar-shape": "50%",
-        "--rs-online-color": "#13A10E",
-        "/* Size of Server Icons */\n    --HSL-spacing": "10px",
-        "/* Space between servers */\n\t\n\t/* GENERAL */\n\t--main-font": "Liberation Mono, Menlo, Courier, monospace",
-        "/* main font for app (font must be installed) [default": "Terminal, Liberation Mono, Menlo, Courier, monospace",
-        "] */\n\t--code-font": "Liberation Mono, Menlo, Courier, monospace",
-        "/* font for codeblocks (font must be installed) [default": "Terminal, Liberation Mono, Menlo, Courier, monospace",
-        "] */\n\t--server-columns": "1",
-        "/* amount of server list columns [default": "1] */\n\t--font-primary",
-        "--channels-width": "220px",
-        "/* channel list width (240px for Discord default) [default": "220px] */\n\t--members-width",
-        "/* member list width [default": "240px] */\n\t--avatar-roundness",
-        "/* avatar roundness (0% for squares, 50% for circles) [default": "50%] */\n\t\n\n\t/* APP BACKGROUND */\n\t--background-shading",
-        "/* app background shading (0 for complete smoothness) [default": "100%] */\n\t--background-overlay",
-        "/* app background overlay color/gradient [default": "rgba(0, 0, 0, 0.6)] */\n\t--background-image",
-        "/* app background image (link must be HTTPS) [default": "var(---background-image)] */\n\t--user-modal-position",
-        "/* app background position [default": "center] */\n\t--background-size",
-        "/* app background size [default": "cover] */\n\t--background-repeat",
-        "/* app background repeat [default": "no-repeat] */\n\t--background-attachment",
-        "/* app background attachment [default": "fixed] */\n\t--background-brightness",
-        "/* app background brightness (< 100% for darken, > 100% for lighten) [default": "100%] */\n\t--background-contrast",
-        "/* app background contrast [default": "100%] */\n\t--background-saturation",
-        "/* app background saturation [default": "100%] */\n\t--background-invert",
-        "/* app background invert (0 - 100%)  [default": "0%] */\n\t--background-grayscale",
-        "/* app background grayscale ( 0 - 100%) [default": "0%] */\n\t--background-sepia",
-        "/* app background sepia (0 - 100%) [default": "0%] */\n\t--background-blur",
-        "/* app background blur [default": "0px] */\n\t\n\t/* HOME BUTTON ICON */\n\t--home-icon",
-        "/* home button icon (link must be HTTPS) [default": "url(https",
-        "/* home button icon position [default": "center] */\n\t--home-size",
-        "/* home button icon size [default": "40px] */\n\t\n\t/* MODAL BACKDROP */\n\t--backdrop-overlay",
-        "/* modal backdrop overlay color/gradient [default": "rgba(0, 0, 0, 0.8)] */\n\t--backdrop-image",
-        "/* modal backdrop image (link must be HTTPS) [default": "var(---background-image)] */\n\t--backdrop-position",
-        "/* modal backdrop position [default": "var(---background-position)] */\n\t--backdrop-size",
-        "/* modal backdrop size [default": "var(---background-size)] */\n\t--backdrop-repeat",
-        "/* modal backdrop repeat [default": "var(---background-repeat)] */\n\t--backdrop-attachment",
-        "/* modal backdrop attachment [default": "var(--background-attachment)] */\n\t--backdrop-brightness",
-        "/* modal backdrop brightness (< 100% for darken, > 100% for lighten) [default": "var(---background-brightness)] */\n\t--backdrop-contrast",
-        "/* modal backdrop contrast [default": "var(---background-contrast)] */\n\t--backdrop-saturation",
-        "/* modal backdrop saturation [default": "var(---background-saturation)] */\n\t--backdrop-invert",
-        "/* modal backdrop invert (0 - 100%)  [default": "var(---background-invert)] */\n\t--backdrop-grayscale",
-        "/* modal backdrop grayscale ( 0 - 100%) [default": "var(---background-grayscale)] */\n\t--backdrop-sepia",
-        "/* modal backdrop sepia (0 - 100%) [default": "var(---background-sepia)] */\n\t--backdrop-blur",
-        "/* modal backdrop blur [default": "var(--background-blur)] */\n\t\n\t/* USER POPOUT BACKGROUND */\n\t--user-popout-image",
-        "/* user popout background position [default": "var(---background-position)] */\n\t--user-popout-size",
-        "/* user popout background size [default": "var(---background-size)] */\n\t--user-popout-repeat",
-        "/* user popout background repeat [default": "var(---background-repeat)] */\n\t--user-popout-attachment",
-        "/* user popout background attachment [default": "var(--background-attachment)] */\n\t--user-popout-brightness",
-        "/* user popout background brightness (< 100% for darken, > 100% for lighten) [default": "var(---background-brightness)] */\n\t--user-popout-contrast",
-        "/* user popout background contrast [default": "var(---background-contrast)] */\n\t--user-popout-saturation",
-        "/* user popout background saturation [default": "var(---background-saturation)] */\n\t--user-popout-invert",
-        "/* user popout background invert (0 - 100%) [default": "var(---background-invert)] */\n\t--user-popout-grayscale",
-        "/* user popout background grayscale (0 - 100%) [default": "var(---background-grayscale)] */\n\t--user-popout-sepia",
-        "/* user popout background sepia (0 - 100%) [default": "var(---background-sepia)] */\n\t--user-popout-blur",
-        "/* user popout background blur [default": "calc(var(--background-blur) + 3px)] */\n\t\n\t/* USER MODAL BACKGROUND */\n\t--user-modal-image",
-        "/* user modal background position [default": "var(---background-position)] */\n\t--user-modal-size",
-        "/* user modal background size [default": "var(---background-size)] */\n\t--user-modal-repeat",
-        "/* user modal background repeat [default": "var(---background-repeat)] */\n\t--user-modal-attachment",
-        "/* user modal background attachment [default": "var(--background-attachment)] */\n\t--user-modal-brightness",
-        "/* user modal background brightness (< 100% for darken, > 100% for lighten) [default": "var(---background-brightness)] */\n\t--user-modal-contrast",
-        "/* user modal background contrast [default": "var(---background-contrast)] */\n\t--user-modal-saturation",
-        "/* user modal background saturation [default": "var(---background-saturation)] */\n\t--user-modal-invert",
-        "/* user modal background invert (0 - 100%) [default": "var(---background-invert)] */\n\t--user-modal-grayscale",
-        "/* user modal background grayscale (0 - 100%) [default": "var(---background-grayscale)] */\n\t--user-modal-sepia",
-        "/* user modal background sepia (0 - 100%) [default": "var(---background-sepia)] */\n\t--user-modal-blur",
-        "/* user modal background blur [default": "calc(var(--background-blur) + 3px)] */"
+    "name": "DosTerminal",
+    "description": "Original theme made by Princeblueblood",
+    "authors": [
+        {
+            "name": "Princeblueblood",
+            "id": "131929165292240896"
+        }
+
+    ],
+    "semanticColors": {
+        "HEADER_PRIMARY": [
+            "#EFDFD7"
+        ],
+        "HEADER_SECONDARY": [
+            "#EFDFD7"
+        ],
+        "TEXT_NORMAL": [
+            "#E7D6CE"
+        ],
+        "TEXT_MUTED": [
+            "#A07D6C"
+        ],
+        "INTERACTIVE_NORMAL": [
+            "#EFDFD7"
+        ],
+        "INTERACTIVE_HOVER": [
+            "#503E38"
+        ],
+        "INTERACTIVE_ACTIVE": [
+            "#EFDFD7"
+        ],
+        "INTERACTIVE_MUTED": [
+            "#957261"
+        ],
+        "BACKGROUND_PRIMARY": [
+            "#110D0A"
+        ],
+        "BACKGROUND_SECONDARY": [
+            "#15100d"
+        ],
+        "BACKGROUND_SECONDARY_ALT": [
+            "#15100d"
+        ],
+        "BACKGROUND_TERTIARY": [
+            "#110D0A"
+        ],
+        "BACKGROUND_ACCENT": [
+            "#503E38"
+        ],
+        "BACKGROUND_FLOATING": [
+            "#15100d"
+        ],
+        "BACKGROUND_MOBILE_PRIMARY": [
+            "#15100d"
+        ],
+        "BACKGROUND_MOBILE_SECONDARY": [
+            "#15100d"
+        ],
+        "BACKGROUND_NESTED_FLOATING": [
+            "#15100d"
+        ],
+       
+        "BACKGROUND_MESSAGE_HOVER": [
+            "#322720"
+        ],
+        "BACKGROUND_MODIFIER_HOVER": [
+            "#322720"
+        ],
+        "BACKGROUND_MODIFIER_ACTIVE": [
+            "#3a2c26"
+        ],
+        "BACKGROUND_MODIFIER_SELECTED": [
+            "#372d2b"
+        ],
+        "BACKGROUND_MODIFIER_ACCENT": [
+            "503E38"
+        ],
+        "SCROLLBAR_THIN_THUMB": [
+            "#26273b"
+        ],
+        "SCROLLBAR_THIN_TRACK": [
+            "transparent"
+        ],
+        "SCROLLBAR_AUTO_THUMB": [
+            "#DAC0B3"
+        ],
+        "SCROLLBAR_AUTO_TRACK": [
+            "#DAC0B3"
+        ],
+        "CHANNELTEXTAREA_BACKGROUND": [
+            "#372E29"
+        ],
+        "CHANNELS_DEFAULT": [
+            "#9E8376"
+        ],
+        "TEXT_LINK": [
+            "#9E8376"
+        ],
+        "TEXT_DANGER": [
+            "#503E38"
+        ],
+        "KEYBOARD": [
+            "#110D0A"
+        ],
+        "CHANNEL_ICON": [
+            "#EFDFD7"
+        ],
+        "CHAT_BACKGROUND": [
+            "#110D0A"
+        ]
     },
-    "/*Hides the server list for horizontal servers (Server List comes back on hover\n\n#app-mount .app-3xd6d0 .base-2jDfDU": {
-        "position": "initial !important"
+    "rawColors": {
+        "PRIMARY_500": "#9E8376",
+        "PRIMARY_100": "#EFDFD7",
+        "PRIMARY_200": "#F4EAE5",
+        "PRIMARY_300": "#9E8376",
+        "PRIMARY_360": "#9E8376",
+        "PRIMARY_400": "#9E8376",
+        "PRIMARY_600": "#100D0A",
+        "PRIMARY_630": "#1B1411",
+        "PRIMARY_660": "#1B1411",
+        "PRIMARY_700": "#100D0A",
+        "PRIMARY_800": "#100D0A",
+        "BRAND_260": "#957261",
+        "BRAND_360": "#D0A996",
+        "BRAND_500": "#957261",
+        "BRAND_560": "#D0A996",
+        "YELLOW_300": "#957261",
+        "GREEN_600": "#EFDFD7",
+        "RED_400": "#9E8376",
+        "WHITE_500": "#EFDFD7",
+        "GREEN_360": "#503E38"
     },
-    "#app-mount .guilds-2JjMmN": {
-        "z-index": "150",
-        "background-color": "black",
-        "!important\n   margin-top": "-5px",
-        "height": "80px !important",
-        "transition": "0.5s"
-    },
-    "#app-mount .guilds-2JjMmN [class*=pill]": {
-        "transform": "rotate(90deg) translateY(-50%)",
-        "top": "calc(var(--server-size) / -1 + var(--server-size) / 2 - 4px) !important",
-        "margin-left": "-2px",
-        "margin-bottom": "125px"
-    },
-    "#app-mount .name-3Uvkvr": {
-        "margin-left": "var(--server-size)"
-    },
-    "#app-mount .guilds-2JjMmN:hover": {
-        "height": "calc(100vw - 400px) !important"
-    },
-    "#app-mount .sidebar-1tnWFu": {
-        "width": "22.5px",
-        "height": "calc(100% + 111px)",
-        "transition": "0.5s"
-    },
-    "#app-mount .sidebar-1tnWFu:hover": {
-        "width": "275px",
-        "height": "100%"
-    },
-    "#app-mount .children-3xh0VB": {
-        "margin-left": "25px"
-    },
-    "#app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] .button-Jt-tIg": {
-        "font-size": "12px"
-    },
-    ".theme-dark .scroller-3X7KbA": {
-        "background": "black"
-    },
-    ".base-2jDfDU .container-ZMc96U": {
-        "background": "black"
-    },
-    ".scroller-kQBbkU": {
-        "background-color": "black"
-    },
-    "STATUS PICKER  \n#account-status-picker+.layer-2aCOJ3 .submenu-1apzyU": {
-        "min-width": "0px",
-        "width": "100px"
-    },
-    "#account-status-picker--online+div": {
-        "display": "none"
-    },
-    "#account-status-picker--online > div > div,\n#account-status-picker--idle > div > div,\n#account-status-picker--dnd > div > div,\n#account-status-picker--invisible > div > div": {
-        "display": "none"
-    },
-    "#account-status-picker--online > div,\n#account-status-picker--idle > div,\n#account-status-picker--dnd > div,\n#account-status-picker--invisible > div": {
-        "display": "flex",
-        "justify-content": "center"
-    },
-    "#account-status-picker--online > div:hover,\n#account-status-picker--idle > div:hover,\n#account-status-picker--dnd > div:hover,\n#account-status-picker--invisible > div:hover": {
-        "color": "#fff"
-    },
-    "#account-status-picker--online,\n#account-status-picker--idle,\n#account-status-picker--dnd,\n#account-status-picker--invisible": {
-        "height": "35px"
-    },
-    "#account-status-picker--online.focused-3qFvc8": {
-        "background": "var(--online-color)"
-    },
-    "#account-status-picker--idle.focused-3qFvc8": {
-        "background": "var(--idle-color)"
-    },
-    "#account-status-picker--dnd.focused-3qFvc8": {
-        "background": "var(--dnd-color)"
-    },
-    "#account-status-picker--invisible.focused-3qFvc8": {
-        "background": "var(--offline-color)"
-    },
-    ".overflow-1wOqNV": {
-        "white-space": "nowrap",
-        "text-overflow": "ellipsis",
-        "overflow": "hidden",
-        "position": "relative",
-        "color": "var(--main-color)"
-    },
-    "*/\n\n/*Hides the server list for horizontal servers (Server List comes back on hover*/\n\n#app-mount .app_b1f720 .base__3e6af": {
-        "position": "initial !important"
-    },
-    "#app-mount .guilds__2b93a": {
-        "z-index": "150",
-        "background-color": "black",
-        "!important\n   margin-top": "-5px",
-        "height": "80px !important",
-        "transition": "0.5s"
-    },
-    "#app-mount .guilds__2b93a [class*=pill]": {
-        "transform": "rotate(90deg) translateY(-50%)",
-        "top": "calc(var(--server-size) / -1 + var(--server-size) / 2 - 4px) !important",
-        "margin-left": "-2px",
-        "margin-bottom": "125px"
-    },
-    "#app-mount .name_c08dbc": {
-        "margin-left": "var(--server-size)"
-    },
-    "#app-mount .guilds__2b93a:hover": {
-        "height": "calc(100vw - 400px) !important"
-    },
-    "#app-mount .sidebar_ded4b5": {
-        "width": "22.5px",
-        "height": "calc(100% + 111px)",
-        "transition": "0.5s"
-    },
-    "#app-mount .sidebar_ded4b5:hover": {
-        "width": "275px",
-        "height": "100%"
-    },
-    "#app-mount .children__32014": {
-        "margin-left": "25px"
-    },
-    "#app-mount .guilds__2b93a .frame-oXWS21[class*=listItem] .button-Jt-tIg": {
-        "font-size": "12px"
-    },
-    ".theme-dark .scroller__3d071": {
-        "background": "black"
-    },
-    ".base__3e6af .container__11d72": {
-        "background": "black"
-    },
-    ".scroller__1f96e": {
-        "background-color": "black"
-    },
-    "/* STATUS PICKER */ \n#account-status-picker+.layer-2aCOJ3 .submenu-1apzyU": {
-        "min-width": "0px",
-        "width": "100px"
-    },
-    ".overflow__87fe8": {
-        "white-space": "nowrap",
-        "text-overflow": "ellipsis",
-        "overflow": "hidden",
-        "position": "relative",
-        "color": "var(--main-color)"
-    },
-    "99.999999999999999%": {
-        "background-position": "130% 0"
-    },
-    ".typeWindows__5fa63 > .wordmark__0d178:before": {
-        "background-image": "linear-gradient(to left, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f)",
-        "animation": "gradient-border 2s linear infinite",
-        "background-size": "400% 100%",
-        "color": "transparent !important",
-        "-webkit-background-clip": "text",
-        "position": "relative",
-        "margin-bottom": "3px",
-        "z-index": "1",
-        "font-size": "14px"
-    },
-    ".typeWindows__5fa63>.wordmark__0d178:after": {
-        "background-image": "linear-gradient(to left, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f)",
-        "animation": "gradient-border 2s linear infinite",
-        "background-size": "400% 100%",
-        "color": "transparent !important",
-        "-webkit-background-clip": "text",
-        "position": "relative",
-        "margin-bottom": "0px",
-        "z-index": "1",
-        "font-size": "9px"
-    },
-    "/* Makes the ClearVision logo in the bottom left green. because why not */\n.container_ca50b9:before": {
-        "background-image": "linear-gradient(to left, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f)",
-        "animation": "gradient-border 2s linear infinite",
-        "background-size": "400% 100%",
-        "color": "transparent !important",
-        "-webkit-background-clip": "text"
-    },
-    ".container_ca50b9:after": {
-        "background-image": "linear-gradient(to left, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f)",
-        "animation": "gradient-border 2s linear infinite",
-        "background-size": "400% 100%",
-        "color": "transparent !important",
-        "-webkit-background-clip": "text"
-    },
-    ".headerText__3eeb8, .participantName_f01666, .header_b40d88, .bottomControls__96434, .controlIcon__25700:hover": {
-        "color": "var(--background-modifier-selected)!important"
-    },
-    "theme-dark .activityProfile__61b44 .activityName__47e51, .theme-dark .activityProfile__61b44 .content_d7cb7f, .theme-dark .activityProfile__61b44 .details__445eb, .theme-dark .activityProfile__61b44 .name_b6124d, .theme-dark .activityProfile__61b44 .nameNormal__1d540, .theme-dark .activityProfile__61b44 .nameWrap__7263f, .theme-dark .activityProfileV2__4de28 .activityName__47e51, .theme-dark .activityProfileV2__4de28 .content_d7cb7f, .theme-dark .activityProfileV2__4de28 .details__445eb, .theme-dark .activityProfileV2__4de28 .name_b6124d, .theme-dark .activityProfileV2__4de28 .nameNormal__1d540, .theme-dark .activityProfileV2__4de28 .nameWrap__7263f, .theme-dark .activityUserPopout_c7e67d .activityName__47e51, .theme-dark .activityUserPopout_c7e67d .content_d7cb7f, .theme-dark .activityUserPopout_c7e67d .details__445eb, .theme-dark .activityUserPopout_c7e67d .name_b6124d, .theme-dark .activityUserPopout_c7e67d .nameNormal__1d540, .theme-dark .activityUserPopout_c7e67d .nameWrap__7263f, .theme-dark .activityUserPopoutV2__32328 .activityName__47e51, .theme-dark .activityUserPopoutV2__32328 .content_d7cb7f, .theme-dark .activityUserPopoutV2__32328 .details__445eb, .theme-dark .activityUserPopoutV2__32328 .name_b6124d, .theme-dark .activityUserPopoutV2__32328 .nameNormal__1d540, .theme-dark .activityUserPopoutV2__32328 .nameWrap__7263f, .theme-light .activityProfile__61b44 .activityName__47e51, .theme-light .activityProfile__61b44 .content_d7cb7f, .theme-light .activityProfile__61b44 .details__445eb, .theme-light .activityProfile__61b44 .name_b6124d, .theme-light .activityProfile__61b44 .nameNormal__1d540, .theme-light .activityProfile__61b44 .nameWrap__7263f, .theme-light .activityProfileV2__4de28 .activityName__47e51, .theme-light .activityProfileV2__4de28 .content_d7cb7f, .theme-light .activityProfileV2__4de28 .details__445eb, .theme-light .activityProfileV2__4de28 .name_b6124d, .theme-light .activityProfileV2__4de28 .nameNormal__1d540, .theme-light .activityProfileV2__4de28 .nameWrap__7263f, .theme-light .activityUserPopout_c7e67d .activityName__47e51, .theme-light .activityUserPopout_c7e67d .content_d7cb7f, .theme-light .activityUserPopout_c7e67d .details__445eb, .theme-light .activityUserPopout_c7e67d .name_b6124d, .theme-light .activityUserPopout_c7e67d .nameNormal__1d540, .theme-light .activityUserPopout_c7e67d .nameWrap__7263f, .theme-light .activityUserPopoutV2__32328 .activityName__47e51, .theme-light .activityUserPopoutV2__32328 .content_d7cb7f, .theme-light .activityUserPopoutV2__32328 .details__445eb, .theme-light .activityUserPopoutV2__32328 .name_b6124d, .theme-light .activityUserPopoutV2__32328 .nameNormal__1d540, .theme-light .activityUserPopoutV2__32328 .nameWrap__7263f": {
-        "color": "var(--main-color)"
-    }
+    "spec": 2
 }
