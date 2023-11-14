@@ -25,10 +25,10 @@
             "#16C60C"
         ],
         "INTERACTIVE_HOVER": [
-            "transparent"
+            "#ff8800"
         ],
         "INTERACTIVE_ACTIVE": [
-            "transparent"
+            "#ff8800"
         ],
         "INTERACTIVE_MUTED": [
             "#16C60C"
@@ -128,7 +128,7 @@
         "BRAND_560": "#13A10E",
         "YELLOW_300": "#13A10E",
         "GREEN_600": "#16C60C",
-        "RED_400": "transparent",
+        "RED_400": "ff8800",
         "WHITE_500": "#16C60C",
         "GREEN_360": "#13A10E"
     },
