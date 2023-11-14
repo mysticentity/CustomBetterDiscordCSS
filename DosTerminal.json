@@ -128,7 +128,7 @@
         "BRAND_560": "#13A10E",
         "YELLOW_300": "#13A10E",
         "GREEN_600": "#16C60C",
-        "RED_400": "#16C60C",
+        "RED_400": "transparent",
         "WHITE_500": "#16C60C",
         "GREEN_360": "#13A10E"
     },
