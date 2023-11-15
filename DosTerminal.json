@@ -112,8 +112,8 @@
     "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": [
       "#000000",
       "#000000",
-      "#000000"
-	   ] 
+      "#000000", 
+	   ], 
     },
     "rawColors": {
         "PRIMARY_500": "#16C60C",
@@ -125,9 +125,9 @@
         "PRIMARY_600": "#000000",
         "PRIMARY_630": "#000000",
 	"PRIMARY_645": "#16C60C",    
-        "PRIMARY_660": "#000000",
-        "PRIMARY_700": "#000000",
-        "PRIMARY_800": "#000000",
+        "PRIMARY_660": "#13A10E",
+        "PRIMARY_700": "#13A10E",
+        "PRIMARY_800": "#16C60C",
         "BRAND_260": "#13A10E",
         "BRAND_360": "#13A10E",
         "BRAND_500": "#13A10E",
