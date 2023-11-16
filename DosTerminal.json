@@ -76,6 +76,12 @@
         "BACKGROUND_MODIFIER_ACCENT": [
             "#16C60C"
         ],
+        "REDESIGN_BUTTON_SECONDARY_ALT_BACKGROUND": [
+      "#000000"
+      ],
+        "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
+      "#000000"
+      ],
         "SCROLLBAR_THIN_THUMB": [
             "#13A10E"
         ],
