@@ -109,6 +109,16 @@
         "CHAT_BACKGROUND": [
             "#000000"
         ],
+
+	    "REDESIGN_ACTIVITY_CARD_BACKGROUND": [
+      "#000000"
+      ],
+      "REDESIGN_BUTTON_SECONDARY_ALT_BACKGROUND": [
+      "#000000"
+      ],
+      "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
+      "#000000"
+      ],
     "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": [
       "#000000",
       "#000000",
@@ -116,7 +126,7 @@
 	   ]
     },
     "rawColors": {
-	"PLUM_19": "#a89984",    
+	"PLUM_15": "#000000",    
         "PRIMARY_500": "#16C60C",
         "PRIMARY_100": "#000000",
         "PRIMARY_200": "#16C60C",
