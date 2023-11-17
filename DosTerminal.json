@@ -144,8 +144,8 @@
         "GREEN_600": "#16C60C",
         "RED_400": "transparent",
         "WHITE_500": "#000000",
-	"WHITE_630": "#16C60C",   
-        "GREEN_360": "#13A10E"
+	"WHITE_630": "#000000",   
+        "GREEN_360": "#000000"
     },
 	"Background": {
 		"blur": 0,
