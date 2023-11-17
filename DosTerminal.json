@@ -21,6 +21,9 @@
 	"TEXT_SECONDARY": [
             "#16C60C"
         ],
+	"TEXT_PRIMARY": [
+            "#16C60C"
+        ],
         "TEXT_MUTED": [
             "#16C60C"
         ],
