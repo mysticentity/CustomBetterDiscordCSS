@@ -18,6 +18,9 @@
         "TEXT_NORMAL": [
             "#16C60C"
         ],
+	"TEXT_SECONDARY": [
+            "#16C60C"
+        ],
         "TEXT_MUTED": [
             "#16C60C"
         ],
