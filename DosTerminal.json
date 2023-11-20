@@ -149,7 +149,7 @@
         "YELLOW_300": "#13A10E",
         "GREEN_600": "#16C60C",
         "RED_400": "transparent",
-        "WHITE_500": "13A10E",
+        "WHITE_500": "#13A10E",
 	"WHITE_630": "#16C60C",   
         "GREEN_360": "#13A10E"
     },
