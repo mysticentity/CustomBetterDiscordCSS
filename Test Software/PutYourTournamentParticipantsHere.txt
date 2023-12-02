@@ -1,0 +1,21 @@
+#put each tournament participant on his or her own line (player names that start with the '#' symbol will be ignored). You need more than 16 for 5 rounds.
+player 1
+player 2
+player 3
+player 4
+player 5
+player 6
+player 7
+player 8
+#player 9
+#player 10
+#player 11
+#player 12
+#player 13
+#player 14
+#player 15
+#player 16
+#player 17
+#player 18
+#player 19
+#player 20
