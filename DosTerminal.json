@@ -130,8 +130,7 @@
       "#000000"
 	   ]
     },
-    "rawColors": {    
-        "PRIMARY_500": "#16C60C",
+    "rawColors": {
         "PRIMARY_100": "#16C60C",
         "PRIMARY_200": "#16C60C",
 	"PRIMARY_230": "#16C60C",
@@ -156,7 +155,7 @@
 	"WHITE_630": "#16C60C",   
         "GREEN_360": "#16C60C", 
 	"PLUM_22": "#000000",
-	"PLUM_17": "#000000",    
+	"PLUM_17": "#000000"   
     },
 	"Background": {
 		"blur": 0,
