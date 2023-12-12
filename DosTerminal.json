@@ -1,4 +1,5 @@
 {
+    
     "name": "DosTerminal",
     "description": "Original theme made by Princeblueblood",
     "authors": [
@@ -88,6 +89,9 @@
         "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
       "#000000"
       ],
+	  "BG_BASE_PRIMARY":[
+	  "#000000"
+		],
         "SCROLLBAR_THIN_THUMB": [
             "#13A10E"
         ],
@@ -123,7 +127,10 @@
       ],
 	"CARD_PRIMARY_BG": [
 	    "#000000"
-	], 
+	],
+"REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": [
+"#16C60C"
+],
     "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": [
       "#000000",
       "#000000",
@@ -133,14 +140,15 @@
     "rawColors": {
         "PRIMARY_100": "#16C60C",
         "PRIMARY_200": "#16C60C",
-	"PRIMARY_230": "#16C60C",
+		"PRIMARY_230": "#16C60C",
         "PRIMARY_300": "#13A10E",
         "PRIMARY_360": "#16C60C",
         "PRIMARY_400": "#16C60C",
-	"PRIMARY_500": "#16C60C",
+		"PRIMARY_500": "#16C60C",
+		"PRIMARY_560": "#000000",
         "PRIMARY_600": "#000000",
         "PRIMARY_630": "#000000",
-	"PRIMARY_645": "#000000",
+		"PRIMARY_645": "#000000",
         "PRIMARY_660": "#000000",
         "PRIMARY_700": "#000000",
         "PRIMARY_800": "#000000",
@@ -152,10 +160,22 @@
         "GREEN_600": "#16C60C",
         "RED_400": "#16C60C",
         "WHITE_500": "#13A10E",
-	"WHITE_630": "#16C60C",   
-        "GREEN_360": "#16C60C", 
-	"PLUM_22": "#000000",
-	"PLUM_17": "#000000"   
+		"WHITE_630": "#16C60C",   
+        "GREEN_360": "#16C60C",
+		"PLUM_1": "#13A10E",
+		"PLUM_3": "#16C60C",
+		"PLUM_6": "#16C60C",
+		"PLUM_10": "#16C60C",
+		"PLUM_11": "#000000",
+		"PLUM_15": "#16C60C",
+		"PLUM_17": "#16C60C",
+		"PLUM_19": "#000000",
+		"PLUM_20": "#000000",
+		"PLUM_26": "#FF00FF",
+		"PLUM_22": "#000000",
+		"PLUM_24": "#000000"
+		
+		   
     },
 	"Background": {
 		"blur": 0,
