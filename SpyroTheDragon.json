@@ -39,7 +39,7 @@
       "#d28077", "#d28077"
       ],
       "BACKGROUND_PRIMARY": [
-      "#c55e97", "#c55e97"
+      "#e7a56e", "#e7a56e"
       ],
       "BACKGROUND_SECONDARY": [
       "#fbdf6a", "#fbdf6a"
@@ -398,7 +398,7 @@
 	   }
 },
 "background": {
-        "blur": 0,
+        "blur": 1.5,
         "url": "https://cdn.discordapp.com/attachments/1183217866993057802/1186132803755180202/spyrothedrago.png",
         "alpha": 0.42
     },
