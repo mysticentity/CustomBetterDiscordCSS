@@ -30,7 +30,7 @@
       "#c55e97", "#d28077"
       ],
       "BACKGROUND_MODIFIER_ACTIVE": [
-      "#fffaf3", "#fffaf3"
+      "#fbdf6a", "#fbdf6a"
       ],
       "BACKGROUND_MODIFIER_HOVER": [
       "#e7a56e", "#e7a56e"
@@ -39,16 +39,16 @@
       "#d28077", "#d28077"
       ],
       "BACKGROUND_PRIMARY": [
-      "#faf4ed", "#faf4ed"
+      "#c55e97", "#c55e97"
       ],
       "BACKGROUND_SECONDARY": [
-      "#f2e9e1", "#f2e9e1"
+      "#fbdf6a", "#fbdf6a"
       ],
       "BACKGROUND_SECONDARY_ALT": [
-      "#fffaf3", "#fffaf3"
+      "#fbdf6a", "#fbdf6a"
       ],
       "BACKGROUND_TERTIARY": [
-      "#f2e9e1", "#f2e9e1"
+      "#fbdf6a", "#fbdf6a"
       ],
       "CHANNEL_ICON": [
       "#9c35ba", "#9c35ba"
