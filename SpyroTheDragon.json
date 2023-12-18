@@ -60,7 +60,7 @@
       "#9c35ba", "#9c35ba"
       ],
       "CHAT_BACKGROUND": [
-      "#fffaf3", "#fffaf3"
+      "#c55e97", "#c55e97"
       ],
       "HEADER_PRIMARY": [
       "#575279", "#575279"
@@ -69,7 +69,7 @@
       "#575279", "#575279"
       ],
       "HOME_BACKGROUND": [
-      "#fffaf3", "#fffaf3"
+      "#c55e97", "#c55e97"
       ],
       "INTERACTIVE_ACTIVE": [
       "#9c35ba", "#9c35ba"
@@ -397,7 +397,7 @@
           "toast_image_saved": "#56949f"
 	   }
 },
-"Background": {
+"background": {
         "blur": 0,
         "url": "https://cdn.discordapp.com/attachments/1183217866993057802/1186132803755180202/spyrothedrago.png",
         "alpha": 0.42
