@@ -1,10 +1,10 @@
 {
-    "name": "Rose Pine Dawn",
-    "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
+    "name": "Spyro The Dragon",
+    "description": "Discord theme based on the color palette of Spyro the dragon.",
     "authors": [
       {
-        "name": "Moodl",
-        "id": "716941151386599464"
+        "name": ".Princeblueblood",
+        "id": "131929165292240896"
       }
     ],
     "semanticColors": {
@@ -399,7 +399,7 @@
 },
 "Background": {
         "blur": 0,
-        "url": "https://github.com/mysticentity/CustomBetterDiscordCSS/blob/3b16ff604ea618d46e3a241f2b3df69fde3ce7c7/spyrothedrago.png",
+        "url": "https://cdn.discordapp.com/attachments/1183217866993057802/1186132803755180202/spyrothedrago.png",
         "alpha": 0.42
     },
     "spec": 2
