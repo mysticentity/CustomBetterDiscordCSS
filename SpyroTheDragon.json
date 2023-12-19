@@ -15,10 +15,10 @@
       "#c55e97", "#d28077"
       ],
       "BACKGROUND_MESSAGE_HOVER": [
-      "#99e7a56e", "#99e7a56e"
+      "#e7a56e", "#e7a56e"
       ],
       "BACKGROUND_MOBILE_PRIMARY": [
-      "#fbdf6a", "#fbdf6a"
+      "#e7a56e", "#e7a56e"
       ],
       "BACKGROUND_MOBILE_SECONDARY": [
       "#fbdf6a", "#fbdf6a"
@@ -33,10 +33,10 @@
       "#fbdf6a", "#fbdf6a"
       ],
       "BACKGROUND_MODIFIER_HOVER": [
-      "#99e7a56e", "#99e7a56e"
+      "#e7a56e", "#e7a56e"
       ],
       "BACKGROUND_MODIFIER_SELECTED": [
-      "#99d28077", "#99d28077"
+      "#d28077", "#d28077"
       ],
       "BACKGROUND_PRIMARY": [
       "#e7a56e", "#e7a56e"
@@ -75,7 +75,7 @@
       "#9c35ba", "#9c35ba"
       ],
       "INTERACTIVE_HOVER": [
-      "#99e7a56e", "#99e7a56e"
+      "#e7a56e", "#e7a56e"
       ],
       "INTERACTIVE_MUTED": [
       "#d28077", "#d28077"
@@ -93,7 +93,7 @@
       "#fbdf6a", "#fbdf6a"
       ],
       "REDESIGN_BUTTON_PRIMARY_BACKGROUND": [
-      "#fbdf6a", "#fbdf6a"
+      "#e7a56e", "#e7a56e"
       ],
       "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
       "#fbdf6a", "#fbdf6a"
@@ -148,7 +148,7 @@
       ],
       "BG_BASE_TERTIARY": [
       "#e7a56e", "#e7a56e"
-      ],
+      ],		
       "BORDER_FAINT": [
       "#d28077", "#d28077"
       ],
@@ -302,7 +302,7 @@
           "ChannelsTextIcon": "#c55e97",
           "close": "#9c35ba",
           "hub-invite": "#9c35ba",
-          "ic_add_reaction_v2": "#d7827e",
+          "ic_add_reaction_v2": "#c55e97",
           "ic_add_super_reaction": "#9c35ba",
           "ic_arrow_back_24px": "#c55e97",
           "ic_text_channel_16px": "#c55e97",
@@ -341,8 +341,8 @@
           "ic_message_copy": "#9c35ba",
           "ic_message_delete": "#9c35ba",
           "ic_message_edit": "#9c35ba",
-          "ic_message_pin": "#d7827e",
-          "ic_mic_neutral": "#c55e97",
+          "ic_message_pin": "#9c35ba",
+          "ic_mic_neutral": "#9c35ba",
           "ic_mic_muted_neutral": "#9c35ba",
           "ic_new_pins": "#c55e97",
           "ic_new_pins_light": "#c55e97",
@@ -353,12 +353,12 @@
           "ic_radio_square_24px": "#c55e97",
           "ic_radio_square_checked_24px": "#c55e97",
           "ic_radio_square_checked_24px__overlay": "#fbdf6a",
-          "ic_reply_24px": "#e7a56e",
-          "ic_robot_24px": "#575279",
+          "ic_reply_24px": "#9c35ba",
+          "ic_robot_24px": "#9c35ba",
           "ic_selection_checked_24px": "#c55e97",
           "ic_selection_checked_24px__overlay": "#fbdf6a",
           "ic_spotify_white_16px": "#c55e97",
-          "img_account_sync_spotify_white": "#1ed760",
+          "img_account_sync_spotify_white": "#e7a56e",
           "ic_check": "#c55e97",
           "ic_check__overlay": "#fbdf6a",
           "ic_filter": "#9c35ba",
