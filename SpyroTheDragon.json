@@ -111,7 +111,7 @@
       "#9c35ba", "#9c35ba"
       ],
       "REDESIGN_CHAT_INPUT_BACKGROUND": [
-      "#fbdf6a", "#fbdf6a"
+      "#e7a56e", "#e7a56e"
       ],
       "REDESIGN_ONLY_BACKGROUND_DEFAULT": [
       "#e7a56e", "#e7a56e"
@@ -129,7 +129,7 @@
       "#d28077", "#d28077"
       ],
       "TEXT_MUTED": [
-      "#e7a56e", "#e7a56e"
+      "#fbdf6a", "#fbdf6a"
       ],
       "TEXT_NORMAL": [
       "#9c35ba", "#9c35ba"
@@ -190,11 +190,11 @@
       "BRAND_830": "#d28077",
       "BRAND_860": "#d28077",
       "BRAND_900": "#d28077",
-      "PRIMARY_100": "#e7a56e",
-      "PRIMARY_130": "#e7a56e",
+      "PRIMARY_100": "#fbdf6a",
+      "PRIMARY_130": "#fbdf6a",
       "PRIMARY_160": "#c55e97",
-      "PRIMARY_200": "#e7a56e",
-      "PRIMARY_230": "#e7a56e",
+      "PRIMARY_200": "#fbdf6a",
+      "PRIMARY_230": "#fbdf6a",
       "PRIMARY_300": "#fbdf6a",
       "PRIMARY_345": "#fbdf6a",
       "PRIMARY_360": "#d28077",    
@@ -379,7 +379,7 @@
           "icon-invite": "#9c35ba",
           "icon-settings": "#9c35ba",
           "member_list_badge_16px": "#d7827e",
-          "Messages": "#e7a56e",
+          "Messages": "#fbdf6a",
           "nav_header_connect": "#d7827e",
           "pencil": "#9c35ba",
           "PencilIcon": "#9c35ba",
@@ -403,7 +403,7 @@
 "background": {
         "blur": 1.5,
         "url": "https://cdn.discordapp.com/attachments/1183217866993057802/1186132803755180202/spyrothedrago.png",
-        "alpha": 0.42
+        "alpha": 0	
     },
     "spec": 2
 }
