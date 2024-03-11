@@ -72,6 +72,12 @@ background-color: transparent!important;}
 .userActionMenu-3-DfuT .overflowMenuIcon-35A0oT {color:var(--main-color);}
 .headerText-1-WmDq .date-YN6TCS {color:var(--main-color);}
 .activityText__47ec1 .textRuler__61dab .activityText__47ec1 {color:var(--hover-color);}
+.text-xs-bold_c1eb0a.goalText__3bdd2 {color:var(--main-color)!important;}
+
+
+.searchIcon_affa6a {color:var(--main-color)!important;}
+.forumPostFormButton__503e5 {color:var(--main-color)!important;}
+.tagsButton_e96762 {background-color: var(--main-color)!important;}
 .container_ca50b9 {color:var(--hovor-color);}
 .discrimBase-1VOoau {color: var(--main-color);}
 .customStatusText-3wj79x {color: var(--main-color);}
@@ -403,7 +409,7 @@ background-color: black;
 }
 
 .defaultColor__87d87 {
-    color: var(--main-color);
+    color: var(--main-color)!important;
 }
 
 .userTagUsernameBase__75fb1 {
