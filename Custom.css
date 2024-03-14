@@ -91,7 +91,8 @@ background-color: transparent!important;}
 .heading-lg-semibold_a200cd {color: var(--main-color)!important;}
 .closeButton__34341>svg>path[fill*="currentColor"] {fill: var(--main-color);}
 .bd-settings-title {color: var(--main-color)}
-.theme-dark .closeButton__34341 {border-color: var(--main-color);}                                          
+.theme-dark .closeButton__34341 {border-color: var(--main-color);}
+.heading-xxl-extrabold__8effc {color: var(--main-color);}                                         
 .channelTextArea__56a36 .placeholder_e68c63 {color:var(--main-color)!important;}
 .bd-settings-title:not(.bd-settings-group-title) {color: var(--main-color)!important;}
 .bd-addon-list .bd-addon-header {
