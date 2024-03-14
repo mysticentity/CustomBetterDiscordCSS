@@ -88,6 +88,11 @@ button.button__4f306>.contents_fb6220>svg>path, button.button__4f306>.contents_f
 .customStatusText-3wj79x {color: var(--main-color);}
 .iconContainer__3f9b0 .icon_eff5d4 {color: var(--main-color);}                                          
 .text-md-medium-2avxhQ, .text-md-normal-304U3g {color: var(--main-color)!important;}
+.heading-lg-semibold_a200cd {color: var(--main-color)!important;}
+.closeButton__34341>svg>path[fill*="currentColor"] {fill: var(--main-color);}
+.bd-settings-title {color: var(--main-color)}
+.theme-dark .closeButton__34341 {border-color: var(--main-color);}                                          
+.channelTextArea__56a36 .placeholder_e68c63 {color:var(--main-color)!important;}
 .bd-settings-title:not(.bd-settings-group-title) {color: var(--main-color)!important;}
 .bd-addon-list .bd-addon-header {
   color: var(--main-color)!important;
