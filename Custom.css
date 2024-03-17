@@ -72,7 +72,8 @@
     .headerText-1-WmDq .date-YN6TCS {color:var(--main-color);}
     .activityText__47ec1 .textRuler__61dab .activityText__47ec1 {color:var(--hover-color);}
     .text-xs-bold_c1eb0a.goalText__3bdd2 {color:var(--main-color)!important;}
-    .button.button__4f306>.contents_fb6220>svg>path, button.button__4f306>.contents_fb6220>svg>path[fill*="var(--interactive-normal)"] {fill: var(--main-color);}
+    button.button__4f306>.contents_fb6220>svg>path[fill*="var(--interactive-normal)"] {fill: var(--main-color)!important;}
+    button.button__4f306>.contents_fb6220>svg{color:var(--main-color);}
     .flowerStarContainer_d8d14b > svg > path {fill: var(--main-color);}
     .messageCountIcon__73000>svg{color: var(--main-color);}
     .hasRead_fe4d7f .messageCountText__13680 {color: var(--main-color);}
@@ -82,7 +83,7 @@
     .sortDropdown_ec3016 .sortDropdownText_e8ca8d {baackground:black; color: var(--main-color) !important;}
     .lookFilled__19298.colorBrand_b2253e {background: black; color: var(--main-color);}
     .markup_a7e664 code.inline {background-color: rgba(255,255,255,.00); color: var(--main-color);}
-.users__65981, .total_c01838 {color: var(--hover-color)!important;}
+    .users__65981, .total_c01838 {color: var(--hover-color)!important;}
     .text-sm-semibold__41578 {color: var(--main-color);}
     .forumPostFormButton__503e5 {color:var(--main-color)!important;}
     .tagsButton_e96762 {background-color: var(--main-color)!important;}
