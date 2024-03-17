@@ -97,6 +97,9 @@ background-color: transparent!important;}
 .repliedMessage_e2bf4a .repliedTextPreview__90311 {opacity: 1.0;}                                          
 .channelTextArea__56a36 .placeholder_e68c63 {color:var(--main-color)!important;}
 .bd-settings-title:not(.bd-settings-group-title) {color: var(--main-color)!important;}
+.bd-name {color:var(--main-color);}
+.bd-meta {color:var(--hover-color);}
+.bd-addon-list .bd-addon-header>svg {fill:var(--main-color);}                                          
 .bd-addon-list .bd-addon-header {
   color: var(--main-color)!important;
 }
