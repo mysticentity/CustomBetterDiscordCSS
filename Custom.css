@@ -80,7 +80,7 @@
     .searchIcon_affa6a {color:var(--main-color)!important;}
     .textArea__97e3f::placeholder, .titleContainer__01b90>.inputWrapper__934f5.flex_fc800b>inputMaxLength__0fbc2.flex_fc800b>textarea::placeholder {color: var(--main-color);}                                         
     .tagsButton_e96762 .tagsButtonInner_a70c04 {background:black; color: var(--main-color);}
-    .sortDropdown_ec3016, .sortDropdownText_e8ca8d {background:black!important; color: var(--main-color) !important;}
+    .sortDropdown_ec3016 .sortDropdownText_e8ca8d {background:black!important; color: var(--main-color) !important;}
     .sortDropdown_ec3016 .sortDropdownInner__2456c {color: var(--main-color)!important;}
     pre .hljs {background: rgba(0,0,0,.42); border: solid; color: var(--main-color);}
     .buttonInner__2771e {color:var(--main-color);}
