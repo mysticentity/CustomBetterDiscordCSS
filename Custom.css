@@ -84,6 +84,8 @@
     .sortDropdown_ec3016 .sortDropdownInner__2456c {color: var(--main-color)!important;}
     pre .hljs {background: rgba(0,0,0,.42); border: solid; color: var(--main-color);}
     .buttonInner__2771e {color:var(--main-color);}
+    .tagsButton_e96762 { background: rgba(0,0,0,.6); border: 2px solid; border-color: var(--main-color);}
+    .embed_d3cbe3 .embedDescription__33443 {color: var(--hover-color);}
     .lookFilled__19298.colorBrand_b2253e {background: black; color: var(--main-color);}
     .markup_a7e664 code.inline {background-color: rgba(255,255,255,.00); color: var(--main-color);}
     .users__65981, .total_c01838 {color: var(--hover-color)!important;}
