@@ -79,7 +79,7 @@
     .hasRead_fe4d7f .messageCountText__13680 {color: var(--main-color);}
     .searchIcon_affa6a {color:var(--main-color)!important;}
     .textArea__97e3f::placeholder, .titleContainer__01b90>.inputWrapper__934f5.flex_fc800b>inputMaxLength__0fbc2.flex_fc800b>textarea::placeholder {color: var(--main-color);}                                         
-    .sortDropdown_ec3016 .sortDropdownText_e8ca8d {background:black!important; color: var(--main-color) !important;}
+    .sortDropdown_ec3016, .sortDropdownText_e8ca8d {background:black!important; color: var(--main-color) !important;}
     .sortDropdown_ec3016 .sortDropdownInner__2456c {color: var(--main-color)!important;}
     pre .hljs {background: rgba(0,0,0,.42); border: solid; color: var(--main-color);}
     .buttonInner__2771e {color:var(--main-color);}
@@ -90,7 +90,6 @@
     .users__65981, .total_c01838 {color: var(--hover-color)!important;}
     .text-sm-semibold__41578 {color: var(--main-color);}
     .forumPostFormButton__503e5 {color:var(--main-color)!important;}
-    .tagsButton_e96762 {background-color: var(--main-color)!important;}
     .container_ca50b9 {color:var(--hovor-color);}
     .discrimBase-1VOoau {color: var(--main-color);}
     .customStatusText-3wj79x {color: var(--main-color);}
