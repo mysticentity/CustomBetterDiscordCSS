@@ -1,6 +1,6 @@
 /*! CustomCSS*/
-mime.AddExtensionType(".css", "text/css; charset=utf-8")
 :root {
+mime.AddExtensionType(".css", "text/css; charset=utf-8")
 .wrapper_d281dd:hover .childWrapper__01b9c, .wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c {background: transparent !important;}
 .toolbar__88c63 .iconWrapper_af9215 .icon__4cb88
 {color: var(--main-color)!important;}
