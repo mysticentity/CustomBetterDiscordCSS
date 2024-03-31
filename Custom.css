@@ -72,8 +72,7 @@
     .headerText-1-WmDq .date-YN6TCS {color:var(--main-color);}
     .activityText__31c22 .textRuler__66fea .activityText__31c22 {color:var(--hover-color);}
     .text-xs-bold__5467c.goalText__38c12 {color:var(--main-color)!important;}
-    button.button_ae40a4>.contents__322f4>svg>path[fill*="var(--interactive-normal)"] {fill: var(--main-color)!important;}
-    button.button_ae40a4>.contents__322f4>svg{color:var(--main-color);}
+    button.button_ae40a4>.contents__322f4>.lottieIcon_c7076c path {fill: var(--main-color)!important;}
     .flowerStarContainer__00f61 > svg > path {fill: var(--main-color);}
     .messageCountIcon__8c6fd>svg{color: var(--main-color);}
     .hasRead_bfaa11 .messageCountText__0393e {color: var(--main-color);}
