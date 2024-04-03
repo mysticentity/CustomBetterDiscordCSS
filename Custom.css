@@ -263,38 +263,38 @@
     }
     
     /* Makes the ClearVision logo green. because why not */
-    @keyframes gradient-border {
-        0%, 100% {
-            background-position: 0 0;
-        }
-    
-        99.999999999999999% {
-            background-position: 130% 0;
-        }
+   @keyframes gradient-border-custom {
+    0%, 200% {
+        background-position: 100% 0;
     }
-    .typeWindows_e41dab > .wordmark__5b8c9:before {
-      background-image: linear-gradient(to left, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f);
-        animation: gradient-border 2s linear infinite;
-        background-size: 400% 100%;
-        color: transparent !important;
-        -webkit-background-clip: text;
-        position: relative;
-        margin-bottom: 3px;
-        z-index: 1;
-      font-size: 14px;
+
+    100% {
+        background-position: -130% 0;
     }
-    
-    .typeWindows_e41dab>.wordmark__5b8c9:after {
-      background-image: linear-gradient(to left, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f);
-        animation: gradient-border 2s linear infinite;
-        background-size: 400% 100%;
-        color: transparent !important;
-        -webkit-background-clip: text;
-        position: relative;
-        margin-bottom: 0px;
-        z-index: 1;
-      font-size: 9px;
-    }
+}
+.typeWindows__5fa63 > .wordmark__0d178:before {
+  background-image: linear-gradient(to right, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f);
+    animation: gradient-border 2s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    margin-bottom: 3px;
+    z-index: 1;
+  font-size: 14px;
+}
+
+.typeWindows__5fa63>.wordmark__0d178:after {
+  background-image: linear-gradient(to right, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f);
+    animation: gradient-border 2s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    margin-bottom: 0px;
+    z-index: 1;
+  font-size: 9px;
+}
 .wrapper__612a5.modeUnreadImportant__35358 .link_ddbb36 .linkTop_c8969d .name__4eb92 {
   background-image: linear-gradient(to right, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f);
     animation: gradient-border 2s linear infinite;
