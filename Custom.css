@@ -272,7 +272,7 @@
         background-position: -130% 0;
     }
 }
-.typeWindows__5fa63 > .wordmark__0d178:before {
+.typeWindows_e41dab > .wordmark__5b8c9:before {
   background-image: linear-gradient(to right, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f);
     animation: gradient-border 2s linear infinite;
     background-size: 400% 100%;
@@ -284,7 +284,7 @@
   font-size: 14px;
 }
 
-.typeWindows__5fa63>.wordmark__0d178:after {
+.typeWindows_e41dab>.wordmark__5b8c9:after {
   background-image: linear-gradient(to right, #16ca0d, #17ce0d, #17d20d, #18d60e, #18db0e, #19df0e, #19e30e, #1ae70e, #1aeb0f, #1bf00f, #1bf40f, #1cf80f);
     animation: gradient-border 2s linear infinite;
     background-size: 400% 100%;
