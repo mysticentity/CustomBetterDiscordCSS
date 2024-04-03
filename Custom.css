@@ -263,7 +263,7 @@
     }
     
     /* Makes the ClearVision logo green. because why not */
-   @keyframes gradient-border-custom {
+   @keyframes gradient-border {
     0%, 200% {
         background-position: 100% 0;
     }
