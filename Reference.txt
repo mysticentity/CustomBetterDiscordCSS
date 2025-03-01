@@ -1,0 +1,1127 @@
+console
+Console interface
+console.log(message[, ...])
+console.log(message: any, ...optionalParams): void
+Prints all provided arguments to the console with a trailing newline.
+console.log("Hello", "world!");
+console.print(message[, ...])
+console.print(message: any, ...optionalParams): void
+Prints all provided arguments to the console.
+console.print("Hello ");
+console.print("world!\n");
+console.error(err)
+console.print(err: Error): void
+Prints the stack property of an error object.
+console.clear()
+console.clear(): void
+Clears the console.
+console.listen(inputListener)
+console.listen(inputListener: null | (input: string) => void): void
+Overrides the default input behavior; console input will be passed to inputListener instead of being evaluated as JS code.
+
+The listener may be unset by calling console.listen(null).
+
+console.listen(function(input) {
+    var args = input.split(" ");
+    var command = args.shift();
+    switch(command) {
+    case "ping":
+        console.log("pong (args were:", args.join(", "), ")");
+        return;
+    case "end":
+        console.log("done");
+        console.listen(null);
+        return;
+    default:
+        console.log("unknown command '" + command + "'");
+    }
+});
+pj64
+Project64 interface
+pj64.open(romPath)
+pj64.open(romPath: string): void
+Opens a ROM.
+pj64.close()
+pj64.close(): void
+Closes the current ROM.
+pj64.reset([soft])
+pj64.reset(soft?: boolean = false): void
+Resets emulation. Performs a soft reset if soft is true.
+pj64.pause()
+pj64.pause(): void
+Pauses emulation.
+pj64.resume()
+pj64.resume(): void
+Resumes emulation.
+pj64.limitfps(limitFps)
+pj64.limitfps(limitFps: boolean): void
+Enables or disables the FPS limit.
+pj64.installDirectory
+pj64.installDirectory: string
+Path to the directory containing the Project64 executable. Read-only.
+pj64.scriptsDirectory
+pj64.scriptsDirectory: string
+Path to the scripts directory. Read-only.
+pj64.modulesDirectory
+pj64.modulesDirectory: string
+Path to the script modules directory. Read-only.
+pj64.romDirectory
+pj64.romDirectory: string
+Path to the current ROM directory. Read-only.
+
+pj64.romInfo
+pj64.romInfo: null | Object
+Object containing information about the current ROM. null if no ROM is loaded.
+
+pj64.romInfo.goodName	RDB "Good Name".
+pj64.romInfo.fileName	Name of the ROM file including the file extension.
+pj64.romInfo.filePath	Path to the ROM file.
+pj64.romInfo.crc1	Internal CRC 1.
+pj64.romInfo.crc2	Internal CRC 2.
+pj64.romInfo.name	Internal name.
+pj64.romInfo.mediaFormat	Internal media format number.
+pj64.romInfo.id	Internal ID character pair.
+pj64.romInfo.countryCode	Internal country code character.
+pj64.romInfo.version	Internal version number.
+mem
+N64 memory interface
+mem.u8|u16|u32|s8|s16|s32|f32|f64
+Arrays for reading and writing memory. Virtual addresses are used as indices.
+// Read some data from ROM and RAM
+var firstWordInROM = mem.u32[0xB0000000];
+var firstWordInRAM = mem.u32[0x80000000];
+// Move player to 0,0,0 (SM64 US)
+const pPlayerX = 0x8033B1AC;
+const pPlayerY = 0x8033B1B0;
+const pPlayerZ = 0x8033B1B4;
+
+mem.f32[pPlayerX] = 0;
+mem.f32[pPlayerY] = 0;
+mem.f32[pPlayerZ] = 0;
+mem.bindvar(object, address, name, typeId)
+mem.bindvar(object: Object, address: number, name: string, typeId: number): void
+Adds a memory-bound property to object. Valid types are u8, u16, u32, s8, s16, s32, f32, f64. See Type IDs for more details.
+mem.bindvar(global, 0x8033B1AC, 'playerX', f32);
+mem.bindvar(global, 0x8033B1B0, 'playerY', f32);
+mem.bindvar(global, 0x8033B1B4, 'playerZ', f32);
+
+console.log("Player's coordinates are ", playerX, playerY, playerZ);
+mem.bindvars(object, vars)
+mem.bindvars(object: Object, vars: any[]): Object
+Adds multiple memory-bound properties to object. vars must be an array in which each item is an array containing an address, name, and type ID (in order) describing a variable.
+
+Returns object.
+
+mem.bindvars(global, [
+    [ 0x8033B1AC, 'playerX', f32 ],
+    [ 0x8033B1B0, 'playerY', f32 ],
+    [ 0x8033B1B4, 'playerZ', f32 ]
+]);
+
+console.log("Player's coordinates are ", playerX, playerY, playerZ);
+mem.bindstruct(object, address, properties)
+mem.bindstruct(object: Object, address: number, properties: Object): Object
+Adds multiple memory-bound properties to object. properties must be an object in which each key/value pair specifies the name and type ID of a variable.
+
+Returns object.
+
+var playerPos = mem.bindstruct({}, 0x8033B1AC, { x: f32, y: f32, z: f32 });
+console.log("Player's coordinates are ", playerPos.x, playerPos.y, playerPos.z);
+mem.typedef(properties)
+mem.typedef(properties: Object): MemTypeConstructor
+Returns a constructor function that will create an object representing a structure in memory, given its address.
+const vec3f = mem.typedef({ x: f32, y: f32, z: f32 });
+var playerAngle = new vec3f(0x8033B19C);
+var playerPos = new vec3f(0x8033B1AC);
+mem.getblock(address, length)
+mem.getblock(address: number, length: number): Buffer
+Returns a block of data from memory as a Buffer object.
+fs.writefile("ram_dump.bin", mem.getblock(K0BASE, mem.ramSize));
+mem.setblock(address, data[, length])
+mem.setblock(address: number, data: string | Buffer | TypedArray, length?: number): void
+Writes a block of data into memory. data may be one of the following types: ArrayBuffer, Buffer, DataView, TypedArray, string.
+mem.setblock(0x80400000, fs.readfile("textures.bin"));
+mem.getstring(address[, length])
+mem.getblock(address: number, length?: number): string
+Returns a zero-terminated ASCII string from memory.
+const romName = mem.getstring(0xB0000020, 0x14);
+mem.setstring(address, data[, length])
+mem.setstring(address: number, data: string | Buffer | TypedArray, length?: number): void
+Writes a string into memory (alias of mem.setblock).
+mem.ramSize
+mem.ramSize: number
+The size of RDRAM in bytes. 0 if RDRAM is not initialized.
+mem.romSize
+mem.romSize: number
+The size of cartridge ROM in bytes. 0 if ROM is not initialized.
+mem.ptr
+mem.ptr: pointer
+Native pointer to Project64's N64 memory buffer. May be used by native modules for faster memory access.
+// C
+duk_ret_t example(duk_context* ctx)
+{
+    uint8_t* memory = NULL;
+    duk_get_global_string(ctx, "mem");
+    duk_get_prop_string(ctx, -1, "ptr");
+    memory = duk_get_pointer(ctx, -1);
+    duk_pop_n(ctx, 3);
+    // do something to memory here
+    return 0;
+}
+events
+Event hooking interface
+events.onstatechange(callback)
+events.onstatechange(callback: (e: EmuStateChangeEvent) => void): number
+Registers a callback that is invoked when the state of the emulator changes. callback receives an EmuStateChangeEvent object.
+Returns a callback ID.
+
+EmuStateChangeEvent
+
+e.callbackId	ID of the callback associated with the event.
+e.state	State number. See table below.
+EMU_STARTED	Emulation started.
+EMU_STOPPED	Emulation stopped.
+EMU_PAUSED	Emulation paused.
+EMU_RESUMED	Emulation resumed from a pause.
+EMU_RESETTING	Emulation is resetting.
+EMU_RESET	Emulation reset.
+EMU_LOADED_ROM	A ROM or 64DD image has been loaded.
+EMU_DEBUG_PAUSED	Emulation paused via debugger break.
+EMU_DEBUG_RESUMED	Emulation resumed via the debugger.
+events.onexec(address, callback)Requires interpreter core
+events.onexec(address: number | AddressRange, callback: (e: CPUExecEvent) => void): number
+Registers a callback that is invoked at the beginning of a CPU step if the program counter is at address. address may be a single address or an object containing start and end address properties (e.g. AddressRange). callback receives a CPUExecEvent object.
+Returns a callback ID.
+
+// SM64 US
+events.onexec(0x802CB1C0, function() {
+    console.log("func_802CB1C0 was called");
+});
+// Log every CPU step
+events.onexec(ADDR_ANY, function(e) {
+    console.log(e.pc.hex() + ": " + asm.decode(mem.u32[e.pc], e.pc));
+});
+CPUExecEvent
+e.callbackId	ID of the callback associated with the event.
+e.pc	Program counter address.
+events.onread(address, callback)Requires interpreter core
+events.onread(address: number | AddressRange, callback: (e: CPUReadWriteEvent) => void): number
+Registers a callback that is invoked at the beginning of a CPU step if the CPU is going to read from address. address may be a single address or an object containing start and end address properties (e.g. AddressRange). callback receives a CPUReadWriteEvent object.
+Returns a callback ID.
+
+events.onwrite(address, callback)Requires interpreter core
+events.onwrite(address: number | AddressRange, callback: (e: CPUReadWriteEvent) => void): number
+Registers a callback that is invoked at the beginning of a CPU step if the CPU is going to write to address. address may be a single address or an object containing start and end address properties (e.g. AddressRange). callback receives a CPUReadWriteEvent object.
+Returns a callback ID.
+
+CPUReadWriteEvent
+
+e.callbackId	ID of the callback associated with the event.
+e.pc	Program counter address.
+e.address	Address that the CPU is going to read/write.
+e.fpu	true if the source/destination register is on the floating point unit.
+e.reg	Index of the source/destination register.
+e.valueType	The value's type ID. Varies depending on the opcode; refer to the table below.
+e.value	Value that the CPU is going to read/write.
+e.valueHi	Upper 32 bits of the value if e.valueType is u64; otherwise undefined.
+
+e.valueType	Opcode(s)
+s8	LB, SB
+u8	LBU
+s16	LH, SH
+u16	LHU
+s32	LL, LW, LWL, LWR, SW, SWL, SWR
+u32	LWU
+u64	LD, LDL, LDR, SD, SDL, SDR
+f32	LWC1, SWC1
+f64	LDC1, SDC1
+events.onopcode(address, opcode, mask, callback)Requires interpreter core
+events.onopcode(address: number | AddressRange, opcode: number, mask: number, callback: (e: CPUOpcodeEvent) => void): number
+Registers a callback that is invoked at the beginning of a CPU step if the program counter is at address and opcode is equal to the current opcode ANDed with mask. callback receives a CPUOpcodeEvent object.
+Returns a callback ID.
+
+// Log every JAL
+const JAL = asm.encode("jal 0");
+const ANY_TARGET = 0xFC000000; // Mask off target field
+events.onopcode(ADDR_ANY, JAL, ANY_TARGET, function(e) {
+    console.log(e.pc.hex() + ": " + asm.decode(mem.u32[e.pc], e.pc));
+});
+CPUOpcodeEvent
+e.callbackId	ID of the callback associated with the event.
+e.pc	Program counter address.
+e.opcode	The opcode.
+events.ongprvalue(address, regFlags, value, callback)Requires interpreter core
+events.ongprvalue(address: number | AddressRange, regFlags: number, value: number, callback: (e: CPURegValueEvent) => void): number
+Registers a callback that is invoked at the beginning of a CPU step if the program counter is at address and at least one of the general purpose registers specified by regFlags is equal to value (lower 32 bits only). callback receives a CPURegValueEvent object.
+Returns a callback ID.
+
+See General purpose register flags for a list of valid flags. Multiple registers may be specified via bitwise OR.
+
+// Break when any general purpose register contains 0x49533634
+const IS64_SIGNATURE = 0x49533634;
+events.ongprvalue(ADDR_ANY, GPR_ANY, IS64_SIGNATURE, function() {
+    debug.breakhere();
+});
+General purpose register flags
+Global flags for events.ongprvalue's regFlags parameter.
+GPR_ANY
+
+GPR_R0 GPR_AT GPR_V0 GPR_V1 GPR_A0 GPR_A1 GPR_A2 GPR_A3
+
+GPR_T0 GPR_T1 GPR_T2 GPR_T3 GPR_T4 GPR_T5 GPR_T6 GPR_T7
+
+GPR_S0 GPR_S1 GPR_S2 GPR_S3 GPR_S4 GPR_S5 GPR_S6 GPR_S7
+
+GPR_T8 GPR_T9 GPR_K0 GPR_K1 GPR_GP GPR_SP GPR_FP GPR_RA
+
+CPURegValueEvent
+e.callbackId	ID of the callback associated with the event.
+e.pc	Program counter address.
+e.value	The value.
+e.reg	Index of the register containing the value.
+events.onpifread(callback)
+events.onpifread(callback: (e: GenericEvent) => void): number
+Registers a callback that is invoked when PIF RAM data is going to be read into RDRAM. callback receives a GenericEvent object.
+Returns a callback ID.
+
+Useful for monitoring and overriding controller input.
+
+// Log P1's controller input
+events.onpifread(function() {
+    if(mem.u32[PIF_RAM_START + 0x00] == 0xFF010401) {
+        console.log(mem.u32[PIF_RAM_START + 0x04].hex());
+    }
+});
+// Play an M64 TAS file
+var m64file = fs.readfile("sm64-1key.m64");
+var numSamples = m64file.readUInt32LE(0x018);
+var sampleIndex = 0;
+
+events.onpifread(function() {
+    for(var nController = 0; nController < 4; nController++) {
+        var cmdAddr = PIF_RAM_START + (nController * 8);
+        if(mem.u32[cmdAddr + 0x00] == 0xFF010401 && sampleIndex < numSamples) {
+            mem.u32[cmdAddr + 0x04] = m64file.readUInt32BE(0x400 + sampleIndex * 4);
+            sampleIndex++;
+        }
+    }
+});
+GenericEvent
+e.callbackId	ID of the callback associated with the event.
+events.onsptask(callback)
+events.onsptask(callback: (e: SPTaskEvent) => void): number
+Registers a callback that is invoked when a task is sent to the RSP. callback receives an SPTaskEvent object.
+Returns a callback ID.
+
+Useful for monitoring and overriding display lists and audio lists.
+
+events.onsptask(function(e) {
+    if (e.taskType == M_GFXTASK) {
+        console.log("Display list address: " + e.dataAddress);
+    }
+    else if (e.taskType == M_AUDTASK) {
+        console.log("Audio list address: " + e.dataAddress);
+    }
+});
+SPTaskEvent
+e.callbackId	ID of the callback associated with the event.
+e.taskType	The task type. M_GFXTASK (1) for graphics tasks, or M_AUDTASK (2) for audio tasks.
+e.taskFlags	Task flags.
+e.ucodeBootAddress	Address of the boot microcode.
+e.ucodeBootSize	Size of the boot microcode.
+e.ucodeAddress	Address of the task microcode.
+e.ucodeSize	Size of the task microcode.
+e.ucodeDataAddress	Address of the microcode data.
+e.ucodeDataSize	Size of the microcode data.
+e.dramStackAddress	Address of the DRAM matrix stack.
+e.dramStackSize	Size of the DRAM matrix stack.
+e.outputBuffAddress	DP command buffer address for "_dram" and "_fifo" graphics microcodes.
+e.outputBuffSize	DP command buffer size for "_dram" and "_fifo" graphics microcodes.
+e.dataAddress	Address of the display list or audio list.
+e.dataSize	Size of the display list or audio list.
+e.yieldDataAddress	Address of the yield data buffer.
+e.yieldDataSize	Size of the yield data buffer.
+Note: The properties of this object differ slightly from those in the DMEM OSTask structure; all physical addresses are converted to KSEG0 addresses.
+
+events.onpidma(callback)
+events.onpidma(callback: (e: PIEvent) => void): number
+Registers a callback that is invoked when a PI DMA transfer is going to occur. callback receives a PIEvent object.
+Returns a callback ID.
+
+// Log all cartridge <-> RDRAM data transfers
+events.onpidma(function(e) {
+    var dir = e.direction == OS_READ ? 'READ' : 'WRITE';
+    console.log('[PI]', dir, e.dramAddress.hex(), e.cartAddress.hex(), e.length.hex());
+});
+PIEvent
+e.callbackId	The ID of the callback associated with the event.
+e.direction	The direction of the DMA transfer. May be OS_READ (0), or OS_WRITE (1).
+e.dramAddress	The address in PI_DRAM_ADDR_REG (+K0BASE).
+e.cartAddress	The address in PI_CART_ADDR_REG (+K1BASE).
+e.length	The value of PI_RD_LEN_REG or PI_WR_LEN_REG (+1), depending on the transfer direction.
+events.onmousedown(callback)
+events.onmousedown(callback: (e: MouseEvent) => void): number
+Registers a callback that is invoked when a mouse button is pressed over the main screen. callback receives a MouseEvent object.
+Returns a callback ID.
+
+events.onmouseup(callback)
+events.onmouseup(callback: (e: MouseEvent) => void): number
+Registers a callback that is invoked when a mouse button is released over the main screen. callback receives a MouseEvent object.
+Returns a callback ID.
+
+events.onmousemove(callback)
+events.onmousemove(callback: (e: MouseEvent) => void): number
+Registers a callback that is invoked when the mouse is moved over the main screen. callback receives a MouseEvent object.
+Returns a callback ID.
+
+MouseEvent
+
+e.callbackId	ID of the callback associated with the event.
+e.button	The mouse button number. See table below.
+e.x	Cursor X position.
+e.y	Cursor Y position.
+
+MouseEvent.LEFT	0
+MouseEvent.MIDDLE	1
+MouseEvent.RIGHT	2
+MouseEvent.NONE	-1
+events.remove(callbackId)
+events.remove(callbackId: number): void
+Unregisters the callback specified by callbackId.
+// This callback will only be invoked once
+events.onexec(0x802CB1C0, function(e) {
+    console.log("func_802CB1C0 was called");
+    events.remove(e.callbackId);
+});
+AddressRange
+Address range class
+new AddressRange(start, end)
+new AddressRange(start: number, end: number)
+Creates an immutable object with start and end address properties.
+The following AddressRange objects are defined globally:
+
+ADDR_ANY	0x00000000 : 0xFFFFFFFF	Any address
+ADDR_ANY_KUSEG	0x00000000 : 0x7FFFFFFF	MIPS user mode TLB mapped segment
+ADDR_ANY_KSEG0	0x80000000 : 0x9FFFFFFF	MIPS cached unmapped segment
+ADDR_ANY_KSEG1	0xA0000000 : 0xBFFFFFFF	MIPS uncached unmapped segment
+ADDR_ANY_KSEG2	0xC0000000 : 0xFFFFFFFF	MIPS kernel mode TLB mapped segment
+ADDR_ANY_RDRAM	0x80000000 : 0x807FFFFF	Cached RDRAM
+ADDR_ANY_RDRAM_UNC	0xA0000000 : 0xA07FFFFF	Uncached RDRAM
+ADDR_ANY_CART_ROM	0x90000000 : 0x95FFFFFF	Cached cartridge ROM
+ADDR_ANY_CART_ROM_UNC	0xB0000000 : 0xB5FFFFFF	Uncached cartridge ROM
+range.size()
+range.size(): number
+Returns the byte length of the address range (range.end - range.start + 1).
+range.includes(address)
+range.includes(address: number): boolean
+Returns true if address is within the bounds of the address range.
+range.offset(address)
+range.offset(address: number): number
+Converts address to an offset and returns the result (address - range.start).
+Throws an error if address is out of bounds.
+
+range.address(offset)
+range.address(offset: number): number
+Converts offset to an address and returns the result (range.start + offset).
+Throws an error if offset is out of bounds.
+
+range.start
+range.start: number
+The start address.
+range.end
+range.end: number
+The end address.
+N64Image
+N64 image class
+new N64Image(width, height[, format [, pixels[, palette]]])
+new N64Image(width: number, height: number, format?: number = IMG_RGBA32, pixels?: Buffer, palette?: Buffer)
+Creates an N64Image object.
+width: Width of the image.
+height: Height of the image.
+format: Optional image format. IMG_RGBA32 by default. See the table below for supported formats.
+pixels: Optional Buffer object containing pixel data. The byte length must be equal to (width * height * N64Image.bpp(format)) / 8. Copied to image.pixels.
+palette: Optional Buffer object containing palette data. Copied to image.palette.
+
+Format	Pixels	Palette
+IMG_RGBA16	16-bit colors (r5g5b5a1)	(not used)
+IMG_RGBA32	32-bit colors (r8g8b8a8)	(not used)
+IMG_CI4_RGBA16	4-bit color indices	16-bit colors (r5g5b5a1)
+IMG_CI4_IA16	4-bit color indices	16-bit intensity/alpha values (i8a8)
+IMG_CI8_RGBA16	8-bit color indices	16-bit colors (r5g5b5a1)
+IMG_CI8_IA16	8-bit color indices	16-bit intensity/alpha values (i8a8)
+IMG_IA4	4-bit intensity/alpha values (i3a1)	(not used)
+IMG_IA8	8-bit intensity/alpha values (i4a4)	(not used)
+IMG_IA16	16-bit intensity/alpha values (i8a8)	(not used)
+IMG_I4	4-bit intensity values	(not used)
+IMG_I8	8-bit intensity values	(not used)
+N64Image.fromPNG(pngData[, format])
+N64Image.fromPNG(pngData: Buffer, format?: number = IMG_RGBA32): N64Image
+Static function. Creates an N64Image object from a PNG file.
+var image = N64Image.fromPNG(fs.readfile("image.png"));
+Color quantization is not implemented. An error is thrown if format is a color-index (CI) type and the color count of the PNG image exceeds the maximum number of colors supported. The maximum number of colors supported by the CI4 and CI8 formats are 16 and 256, respectively.
+N64Image.format(gbiFmt, gbiSiz[, gbiTlutFmt])
+N64Image.format(gbiFmt: number, gbiSiz: number, gbiTlutFmt?: number): number
+Static function. Returns a simplified image format number from a given GBI pixel size and format configuration. Returns -1 if the configuration is invalid or unsupported. See the table below for supported configurations.
+
+gbiFmt	gbiSiz	gbiTlutFmt	Return value
+G_IM_FMT_RGBA	G_IM_SIZ_16b	(not used)	IMG_RGBA16
+G_IM_FMT_RGBA	G_IM_SIZ_32b	(not used)	IMG_RGBA32
+G_IM_FMT_CI	G_IM_SIZ_4b	G_TT_RGBA16	IMG_CI4_RGBA16
+G_IM_FMT_CI	G_IM_SIZ_4b	G_TT_IA16	IMG_CI4_IA16
+G_IM_FMT_CI	G_IM_SIZ_8b	G_TT_RGBA16	IMG_CI8_RGBA16
+G_IM_FMT_CI	G_IM_SIZ_8b	G_TT_IA16	IMG_CI8_IA16
+G_IM_FMT_IA	G_IM_SIZ_4b	(not used)	IMG_IA4
+G_IM_FMT_IA	G_IM_SIZ_8b	(not used)	IMG_IA8
+G_IM_FMT_IA	G_IM_SIZ_16b	(not used)	IMG_IA16
+G_IM_FMT_I	G_IM_SIZ_4b	(not used)	IMG_I4
+G_IM_FMT_I	G_IM_SIZ_8b	(not used)	IMG_I8
+N64Image.bpp(format)
+N64Image.bpp(format: number): number
+Static function. Returns the number of bits used per pixel for a given image format number or G_IM_SIZ_* constant. Does not include bits used for palette data.
+N64Image.bpp(IMG_CI8_RGBA16); // 8
+N64Image.bpp(G_IM_SIZ_16b); // 16
+image.toPNG()
+image.toPNG(): Buffer
+Returns a PNG representation of the image data as a Buffer object.
+fs.writefile("image.png", image.toPNG());
+image.update()
+image.update(): void
+Updates the internal bitmap. Should be called after alterations are made to image.pixels or image.palette.
+image.format
+image.format: number
+The format ID. Read-only.
+image.width
+image.width: number
+Width of the image. Read-only.
+image.height
+image.height: number
+Height of the image. Read-only.
+image.pixels
+image.pixels: Buffer
+The pixel data of the image.
+image.palette
+image.palette: Buffer | null
+The palette data of the image. null if the image does not use a color-index format.
+cpu
+CPU register interface
+cpu.pc
+Variable representing the CPU's program counter.
+cpu.hi
+Variable representing the lower 32 bits of the CPU's HI register.
+cpu.lo
+Variable representing the lower 32 bits of the CPU's LO register.
+cpu.uhi
+Variable representing the upper 32 bits of the CPU's HI register.
+cpu.ulo
+Variable representing the upper 32 bits of the CPU's LO register.
+cpu.gpr.r0|at|v0|v1..ra
+cpu.gpr[0..31]
+cpu.gpr.r0|at|v0|v1|a0|a1|a2|a3|t0|t1|t2|t3|t4|t5|t6|t7|s0|s1|s2|s3|s4|s5|s6|s7|t8|t9|k0|k1|gp|sp|fp|ra
+Variables representing the lower 32 bits of the CPU's general purpose registers.
+cpu.ugpr.r0|at|v0|v1..ra
+cpu.ugpr[0..31]
+cpu.ugpr.r0|at|v0|v1|a0|a1|a2|a3|t0|t1|t2|t3|t4|t5|t6|t7|s0|s1|s2|s3|s4|s5|s6|s7|t8|t9|k0|k1|gp|sp|fp|ra
+Variables representing the upper 32 bits of the CPU's general purpose registers.
+cpu.fpr.f0..f31
+cpu.fpr[0..31]
+Variables representing the CPU's 32-bit floating-point registers.
+cpu.dfpr.f0..f30
+cpu.dfpr[0..30]
+Variables representing the CPU's 64-bit floating-point registers.
+cpu.cop0.index..errorepc
+Variables representing the CPU's Coprocessor 0 registers.
+
+cpu.cop0.index	Index register.
+cpu.cop0.random	Random register.
+cpu.cop0.entrylo0	EntryLo0 register.
+cpu.cop0.entrylo1	EntryLo1 register.
+cpu.cop0.context	Context register.
+cpu.cop0.pagemask	PageMask register.
+cpu.cop0.wired	Wired register.
+cpu.cop0.badvaddr	BadVAddr register.
+cpu.cop0.count	Count register.
+cpu.cop0.entryhi	EntryHi register.
+cpu.cop0.compare	Compare register.
+cpu.cop0.status	Status register.
+cpu.cop0.cause	Cause register. Generates an interrupt when written.
+cpu.cop0.epc	EPC register.
+cpu.cop0.config	Config register.
+cpu.cop0.taglo	TagLo register.
+cpu.cop0.taghi	TagHi register.
+cpu.cop0.errorepc	ErrorEPC register.
+debug
+Debugger interface
+debug.breakhere([silent])
+debug.breakhere(silent?: boolean = false): void
+Pauses emulation via the debugger. The CPU commands window is not shown if silent is true.
+Emulation may be resumed by calling debug.resume() or clicking the "Go" button in the CPU commands window.
+
+// Break if the CPU tries to write 5 to 0x80339EA8
+events.onwrite(0x80339EA8, function(e) {
+    if(e.value == 5) {
+        debug.breakhere();
+    }
+});
+debug.resume()
+debug.resume(): void
+Resumes emulation from a debugger pause.
+debug.step()
+debug.step(): void
+Executes a single CPU command. Does nothing if emulation is not paused by the debugger.
+debug.skip()
+debug.skip(): void
+Skips the current CPU command. Useful for preventing or overriding an operation.
+// Do not let the CPU write to 0x8033B21E
+events.onwrite(0x8033B21E, function() {
+    debug.skip();
+});
+debug.showmemory(address[, physical])
+debug.showmemory(address: number, physical?: boolean = false): void
+Shows the memory window at address. Physical address space is used if physical is true.
+debug.showcommands(address)
+debug.showcommands(address: number): void
+Shows the CPU commands window at address.
+debug.paused
+debug.paused: boolean
+true if emulation is currently paused by the debugger.
+asm
+ASM utilities
+asm.encode(command[, address])
+asm.encode(command: string, address?: number): number
+Encodes a single MIPS R4300i opcode. address is an optional parameter that may be used to hint the address of the instruction for branch offset calculation.
+Returns the opcode as a number.
+
+asm.encode("nop");                      // 0x00000000
+asm.encode("addiu sp, sp, -24");        // 0x27BDFFE8
+asm.encode("b 0x80400000", 0x803FFF00); // 0x1000003F
+asm.encode("b 0x80400000", 0x80400100); // 0x1000FFBF
+asm.decode(opcode[, address])
+asm.decode(opcode: number, address?: number): string
+Decodes a single MIPS R4300i opcode. address is an optional parameter that may be used to hint the address of the instruction for branch address calculation.
+Returns a line of assembly code as a string.
+
+asm.decode(0x00000000);             // "NOP"
+asm.decode(0x27BDFFE8);             // "ADDIU SP, SP, -0x18"
+asm.decode(0x1000003F, 0x803FFF00); // "B 0x80400000"
+asm.decode(0x1000FFBF, 0x80400100); // "B 0x80400000"
+asm.gprname(regIndex)
+asm.gprname(regIndex: number): string
+Returns the name of the general purpose register specified by regIndex.
+asm.gprname(4); // Returns "a0"
+fs
+File system interface
+fs.open(path, mode)
+fs.open(path: string, mode: string): number
+Opens the file pointed to by path in the mode specified by mode. See fopen for a list of valid modes.
+Returns a file descriptor.
+
+fs.close(fd)
+fs.close(fd): void
+Closes the file referenced by fd.
+fs.write(fd, buffer[, offset[, length[, position]]])
+fs.write(fd: number, buffer: string | Buffer | ArrayBuffer, offset?: number, length?: number, position?: number): number
+Writes buffer to the file referenced by file descriptor fd. buffer may be one of the following types: ArrayBuffer, Buffer, DataView, TypedArray, string.
+offset: Optional position in the source buffer.
+length: Optional maximum number of bytes to write.
+position: Optional file position.
+
+Returns the number of bytes written.
+
+var fd = fs.open("file.txt", "wb");
+fs.write(fd, "Hello ");
+fs.write(fd, "world!\n");
+fs.close(fd);
+fs.writefile(path, buffer)
+fs.writefile(path: string, buffer: string | Buffer | ArrayBuffer): void
+Writes buffer to the file specified by path.
+fs.writefile("ram_dump.bin", mem.getblock(K0BASE, mem.ramSize));
+fs.read(fd, buffer, offset, length, position)
+fs.read(fd: number, buffer: Buffer | ArrayBuffer, offset: number, length: number, position: number) : number
+Reads data from the file referenced by fd into buffer. buffer may be one of the following types: ArrayBuffer, Buffer, DataView, TypedArray.
+
+offset: Position in the source buffer.
+length: Number of bytes to read.
+position: File position.
+Returns the number of bytes read.
+
+fs.readfile(path)
+fs.readfile(path: string): Buffer
+Returns a Buffer object representing the data of the file specified by path.
+fs.exists(path)
+fs.exists(path: string): boolean
+Returns true if the path exists.
+fs.fstat(fd)
+fs.fstat(fd: number): fs.Stats
+Returns an fs.Stats object containing information about the file referenced by fd.
+fs.stat(path)
+fs.stat(path: string): fs.Stats
+Returns an fs.Stats object containing information about the file specified by path.
+fs.unlink(path)
+fs.unlink(path: string): boolean
+Deletes the file specified by path. Returns true if the operation is successful.
+fs.mkdir(path)
+fs.mkdir(path: string): boolean
+Creates a directory. Returns true if the operation is successful.
+fs.rmdir(path)
+fs.rmdir(path: string): boolean
+Deletes a directory. The directory must be empty. Returns true if the operation is successful.
+fs.readdir(path)
+fs.readdir(path: string): string[]
+Returns an array of file names from a directory.
+fs.Stats
+Object containing information about a file or directory. Generated by fs.fstat/fs.stat.
+
+
+stats.dev	ID of the device the file resides on
+stats.ino	inode number
+stats.mode	File permissions
+stats.nlink	Number of links to the file
+stats.uid	User ID
+stats.gid	Group ID
+stats.rdev	Device ID (if file is character or block special)
+stats.size	Size of the file in bytes
+stats.atimeMs	Last access timestamp in milliseconds
+stats.mtimeMs	Last modification timestamp in milliseconds
+stats.ctimeMs	Creation timestamp in milliseconds
+stats.atime	JS Date object representing the last access time
+stats.mtime	JS Date object representing the last modification time
+stats.ctime	JS Date object representing the creation time
+stats.isDirectory()
+stats.isDirectory(): boolean
+Returns true if the fs.Stats object describes a directory.
+
+stats.isFile()
+stats.isFile(): boolean
+Returns true if the fs.Stats object describes a regular file.
+
+Socket
+TCP socket class
+new Socket([options])
+new Socket(options?: Object)
+Creates a Socket object. options may contain the following properties:
+
+allowHalfOpen	If true, the socket will not automatically fully close when the read half is closed. false by default.
+socket.connect(port, host[, connectListener])
+socket.connect(port: number, host: string, connectListener?: () => void): void
+Initiates a TCP connection. Optional connectListener is invoked when the connection is established (i.e the socket is writable).
+var client = new Socket();
+
+client.connect(80, 'www.example.com', function() {
+    var response = '';
+
+    client.on('data', function(data) {
+        response += data.toString();
+    });
+
+    client.on('end', function() {
+        console.log(response);
+    });
+
+    const message = [
+        "GET / HTTP/1.1",
+        "Host: www.example.com",
+        "Connection: close",
+        "\r\n"
+    ].join("\r\n");
+
+    client.end(message);
+});
+socket.write(data[, callback])
+socket.write(data: Buffer | string, callback?: () => void): void
+Sends data on the socket.
+
+Optional callback is invoked when all bytes of data are sent.
+socket.end([data[, callback]])
+socket.end(data?: Buffer | string, callback?: () => void): void
+Sends optional data and closes the write half of the socket after all buffered writes are sent.
+
+Optional callback is invoked when all buffered writes are sent and the write half of the socket is closed.
+socket.close()
+socket.close(): void
+Fully closes the socket.
+socket.on('connect', listener)
+socket.on('connect', listener: () => void): Socket
+Registers a listener for the 'connect' event.
+
+listener is invoked when the connection is established.
+Returns the Socket object.
+
+socket.on('lookup', listener)
+socket.on('lookup', listener: (Object) => void): Socket
+Registers a listener for the 'lookup' event.
+
+listener receives an object with the following properties when the host name is resolved:
+
+err	null, or an Error object if an error occurred (TODO)
+address	IP address string
+port	Port number
+family	"IPv4" or "IPv6"
+Returns the Socket object.
+
+socket.on('data', listener)
+socket.on('data', listener: (data: Buffer) => void): Socket
+Registers a listener for the 'data' event.
+
+listener receives data as a Buffer object.
+Returns the Socket object.
+
+socket.on('end', listener)
+socket.on('end', listener: () => void): Socket
+Registers a listener for the 'end' event.
+
+listener is invoked when the other side closes the read half of the socket.
+Returns the Socket object.
+
+socket.on('close', listener)
+socket.on('close', listener: () => void): Socket
+Registers a listener for the 'close' event.
+
+listener is invoked when the socket is fully closed.
+Returns the Socket object.
+
+socket.on('drain', listener)
+socket.on('drain', listener: () => void): Socket
+Registers a listener for the 'drain' event.
+
+listener is invoked when all buffered writes are sent.
+Returns the Socket object.
+
+socket.on('error', listener)
+socket.on('error', listener: (Error) => void): Socket
+Registers a listener for the 'error' event.
+
+listener receives an Error object when an error occurs.
+Returns the Socket object.
+
+socket.off(eventName, listener)
+socket.off(eventName: string, listener: Function): Socket
+Removes a listener.
+Returns the Socket object.
+
+socket.remoteAddress
+socket.remoteAddress: string
+The remote address. "" if the socket is not connected.
+socket.remotePort
+socket.remotePort: number
+The remote port. 0 if the socket is not connected.
+socket.localAddress
+socket.localAddress: string
+The local address. "" if the socket is not connected.
+socket.localPort
+socket.localPort: number
+The local port. "" if the socket is not connected.
+socket.addressFamily
+socket.addressFamily: string
+The address family. "" if the socket is not connected.
+Server
+TCP server class
+new Server()
+new Server()
+Creates a Server object.
+var server = new Server();
+server.listen(1337, "127.0.0.1");
+
+server.on('connection', function(c) {
+    c.on('data', function(data) {
+        if(data.toString() == 'ping') {
+            c.write('pong');
+        }
+    });
+
+    c.on('end', function() {
+        console.log("client ended connection");
+    })
+});
+server.listen(port[, address])
+server.listen(port: number, address?: string = "0.0.0.0"): void
+Binds the server to the specified port and address and starts listening.
+server.close()
+server.close(): void
+Stops listening for new connections (does not affect existing connections).
+server.on('connection', listener)
+server.on('connection', listener: (Socket) => void): Server
+Registers a listener for the 'connection' event.
+
+listener receives a Socket object when a client has connected.
+Returns the Server object.
+
+server.on('listening', listener)
+server.on('listening', listener: () => void): Server
+Registers a listener for the 'listening' event.
+
+listener is invoked when the server begins listening for connections.
+Returns the Server object.
+
+server.on('close', listener)
+server.on('close', listener: () => void): Server
+Registers a listener for the 'close' event.
+
+listener is invoked when the server is closed.
+Returns the Server object.
+
+server.on('error', listener)
+server.on('error', listener: (Error) => void): Server
+Registers a listener for the 'error' event.
+
+listener receives an Error object when an error occurs.
+Returns the Server object.
+
+server.off(eventName, listener)
+server.off(eventName: string, listener: Function): Server
+Removes a listener.
+Returns the Server object.
+
+server.port
+server.port: number
+The bound port number. 0 if the server is not listening.
+server.address
+server.address: string
+The bound address. "" if the server is not listening.
+server.addressFamily
+server.addressFamily: string
+The bound address family. "" if the server is not listening.
+script
+Script instance configuration interface
+script.keepalive(keepAlive)
+script.keepalive(keepAlive: boolean): void
+Prevents the script instance from being destroyed when it has nothing left to do. Useful when the default console input behavior is desired.
+script.timeout(milliseconds)
+script.timeout(milliseconds: number): void
+Sets the maximum amount of time tasks may run on the script instance before errors are thrown. By default this value is 500 milliseconds. Setting this value to zero will allow tasks to run indefinitely.
+script.abort()
+script.abort(): void
+Terminates the script instance.
+Globals
+global
+global: Object
+Reference to the global object.
+global.test = 1;
+console.log(test); // "1"
+PJ64_JSAPI_VERSION
+PJ64_JSAPI_VERSION: string
+API major version name.
+
+"jsapi-2"	Second edition (Project64 4.0+)
+undefined	First edition (Project64 2.4 to 3.x)
+if (typeof PJ64_JSAPI_VERSION !== 'undefined') {
+    // use new API
+}
+else {
+    // use old API
+}
+See also: First edition documentation
+require(id)
+require(id: string): Object
+Loads a module and returns its module.exports object. id may be one of the following:
+
+The name of a JavaScript (*.js) or DLL (*.dll) file in the Scripts/modules directory.
+If id begins with ./ or ../, the path of a JavaScript or DLL file relative to the calling module's location.
+/* Scripts/module_example.js */
+
+const mymodule = require('mymodule/lib.js'); // Loads Scripts/modules/mymodule/lib.js
+mymodule.init(); // Prints "Loaded mymodule"
+/* Scripts/modules/mymodule/lib.js */
+
+function init() {
+    console.log("Loaded mymodule");
+}
+
+module.exports = {
+    init: init
+};
+Native modules use the Duktape C module convention.
+
+exec(command[, options])
+exec(command: string, options?: Object): string
+Executes a system command. Does not return until the subprocess exits.
+Returns the standard output of the subprocess as a string.
+
+options may contain any of the following properties:
+
+showWindow	If true, the window of the subprocess is visible. false by default.
+verbose	If true, the output of the subprocess is sent to the script manager console. false by default.
+cwd	Current working directory of the subprocess. By default this is the directory containing Project64.
+This function throws an error if the operation fails or if the exit code of the subprocess is non-zero. The thrown error object contains the following properties:
+
+status	The exit code of the subprocess.
+stdout	The standard output of the subprocess.
+stderr	The standard error output of the subprocess.
+pid	The PID of the subprocess.
+try {
+    exec("dir", { verbose: true });
+} catch(err) {
+    console.log("exec() failed with code", err.status);
+    console.log(err.stderr);
+}
+alert(message[, caption])
+alert(message: string, caption?: string): void
+Shows a message box over the main window. Does not return until the message box is dismissed.
+setTimeout(callback, delay)
+setTimeout(callback: () => void, delay: number): number
+callback is invoked once after the number of milliseconds specified by delay.
+Returns a timeout ID.
+
+clearTimeout(timeoutId)
+clearTimeout(timeoutId: number): void
+Cancels the timeout specified by timeoutId.
+setInterval(callback, delay)
+setInterval(callback: () => void, delay: number): number
+callback is invoked periodically. delay specifies the amount of time in milliseconds to wait before each invocation.
+Returns an interval ID.
+
+clearInterval(intervalId)
+clearInterval(intervalId: number): void
+Cancels the interval specified by intervalId.
+number.hex([numChars])
+number.hex(numChars?: number): string
+Returns a hexadecimal string representation of the number object. The returned string is prepended with zeroes so that its character length is numChars or 8 by default.
+var n = 123;
+n.hex();  // 0000007B
+n.hex(4); // 007B
+Type IDs
+u8	Unsigned 8-bit integer
+u16	Unsigned 16-bit integer
+u32	Unsigned 32-bit integer
+s8	Signed 8-bit integer
+s16	Signed 16-bit integer
+s32	Signed 32-bit integer
+f32	32-bit single precision floating-point
+f64	64-bit double precision floating-point
+u64	Unsigned 64-bit integer
+s64	Signed 64-bit integer
+Note: The mem.bind*/mem.typedef APIs do not currently support u64 and s64.
+
+N64 memory addresses
+
+RDRAM_CONFIG_REG	0xA3F00000
+RDRAM_DEVICE_TYPE_REG	0xA3F00000
+RDRAM_DEVICE_ID_REG	0xA3F00004
+RDRAM_DELAY_REG	0xA3F00008
+RDRAM_MODE_REG	0xA3F0000C
+RDRAM_REF_INTERVAL_REG	0xA3F00010
+RDRAM_REF_ROW_REG	0xA3F00014
+RDRAM_RAS_INTERVAL_REG	0xA3F00018
+RDRAM_MIN_INTERVAL_REG	0xA3F0001C
+RDRAM_ADDR_SELECT_REG	0xA3F00020
+RDRAM_DEVICE_MANUF_REG	0xA3F00024
+SP_MEM_ADDR_REG	0xA4040000
+SP_DRAM_ADDR_REG	0xA4040004
+SP_RD_LEN_REG	0xA4040008
+SP_WR_LEN_REG	0xA404000C
+SP_STATUS_REG	0xA4040010
+SP_DMA_FULL_REG	0xA4040014
+SP_DMA_BUSY_REG	0xA4040018
+SP_SEMAPHORE_REG	0xA404001C
+SP_PC_REG	0xA4080000
+SP_IBIST_REG	0xA4080004
+DPC_START_REG	0xA4100000
+DPC_END_REG	0xA4100004
+DPC_CURRENT_REG	0xA4100008
+DPC_STATUS_REG	0xA410000C
+DPC_CLOCK_REG	0xA4100010
+DPC_BUFBUSY_REG	0xA4100014
+DPC_PIPEBUSY_REG	0xA4100018
+DPC_TMEM_REG	0xA410001C
+DPS_TBIST_REG	0xA4200000
+DPS_TEST_MODE_REG	0xA4200004
+DPS_BUFTEST_ADDR_REG	0xA4200008
+DPS_BUFTEST_DATA_REG	0xA420000C
+MI_INIT_MODE_REG	0xA4300000
+MI_MODE_REG	0xA4300000
+MI_VERSION_REG	0xA4300004
+MI_NOOP_REG	0xA4300004
+MI_INTR_REG	0xA4300008
+MI_INTR_MASK_REG	0xA430000C
+VI_STATUS_REG	0xA4400000
+VI_CONTROL_REG	0xA4400000
+VI_ORIGIN_REG	0xA4400004
+VI_DRAM_ADDR_REG	0xA4400004
+VI_WIDTH_REG	0xA4400008
+VI_H_WIDTH_REG	0xA4400008
+VI_INTR_REG	0xA440000C
+VI_V_INTR_REG	0xA440000C
+VI_CURRENT_REG	0xA4400010
+VI_V_CURRENT_LINE_REG	0xA4400010
+VI_BURST_REG	0xA4400014
+VI_TIMING_REG	0xA4400014
+VI_V_SYNC_REG	0xA4400018
+VI_H_SYNC_REG	0xA440001C
+VI_LEAP_REG	0xA4400020
+VI_H_SYNC_LEAP_REG	0xA4400020
+VI_H_START_REG	0xA4400024
+VI_H_VIDEO_REG	0xA4400024
+VI_V_START_REG	0xA4400028
+VI_V_VIDEO_REG	0xA4400028
+VI_V_BURST_REG	0xA440002C
+VI_X_SCALE_REG	0xA4400030
+VI_Y_SCALE_REG	0xA4400034
+AI_DRAM_ADDR_REG	0xA4500000
+AI_LEN_REG	0xA4500004
+AI_CONTROL_REG	0xA4500008
+AI_STATUS_REG	0xA450000C
+AI_DACRATE_REG	0xA4500010
+AI_BITRATE_REG	0xA4500014
+PI_DRAM_ADDR_REG	0xA4600000
+PI_CART_ADDR_REG	0xA4600004
+PI_RD_LEN_REG	0xA4600008
+PI_WR_LEN_REG	0xA460000C
+PI_STATUS_REG	0xA4600010
+PI_BSD_DOM1_LAT_REG	0xA4600014
+PI_BSD_DOM1_PWD_REG	0xA4600018
+PI_BSD_DOM1_PGS_REG	0xA460001C
+PI_BSD_DOM1_RLS_REG	0xA4600020
+PI_BSD_DOM2_LAT_REG	0xA4600024
+PI_BSD_DOM2_PWD_REG	0xA4600028
+PI_BSD_DOM2_PGS_REG	0xA460002C
+PI_BSD_DOM2_RLS_REG	0xA4600030
+RI_MODE_REG	0xA4700000
+RI_CONFIG_REG	0xA4700004
+RI_CURRENT_LOAD_REG	0xA4700008
+RI_SELECT_REG	0xA470000C
+RI_REFRESH_REG	0xA4700010
+RI_COUNT_REG	0xA4700010
+RI_LATENCY_REG	0xA4700014
+RI_RERROR_REG	0xA4700018
+RI_WERROR_REG	0xA470001C
+SI_DRAM_ADDR_REG	0xA4800000
+SI_PIF_ADDR_RD64B_REG	0xA4800004
+SI_PIF_ADDR_WR64B_REG	0xA4800010
+SI_STATUS_REG	0xA4800018
+
+PIF_ROM_START	0xBFC00000
+PIF_RAM_START	0xBFC007C0
+SP_DMEM_START	0xA4000000
+SP_IMEM_START	0xA4001000
+
+KUBASE	0x00000000
+K0BASE	0x80000000
+K1BASE	0xA0000000
+K2BASE	0xC0000000
+
+UT_VEC	0x80000000
+R_VEC	0xBFC00000
+XUT_VEC	0x80000080
+ECC_VEC	0x80000100
+E_VEC	0x80000180
+Miscellaneous
+
+M_GFXTASK	1
+M_AUDTASK	2
+
+OS_READ	0
+OS_WRITE	1
+
+G_IM_FMT_RGBA	0
+G_IM_FMT_YUV	1
+G_IM_FMT_CI	2
+G_IM_FMT_IA	3
+G_IM_FMT_I	4
+
+G_IM_SIZ_4b	0
+G_IM_SIZ_8b	1
+G_IM_SIZ_16b	2
+G_IM_SIZ_32b	3
+
+G_TT_NONE	0x0000
+G_TT_RGBA16	0x8000
+G_TT_IA16	0xC000
