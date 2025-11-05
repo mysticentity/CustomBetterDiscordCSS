@@ -45,3 +45,4 @@
 .container__5e434 > div[style]:not(.base__5e434) + .base__5e434 .content__5e434 {
   margin-top: calc(var(--custom-guild-list-width) * 2);
 }
+}
