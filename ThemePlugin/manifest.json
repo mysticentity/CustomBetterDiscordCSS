@@ -1,0 +1,11 @@
+{
+    "format": 1,
+    "id": "dev.local.color-capture",
+    "name": "Color Capture",
+    "version": "0.1.0",
+    "dependencies": {
+      "valenced.api": { "version": ">=1 <2" },
+      "discord": { "version": "*" }
+    },
+    "dist": { "script": "index.js" }
+  }
