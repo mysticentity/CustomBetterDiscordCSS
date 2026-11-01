@@ -1,0 +1,147 @@
+{
+  "name": "TestTheme v4",
+  "description": "Colorful Vaporwave Inspired Theme. Now Featuring Kuromi",
+  "authors": [
+    {
+      "name": "princeblueblood",
+      "id": "715175781227298876"
+    }
+  ],
+  "semanticColors": {
+    "MOBILE_ANDROID_BUTTON_BACKGROUND_RIPPLE": [
+      "#1b0329"
+    ],
+    "ANDROID_NAVIGATION_BAR_BACKGROUND": [
+      "#1b0122",
+      "#1b0122"
+    ],
+  
+    "TEXT_SUBTLE": [
+      "#FF1493",
+      "#FF1493"
+    ],
+    
+"BACKGROUND_APP_LAUNCHER_CARD_DEFAULT": [
+      "#00FF66",
+      "#00FF66"
+    ],
+    "BACKGROUND_MOD_STRONG":[
+      "#2D5A27",
+      "#2D5A27"
+    ],
+    "CHAT_INPUT_ACTION_BUTTON_BACKGROUND": [
+      "#00F3FF",
+      "#00F3FF"
+    ],
+    "BACKGROUND_SURFACE_HIGH" : [
+      "#FF00FF",
+      "#FF00FF"
+    ],
+    "TEXT_DEFAULT": [
+      "#FF0033",
+      "#FF0033"
+    ],
+    "TEXT_STRONG": [
+      "#FFFF00",
+      "#FFFF00"
+    ],
+    "TEXT_MUTED" :[
+      "#DCD0FF",
+      "#DCD0FF"
+    ],
+    
+    "BADGE_SECONDARY_TEXT": [
+      "#FFB6C1",
+      "#FFB6C1"
+    ],
+    
+    "ICON_MUTED": [
+      "#FFDAB9",
+      "#FFDAB9"
+    ],
+    
+    "BACKGROUND_APP_LAUNCHER_ROW_DEFAULBORDER_MUTED": [
+      "#FFFACD",
+      "#FFFACD"
+    ],
+    
+    "CARD_BACKGROUND_DEFAULT": [
+      "#98FF98",
+      "#98FF98"
+    ],
+    
+    "APP_FRAME_BORDER": [
+      "#87CEEB",
+      "#87CEEB"
+    ],
+    
+    "CHAT_BANNER_BG": [
+      "#F7CAC9",
+      "#F7CAC9"
+    ],
+    
+    "BACKGROUND_MOD_SUBTLE": [
+      "#FBCEB1",
+      "#FBCEB1"
+    ],
+    
+    "BACKGROUND_MOD_DEFAULT": [
+      "#AFEEEE",
+      "#AFEEEE"
+    ],
+    
+    "CHAT_INPUT_ACTION_ICON_ACTIVE_TINT": [
+      "#FFFDD0",
+      "#FFFDD0"
+    ],
+    
+    "REDESIGN_CHANNEL_NAME_TEXT": [
+      "#93C572",
+      "#93C572"
+    ],
+    
+    "BORDER_NORMAL": [
+      "#C8A2C8",
+      "#C8A2C8"
+    ],
+    
+    "BOARDER_MUTED": [
+      "#CCCCFF",
+      "#CCCCFF"
+    ],
+    
+    "MOBILE_TEXT_HEADING_PRIMARY": [
+      "#FF6700",
+      "#FF6700"
+      
+    ],
+    "rawColors": {
+      "NUTERAL_87": "#FF1493"
+    }
+  },
+  "fonts": {
+    "ABCGintoNord-ExtraBold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
+    "ggsans-Bold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
+    "ggsans-BoldItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-BoldItalic.ttf",
+    "ggsans-ExtraBold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
+    "ggsans-ExtraBoldItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-BoldItalic.ttf",
+    "ggsans-Medium": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Medium.ttf",
+    "ggsans-MediumItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-MediumItalic.ttf",
+    "ggsans-Normal": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Regular.ttf",
+    "ggsans-NormalItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Italic.ttf",
+    "ggsans-Semibold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-SemiBold.ttf",
+    "ggsans-SemiboldItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-SemiBoldItalic.ttf",
+    "NotoSans-Bold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
+    "NotoSans-ExtraBold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
+    "NotoSans-Medium": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Medium.ttf",
+    "NotoSans-Normal": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Regular.ttf",
+    "NotoSans-NormalItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Italic.ttf",
+    "NotoSans-Semibold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-SemiBold.ttf",
+    "SourceCodePro-Semibold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-SemiBold.ttf"
+  },
+  "background": {
+    "url": "https://raw.githubusercontent.com/LuckyJinx13/Public-Themes/main/zJo0vqJ8.png",
+    "alpha": 0.85
+  },
+  "spec": 2
+}
