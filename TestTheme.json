@@ -1,0 +1,69 @@
+{
+  "name": "Test v1",
+  "description": "Test of all the colors",
+  "authors": [
+    {
+      "name": "Princeblueblood",
+      "id": "715175781227298876"
+    }
+  ],
+  "semanticColors": {
+  
+  },
+      "rawColors": {
+    "PLUM_0": "#FF1493",
+    "PLUM_1": "#FF1493",
+    "PLUM_2": "#FF1493",
+    "PLUM_3": "#FF1493",
+    "PLUM_4": "#FF1493",
+    "PLUM_5": "#FF1493",
+    "PLUM_6": "#FF1493",
+    "PLUM_7": "#FF1493",
+    "PLUM_8": "#FF1493",
+    "PLUM_9": "#FF1493",
+    "PLUM_10": "#FF1493",
+    "PLUM_11": "#FF1493",
+    "PLUM_12": "#FF1493",
+    "PLUM_13": "#FF1493",
+    "PLUM_14": "#FF1493",
+    "PLUM_15": "#FF1493",
+    "PLUM_16": "#FF1493",
+    "PLUM_17": "#FF1493",
+    "PLUM_18": "#FF1493",
+    "PLUM_19": "#FF1493",
+    "PLUM_20": "#FF1493",
+    "PLUM_21": "#FF1493",
+    "PLUM_22": "#FF1493",
+    "PLUM_23": "#FF1493",
+    "PLUM_24": "#FF1493",
+    "PLUM_25": "#FF1493",
+    "PLUM_26": "#FF1493",
+    
+  },
+  
+  "fonts": {
+    "ABCGintoNord-ExtraBold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
+    "ggsans-Bold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
+    "ggsans-BoldItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-BoldItalic.ttf",
+    "ggsans-ExtraBold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
+    "ggsans-ExtraBoldItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-BoldItalic.ttf",
+    "ggsans-Medium": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Medium.ttf",
+    "ggsans-MediumItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-MediumItalic.ttf",
+    "ggsans-Normal": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Regular.ttf",
+    "ggsans-NormalItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Italic.ttf",
+    "ggsans-Semibold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-SemiBold.ttf",
+    "ggsans-SemiboldItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-SemiBoldItalic.ttf",
+    "NotoSans-Bold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
+    "NotoSans-ExtraBold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
+    "NotoSans-Medium": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Medium.ttf",
+    "NotoSans-Normal": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Regular.ttf",
+    "NotoSans-NormalItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Italic.ttf",
+    "NotoSans-Semibold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-SemiBold.ttf",
+    "SourceCodePro-Semibold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-SemiBold.ttf"
+  },
+  "background": {
+    "url": "https://raw.githubusercontent.com/LuckyJinx13/Public-Themes/main/zJo0vqJ8.png",
+    "alpha": 0.85
+  },
+  "spec": 2
+}
