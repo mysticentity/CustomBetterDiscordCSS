@@ -54,6 +54,16 @@
       "#FFB6C1",
       "#FFB6C1"
     ],
+
+    "BADGE_PRIMARY_BACKGROUND": [
+      "#39FF14",
+      "#39FF14"
+    ],
+
+    "BADGE_NOTIFICATION_BORDER": [
+      "#39FF14",
+      "#39FF14"
+    ],
     
     "ICON_MUTED": [
       "#FFDAB9",
@@ -68,6 +78,16 @@
     "CARD_BACKGROUND_DEFAULT": [
       "#98FF98",
       "#98FF98"
+    ],
+
+    "CARD_BORDER_DEFAULT": [
+      "#98FF98",
+      "#98FF98"
+    ],
+
+     "CARD_MUTED_BG": [
+      "#1b0329",
+      "#1b0329"
     ],
     
     "APP_FRAME_BORDER": [
@@ -105,7 +125,7 @@
       "#C8A2C8"
     ],
     
-    "BOARDER_MUTED": [
+    "BORDER_MUTED": [
       "#CCCCFF",
       "#CCCCFF"
     ],
