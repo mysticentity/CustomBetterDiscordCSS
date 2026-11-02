@@ -85,6 +85,16 @@
       "#98FF98"
     ],
 
+    "MOBILE_ACTIONSHEET_BACKGROUND": [
+      "#BC13FE",
+      "#BC13FE"
+    ],
+
+    "SWITCH_BACKGROUND_DEFAULT": [
+      "#200589",
+      "#200589"
+    ],
+
      "CARD_MUTED_BG": [
       "#1b0329",
       "#1b0329"
