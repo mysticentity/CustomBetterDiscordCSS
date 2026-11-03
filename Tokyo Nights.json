@@ -214,6 +214,16 @@
       "#00b1dd",
       "#00b1dd"
     ],
+
+      "BADGE_CRITICAL_BACKGROUND": [
+      "#1b0122",
+      "#1b0122"
+    ],
+
+    "BADGE_EXPRESSIVE_BACKGROUND": [
+      "#1b0122",
+      "#1b0122"
+    ],
     "SWITCH_BACKGROUND_DEFAULT": [
       "#00b1dd",
       "#00b1dd"
