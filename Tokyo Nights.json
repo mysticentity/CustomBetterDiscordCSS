@@ -179,6 +179,10 @@
       "#b846e8",
       "#b846e8"
     ],
+    "CONTROL_ICON_ONLY_BACKGROUND_ACTIVE": [
+      "#b846e8",
+      "#b846e8"
+    ],
     "CONTROL_CRITICAL_SECONDARY_BORDER_ACTIVE": [
       "#fe0096",
       "#fe0096"
@@ -191,9 +195,28 @@
       "#28112E",
       "#28112E"
     ],
+
+    "CONTROL_CRITICAL_SECONDARY_BOARDER_DEFAULT": [
+      "#28112E",
+      "#28112E"
+    ],
+
+    "MOBILE_ACTIONSHEET_GRADIANT_BACKGROUND_DEFAULT": [
+      "#28112E",
+      "#28112E"
+    ],
+
+    "BACKGROUND_FEEDBACK_NOTIFICATION": [
+      "#1b0122",
+      "#1b0122"
+    ],
+      "BADGE_CRITICAL_TEXT": [
+      "#00b1dd",
+      "#00b1dd"
+    ],
     "SWITCH_BACKGROUND_DEFAULT": [
-      "#573094",
-      "#573094"
+      "#00b1dd",
+      "#00b1dd"
     ],
     "BADGE_PRIMARY_BACKGROUND": [
       "#fe0096",
