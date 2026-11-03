@@ -9,8 +9,15 @@
   ],
   "semanticColors": {
     "MOBILE_ANDROID_BUTTON_BACKGROUND_RIPPLE": [
+      "#1b0329",
+       "#1b0329"
+    ],
+
+     "BADGE_PRIMARY_BORDER": [
+      "#1b0329",
       "#1b0329"
     ],
+    
     "ANDROID_NAVIGATION_BAR_BACKGROUND": [
       "#1b0122",
       "#1b0122"
