@@ -1,0 +1,143 @@
+{
+  "name": "TestTheme v7",
+  "description": "Colorful Vaporwave Inspired Theme. Now Featuring Kuromi",
+  "authors": [
+    {
+      "name": "princeblueblood",
+      "id": "715175781227298876"
+    }
+  ],
+  "semanticColors": {
+    "MOBILE_ANDROID_BUTTON_BACKGROUND_RIPPLE": ["#1b0329"],
+
+     "BADGE_PRIMARY_BORDER": ["#1b0329"],
+    
+    "ANDROID_NAVIGATION_BAR_BACKGROUND": ["#1b0122"],
+
+    "CONTROL_ICON_ONLY_ICON_ACTIVE": ["#96E0D2"],
+"CARD_SECONDARY_BACKGROUND_DEFAULT":["#1c0122"],
+    "CARD_SECONDARY_BG":["#1c0122"],
+
+    "SWITCH_BACKGROUND_DEFAULT":["#35530A"],
+
+     "TABLEROW_BACKGROUND_DEFAULT":["#35530A"],
+"CARD_MUTED_PRESSED_BG": ["#E0B0FF"],
+
+"CONTROL_CRITICAL_SECONDARY_BORDER_ACTIVE": ["#FFD1DC"],
+
+"INTERACTIVE_BACKGROUND_DEFAULT": ["#FFEFD5"],
+
+"CHAT_INPUT_ACTION_BUTTON_ICON_DEFAULT_TINT": ["#E2F0D9"],
+
+  
+    "TEXT_SUBTLE": ["#FF1493"],
+    
+"BACKGROUND_APP_LAUNCHER_CARD_DEFAULT": ["#00FF66"],
+    "BACKGROUND_MOD_STRONG":["#2D5A27"],
+    "CHAT_INPUT_ACTION_BUTTON_BACKGROUND": ["#00F3FF"],
+    "BACKGROUND_SURFACE_HIGH" : ["#FF00FF"],
+    "TEXT_DEFAULT": ["#FF0033"],
+    "TEXT_STRONG": ["#FFFF00"],
+    "TEXT_MUTED" :["#DCD0FF"],
+    
+    "BADGE_SECONDARY_TEXT": ["#FFB6C1"],
+
+    "BADGE_PRIMARY_BACKGROUND": ["#39FF14"],
+
+    "BADGE_NOTIFICATION_BORDER": ["#39FF14"],
+    
+    "ICON_MUTED": ["#FFDAB9"],
+    
+    "BACKGROUND_APP_LAUNCHER_ROW_DEFAULBORDER_MUTED": ["#FFFACD"],
+    
+    "CARD_BACKGROUND_DEFAULT": ["#98FF98"],
+
+    "BACKGROUND_BASE_LOWER": ["#280D69"],
+
+    "CARD_BORDER_DEFAULT": ["#98FF98"],
+
+    "MOBILE_ACTIONSHEET_BACKGROUND": ["#BC13FE"],
+
+    "SWITCH_BACKGROUND_DEFAULT": ["#200589"],
+
+     "CARD_MUTED_BG": ["#1b0329"],
+    
+    "APP_FRAME_BORDER": ["#87CEEB"],
+    
+    "CHAT_BANNER_BG": ["#F7CAC9"],
+    
+    "BACKGROUND_MOD_SUBTLE": ["#FBCEB1"],
+    
+    "BACKGROUND_MOD_MUTED": ["#AFEEEE"],
+    
+    "CHAT_INPUT_ACTION_ICON_ACTIVE_TINT": ["#FFFDD0"],
+
+    "CHAT_INPUT_ICON_DEFAULT_TINT": ["#FFFDD0"],
+    
+    "REDESIGN_CHANNEL_NAME_TEXT": ["#93C572"],
+    
+    "BORDER_NORMAL": ["#C8A2C8"],
+    
+    "BORDER_MUTED": ["#CCCCFF"],
+    
+    "BACKGROUND_APP_LAUNCHER_ROW_DEFAULT": ["#F08080"],
+    
+    "EMBED_BACKGROUND": ["#FFD8B1"],
+    
+    "ACTIVITY_TIMEBAR_PROGRESS_BACKGROUND": ["#FFFACD"],
+    
+    "CARD_SECONDARY_BACKGROUND_ACTIVE": ["#93E9BE"],
+
+    "CHAT_INPUT_BACKGROUND": ["#B0E0E6"],
+
+    "EMBED_BACKGROUND_ALTERNATE": ["#FFBCD9"],
+
+    "INPUT_BACKGROUND_DEFAULT": ["#FFB7A5"],
+
+    "CONTROL_CRITICAL_SECONDARY_BACKGROUND_ACTIVE": ["#FEBAAD"],
+
+    "USER_PROFILE_ABOUT_ME_HEADING_TEXT": ["#E2F516"],
+
+    "BORDER_SUBTLE": ["#BCB88A"],
+
+    "BACKGROUND_BRAND": ["#B2FFFF"],
+
+    "BADGE_CRITICAL_BORDER": ["#B3B1F7"],
+
+    "BACKGROUND_BASE_LOWEST": ["#E6E6FA"],
+
+    "REDESIGN_CHANNEL_NAME_MUTED_TEXT": ["#DBF998"],
+    
+    "MOBILE_TEXT_HEADING_PRIMARY": ["#FF6700"]
+    
+  },
+
+  "rawColors": {
+      "NUTERAL_87": "#FF1493"
+  },
+  "fonts": {
+    "ABCGintoNord-ExtraBold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
+    "ggsans-Bold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
+    "ggsans-BoldItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-BoldItalic.ttf",
+    "ggsans-ExtraBold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
+    "ggsans-ExtraBoldItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-BoldItalic.ttf",
+    "ggsans-Medium": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Medium.ttf",
+    "ggsans-MediumItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-MediumItalic.ttf",
+    "ggsans-Normal": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Regular.ttf",
+    "ggsans-NormalItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Italic.ttf",
+    "ggsans-Semibold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-SemiBold.ttf",
+    "ggsans-SemiboldItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-SemiBoldItalic.ttf",
+    "NotoSans-Bold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
+    "NotoSans-ExtraBold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
+    "NotoSans-Medium": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Medium.ttf",
+    "NotoSans-Normal": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Regular.ttf",
+    "NotoSans-NormalItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Italic.ttf",
+    "NotoSans-Semibold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-SemiBold.ttf",
+    "SourceCodePro-Semibold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-SemiBold.ttf"
+  },
+  "background": {
+    "url": "https://raw.githubusercontent.com/LuckyJinx13/Public-Themes/main/zJo0vqJ8.png",
+    "alpha": 0.85
+  },
+  "spec": 2
+}
