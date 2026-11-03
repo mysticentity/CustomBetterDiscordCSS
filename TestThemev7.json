@@ -24,6 +24,20 @@
   "#1c0122",
   "#1c0122"
 ],
+    "CARD_SECONDARY_BG":[
+  "#1c0122",
+  "#1c0122"
+],
+
+    "SWITCH_BACKGROUND_DEFAULT":[
+  "#35530A",
+  "#35530A"
+],
+
+     "TABLEROW_BACKGROUND_DEFAULT":[
+  "#35530A",
+  "#35530A"
+],
 "CARD_MUTED_PRESSED_BG": [
 "#E0B0FF",
 "#E0B0FF"
@@ -109,6 +123,11 @@
       "#98FF98"
     ],
 
+    "BACKGROUND_BASE_LOWER": [
+      "#280D69",
+      "#280D69"
+    ],
+
     "CARD_BORDER_DEFAULT": [
       "#98FF98",
       "#98FF98"
@@ -150,6 +169,11 @@
     ],
     
     "CHAT_INPUT_ACTION_ICON_ACTIVE_TINT": [
+      "#FFFDD0",
+      "#FFFDD0"
+    ],
+
+    "CHAT_INPUT_ICON_DEFAULT_TINT": [
       "#FFFDD0",
       "#FFFDD0"
     ],
