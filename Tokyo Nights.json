@@ -30,8 +30,8 @@
     ],
     
     "REDESIGN_CHANNEL_NAME_MUTED_TEXT": [
-      "#84118a",
-      "#84118a"
+      "#fa8ce4",
+      "#fa8ce4"
     ],
     
     "TEXT_MUTED": [
@@ -39,7 +39,7 @@
       "#ff05ea"
     ],
 
-    "ICON_DEFAULT": [
+    "INPUT_TEXT_DEFAULT": [
       "#b846e8",
       "#b846e8"
     ],
@@ -59,7 +59,7 @@
       "#d11b9c"
     ],
 
-    "CHECKBOX_BACKGROUND_SELECTED_DEFAULT": [
+    "CONTROL_PRIMARY_BACKGROUND_DEFAULT": [
       "#1b0122",
       "#1b0122"
     ],
