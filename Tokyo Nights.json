@@ -43,6 +43,11 @@
       "#fa8ce4",
       "#fa8ce4"
     ],
+
+    "BADGE_INVERTED_BACKGROUND": [
+      "#fa8ce4",
+      "#fa8ce4"
+    ],
     
     "MOBILE_ANDROID_BUTTON_BACKGROUND_RIPPLE": [
       "#1b0329",
@@ -60,6 +65,11 @@
     ],
 
     "CONTROL_PRIMARY_BACKGROUND_DEFAULT": [
+      "#1b0122",
+      "#1b0122"
+    ],
+
+    "BUTTON_DANGER_BACKGROUND_DISABLED": [
       "#1b0122",
       "#1b0122"
     ],
