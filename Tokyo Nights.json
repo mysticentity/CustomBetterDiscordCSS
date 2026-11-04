@@ -187,6 +187,11 @@
       "#00b1dd",
       "#00b1dd"
     ],
+    "CONTROL_SECONDARY_TEXT_DEFAULT": [
+      "#00b1dd",
+      "#00b1dd"
+    ],
+    
     "CONTROL_ICON_ONLY_ICON_ACTIVE": [
       "#d11b9c",
       "#d11b9c"
