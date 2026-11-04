@@ -44,7 +44,7 @@
       "#fa8ce4"
     ],
 
-    "BADGE_INVERTED_BACKGROUND": [
+    "BADGE_INVERTED_BORDER": [
       "#fa8ce4",
       "#fa8ce4"
     ],
@@ -65,6 +65,11 @@
     ],
 
     "CONTROL_PRIMARY_BACKGROUND_DEFAULT": [
+      "#1b0122",
+      "#1b0122"
+    ],
+
+    "CONTROL_CRITICAL_PRIMARY_BACKGROUND_DEFAULT": [
       "#1b0122",
       "#1b0122"
     ],
