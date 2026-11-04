@@ -237,9 +237,19 @@
       "#1b0122"
     ],
 
+    "BADGE_RARE_BORDER_GRADIENT_START": [
+      "#330240",
+      "#330240"
+    ],
+
     "BADGE_EXPRESSIVE_BACKGROUND": [
       "#1b0122",
       "#1b0122"
+    ],
+
+    "BADGE_EXPRESSIVE_BORDER": [
+      "#00b1dd",
+      "#00b1dd"
     ],
     "SWITCH_BACKGROUND_DEFAULT": [
       "#fa8ce4",
