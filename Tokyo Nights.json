@@ -7,34 +7,48 @@
       "id": "715175781227298876"
     }
   ],
+  
   "semanticColors": {
     "BORDER_SUBTLE": [
       "#d11b9c",
       "#d11b9c"
     ],
+    
     "CARD_SECONDARY_BG": [
+      "#1b0122",
       "#1b0122"
     ],
+    
     "EMBED_BACKGROUND": [
       "#1b0122",
       "#1b0122"
     ],
+    
     "EMBED_BACKGROUND_ALTERNATE": [
       "#330240",
       "#330240"
     ],
+    
     "REDESIGN_CHANNEL_NAME_MUTED_TEXT": [
       "#84118a",
       "#84118a"
     ],
+    
     "TEXT_MUTED": [
       "#ff05ea",
       "#ff05ea"
     ],
+
+    "ICON_DEFAULT": [
+      "#b846e8",
+      "#b846e8"
+    ],
+    
     "MOBILE_ANDROID_BUTTON_BACKGROUND_RIPPLE": [
       "#1b0329",
       "#1b0329"
     ],
+    
     "ANDROID_NAVIGATION_BAR_BACKGROUND": [
       "#d11b9c",
       "##d11b9c"
@@ -44,55 +58,72 @@
       "#d11b9c",
       "#d11b9c"
     ],
+
+    "CHECKBOX_BACKGROUND_SELECTED_DEFAULT": [
+      "#1b0122",
+      "#1b0122"
+    ],
     
     "MOBILE_ACTIONSHEET_BACKGROUND": [
       "#0E0314",
       "#0E0314"
     ],
+    
     "MOBILE_TEXT_HEADING_PRIMARY": [
       "#fa8ce4",
       "#fa8ce4"
     ],
+    
     "APP_FRAME_BORDER": [
       "#d11b9c",
       "#d11b9c"
     ],
+    
     "BACKGROUND_BASE_LOWER": [
       "#330240",
       "#330240"
     ],
+    
     "BACKGROUND_BASE_LOWEST": [
       "#28112E",
       "#28112E"
     ],
+    
     "BACKGROUND_SURFACE_HIGH": [
       "#330240",
       "#330240"
     ],
+    
     "BACKGROUND_BRAND": [
       "#9c1067",
       "#9c1067"
     ],
+    
     "BACKGROUND_MOD_SUBTLE": [
       "#1B012226",
       "#1B012226"
     ],
+    
     "BACKGROUND_MOD_MUTED": [
       "#9c106726",
       "#9c106726"
     ],
+    
     "BACKGROUND_MOD_STRONG": [
       "#9c106799",
       "#9c106799"
     ],
+    
     "BACKGROUND_APP_LAUNCHER_CARD_DEFAULT": [
       "#330240",
       "#330240"
     ],
+    
     "BACKGROUND_APP_LAUNCHER_ROW_DEFAULT": [
       "#330240",
       "#330240"
     ],
+    
     "TABLEROW_BACKGROUND_DEFAULT": [
       "#330240",
       "#330240"
@@ -107,86 +138,107 @@
       "#330240",
       "#330240"
     ],
+    
     "TEXT_DEFAULT": [
       "#fa8ce4",
       "#fa8ce4"
     ],
+    
     "TEXT_STRONG": [
       "#fa8ce4",
       "#fa8ce4"
     ],
+    
     "TEXT_SUBTLE": [
       "#da61a6",
       "#da61a6"
     ],
+    
     "ICON_MUTED": [
       "#da61a6",
       "#da61a6"
     ],
+    
     "USER_PROFILE_ABOUT_ME_HEADING_TEXT": [
       "#a370f2",
       "#a370f2"
     ],
+    
     "REDESIGN_CHANNEL_NAME_TEXT": [
       "#e817c5",
       "#e817c5"
     ],
+    
     "BORDER_NORMAL": [
       "#d11b9c",
       "#d11b9c"
     ],
+    
     "BORDER_MUTED": [
       "#d11b9c",
       "#d11b9c"
     ],
+    
     "CARD_BORDER_DEFAULT": [
       "#d11b9c",
       "#d11b9c"
     ],
+    
     "CARD_BACKGROUND_DEFAULT": [
       "#1b0122",
       "#1b0122"
     ],
+    
     "CARD_SECONDARY_BACKGROUND_DEFAULT": [
       "#1b0122",
       "#1b0122"
     ],
+    
     "CARD_SECONDARY_BACKGROUND_ACTIVE": [
       "#330240",
       "#330240"
     ],
+    
     "CARD_MUTED_BG": [
       "#1b0329",
       "#1b0329"
     ],
+    
     "CARD_MUTED_PRESSED_BG": [
       "#330240",
       "#330240"
     ],
+    
     "INPUT_BACKGROUND_DEFAULT": [
       "#1b0329",
       "#1b0329"
     ],
+    
     "CHAT_INPUT_BACKGROUND": [
       "#1b0329",
       "#1b0329"
     ],
+    
     "CHAT_INPUT_ACTION_BUTTON_BACKGROUND": [
       "#42094d",
       "#42094d"
     ],
+    
     "CHAT_INPUT_ACTION_BUTTON_ICON_DEFAULT_TINT": [
       "#00b1dd",
       "#00b1dd"
     ],
+    
     "CHAT_INPUT_ACTION_ICON_ACTIVE_TINT": [
       "#00b1dd",
       "#00b1dd"
     ],
+    
     "CHAT_INPUT_ICON_DEFAULT_TINT": [
       "#00b1dd",
       "#00b1dd"
     ],
+    
     "CONTROL_SECONDARY_TEXT_DEFAULT": [
       "#00b1dd",
       "#00b1dd"
@@ -196,18 +248,22 @@
       "#d11b9c",
       "#d11b9c"
     ],
+    
     "CONTROL_ICON_ONLY_BACKGROUND_ACTIVE": [
       "#b846e8",
       "#b846e8"
     ],
+    
     "CONTROL_CRITICAL_SECONDARY_BORDER_ACTIVE": [
       "#fe0096",
       "#fe0096"
     ],
+    
     "CONTROL_CRITICAL_SECONDARY_BACKGROUND_ACTIVE": [
       "#9c1067",
       "#9c1067"
     ],
+    
     "INTERACTIVE_BACKGROUND_DEFAULT": [
       "#28112E",
       "#28112E"
@@ -251,34 +307,42 @@
       "#00b1dd",
       "#00b1dd"
     ],
+    
     "SWITCH_BACKGROUND_DEFAULT": [
       "#fa8ce4",
       "#fa8ce4"
     ],
+    
     "BADGE_PRIMARY_BACKGROUND": [
       "#fe0096",
       "#fe0096"
     ],
+    
     "BADGE_PRIMARY_BORDER": [
       "#1b0122",
       "#1b0122"
     ],
+    
     "BADGE_SECONDARY_TEXT": [
       "#fa8ce4",
       "#fa8ce4"
     ],
+    
     "BADGE_NOTIFICATION_BACKGROUND": [
       "#1b0122",
       "#1b0122"
     ],
+    
     "BADGE_CRITICAL_BORDER": [
       "#1b0122",
       "#1b0122"
     ],
+    
     "ACTIVITY_TIMEBAR_PROGRESS_BACKGROUND": [
       "#fe0096",
       "#fe0096"
     ],
+    
     "BACKGROUND_APP_LAUNCHER_ROW_DEFAULBORDER_MUTED": [
       "#d11b9c",
       "#d11b9c"
