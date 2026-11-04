@@ -97,6 +97,11 @@
       "#330240",
       "#330240"
     ],
+
+    "TABLEROW_ICON_COLOR_DEFAULT": [
+      "#0E0314",
+      "#0E0314"
+    ],
     "CHAT_BANNER_BG": [
       "#330240",
       "#330240"
@@ -246,7 +251,7 @@
       "#fa8ce4",
       "#fa8ce4"
     ],
-    "BADGE_NOTIFICATION_BACKGROUOND": [
+    "BADGE_NOTIFICATION_BACKGROUND": [
       "#1b0122",
       "#1b0122"
     ],
