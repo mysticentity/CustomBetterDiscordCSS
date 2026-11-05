@@ -85,8 +85,8 @@
     ],
     
     "MOBILE_ACTIONSHEET_BACKGROUND": [
-      "#00b1dd",
-      "#00b1dd"
+      "#0E0314",
+      "#0E0314"
     ],
     
     "MOBILE_TEXT_HEADING_PRIMARY": [
@@ -210,8 +210,8 @@
     ],
     
     "CARD_SECONDARY_BACKGROUND_DEFAULT": [
-      "#1b0122",
-      "#1b0122"
+      "#00b1dd",
+      "#00b1dd"
     ],
     
     "CARD_SECONDARY_BACKGROUND_ACTIVE": [
