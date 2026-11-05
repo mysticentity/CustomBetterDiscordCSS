@@ -10,14 +10,14 @@
   
   "semanticColors": {
     
-    "TABLEROW_BACKGROUND_DEFAULT": [
-      "#330240",
-      "#330240"
+    "BACKGROUND_APP_LAUNCHER_CARD_DEFAULT": [
+      "#00b1dd",
+      "#00b1dd"
     ],
-
-    "TABLEROW_ICON_COLOR_DEFAULT": [
-      "#b846e8",
-      "#b846e8"
+    
+    "BACKGROUND_APP_LAUNCHER_ROW_DEFAULT": [
+      "#00b1dd",
+      "#00b1dd"
     ]
     
   },
