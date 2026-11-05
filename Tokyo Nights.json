@@ -204,24 +204,14 @@
       "#d11b9c"
     ],
     
-    "CARD_BACKGROUND_DEFAULT": [
-      "#00b1dd",
-      "#00b1dd"
-    ],
-    
-    "CARD_SECONDARY_BACKGROUND_DEFAULT": [
-      "#1b0122",
-      "#1b0122"
-    ],
-    
     "CARD_SECONDARY_BACKGROUND_ACTIVE": [
       "#330240",
       "#330240"
     ],
     
     "CARD_MUTED_BG": [
-      "#1b0329",
-      "#1b0329"
+      "#00b1dd",
+      "#00b1dd"
     ],
     
     "CARD_MUTED_PRESSED_BG": [
