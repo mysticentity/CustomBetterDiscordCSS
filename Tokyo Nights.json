@@ -33,6 +33,11 @@
       "#fa8ce4",
       "#fa8ce4"
     ],
+
+    "CHANNEL_BACKGROUND_DEFAULT": [
+      "#1b0122",
+      "#1b0122"
+    ],
     
     "TEXT_MUTED": [
       "#ff05ea",
@@ -130,8 +135,8 @@
     ],
     
     "BACKGROUND_APP_LAUNCHER_CARD_DEFAULT": [
-      "#330240",
-      "#330240"
+      "#1b0122",
+      "#1b0122"
     ],
     
     "BACKGROUND_APP_LAUNCHER_ROW_DEFAULT": [
