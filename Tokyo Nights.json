@@ -210,8 +210,8 @@
     ],
     
     "CARD_MUTED_BG": [
-      "#1b0122",
-      "#1b0122"
+      "#1b0122FF",
+      "#1b0122FF"
     ],
     
     "CARD_MUTED_PRESSED_BG": [
