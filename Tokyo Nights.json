@@ -83,8 +83,13 @@
       "#fa8ce4"
     ],
 
-    "MOBILE_HEADER_ICON_DEFAULT": [
-      "#fa8ce4",
+    "INTERACTIVE_MUTED": [
+      "#fa8ce4",   
+      "#fa8ce4"
+    ],
+
+    "INTERACTIVE_NORMAL": [
+      "#fa8ce4",   
       "#fa8ce4"
     ],
 
