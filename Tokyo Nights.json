@@ -113,10 +113,12 @@
     ],
 
     "CARD_SECONDARY_BACKGROUND_DEFAULT": [
-      "#330240",
-      "#330240"
-    ],
-
+      "#3302401f",
+      "#3302401f"    ],
+"BADGE_INVERTED_BACKGROUND" : [
+      "#fa8ce4",
+      "#fa8ce4"
+],
     
     "BACKGROUND_BASE_LOWER": [
       "#330240",
@@ -154,11 +156,11 @@
       "#00b1ddFF",
       "#00b1ddFF"
     ],
-    "BACKGROUND_APP_LAUNCHER_ROW_DEFAULT": 
-[
+    "BACKGROUND_APP_LAUNCHER_ROW_DEFAULT": [
       "#00b1ddFF",
       "#00b1ddFF"
     ],
+    
     "TABLEROW_BACKGROUND_DEFAULT": [
       "#330240FF",
       "#330240FF"
