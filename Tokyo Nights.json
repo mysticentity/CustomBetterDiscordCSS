@@ -88,7 +88,7 @@
       "#fa8ce4"
     ],
 
-    "ICON_DEFAULT": [
+    "ICON_STRONG": [
       "#fa8ce4",   
       "#fa8ce4"
     ],
@@ -220,7 +220,7 @@
       "#42094dFF",
       "#42094dFF"
     ],
-    "CHAT_INPUT_ACTION_BUTTON_ICON_DEFAULT_TINT": [
+    "CONTROL_ICON_ONLY_ICON_DEFAULT": [
       "#00b1dd",
       "#00b1dd"
     ],
