@@ -111,7 +111,18 @@
       "#d11b9cFF",
       "#d11b9cFF"
     ],
+
+    "CARD_SECONDARY_BACKGROUND_DEFAULT": [
+      "#330240",
+      "#330240"
+    ],
+
+    
     "BACKGROUND_BASE_LOWER": [
+      "#330240",
+      "#330240"
+    ],
+    "BACKGROUND_BASE_LOW": [
       "#330240",
       "#330240"
     ],
