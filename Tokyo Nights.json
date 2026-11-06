@@ -48,6 +48,12 @@
       "#1b0329FF",
       "#1b0329FF"
     ],
+
+    "MOBILE_KEYBOARD_PANEL_BACKGROUND": [
+      "#1b0329FF",
+      "#1b0329FF"
+    ],
+    
     "ANDROID_NAVIGATION_BAR_BACKGROUND": [
       "#d11b9c",
       "#d11b9c"
@@ -73,6 +79,11 @@
       "#0E0314"
     ],
     "MOBILE_TEXT_HEADING_PRIMARY": [
+      "#fa8ce4",
+      "#fa8ce4"
+    ],
+
+    "MOBILE_HEADER_ICON_DEFAULT": [
       "#fa8ce4",
       "#fa8ce4"
     ],
