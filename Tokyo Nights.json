@@ -220,6 +220,22 @@
       "#330240FF",
       "#330240FF"
     ],
+
+    "CONTROL_CRITICAL_SECONDARY_BORDER_ACTIVE" :[
+      "#9c1067FF",
+      "#9c1067FF"
+    ],
+
+    "BADGE_INVERTED_TEXT" : [
+      "#fa8ce4",
+      "#fa8ce4"
+    ],
+
+    "BADGE_PREMIUM_TEXT" : [
+      "#fa8ce4",
+      "#fa8ce4"
+    ],
+    
     "CARD_MUTED_BG": [
       "#1b0122FF",
       "#1b0122FF"
