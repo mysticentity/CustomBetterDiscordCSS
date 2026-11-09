@@ -207,10 +207,6 @@
       "#da61a6",
       "#da61a6"
     ],
-    "ICON_MUTED": [
-      "#da61a6",
-      "#da61a6"
-    ],
     "USER_PROFILE_ABOUT_ME_HEADING_TEXT": [
       "#a370f2",
       "#a370f2"
@@ -367,7 +363,7 @@
       "#fe0096",
       "#fe0096"
     ],
-    "BACKGROUND_APP_LAUNCHER_ROW_DEFAULBORDER_MUTED": [
+    "BACKGROUND_APP_LAUNCHER_ROW_DEFAULT": [
       "#d11b9c",
       "#d11b9c"
     ]
