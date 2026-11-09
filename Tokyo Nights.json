@@ -76,9 +76,14 @@
       "#fa8ce4"
     ],
     
+    "CONTROL_SECONDARY_BACKGROUND_DEFAULT": [
+      "#1b0329",
+      "#1b0329"
+    ],
+
     "MOBILE_ANDROID_BUTTON_BACKGROUND_RIPPLE": [
-      "#1b0329FF",
-      "#1b0329FF"
+      "##28112E",
+      "##28112E"
     ],
 
     "MOBILE_KEYBOARD_PANEL_BACKGROUND": [
