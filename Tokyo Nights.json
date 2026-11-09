@@ -167,13 +167,13 @@
     ],
     
     "BACKGROUND_BASE_LOWER": [
-      "#330240",
-      "#330240"
+      "#1b0122FF",
+      "#1b0122FF"
     ],
     
     "BACKGROUND_BASE_LOW": [
-      "#330240",
-      "#330240"
+      "#1b0122",
+      "#1b0122"
     ],
     
     "BACKGROUND_BASE_LOWEST": [
@@ -182,8 +182,8 @@
     ],
     
     "BACKGROUND_SURFACE_HIGH": [
-      "#330240",
-      "#330240"
+      "#1b0122",
+      "#1b0122"
     ],
     
     "BACKGROUND_BRAND": [
