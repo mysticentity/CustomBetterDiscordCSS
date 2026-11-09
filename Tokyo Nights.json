@@ -34,8 +34,8 @@
     ],
 
     "INTERACTIVE_BACKGROUND_SELECTED": [
-      "#28112E",
-      "#28112E"
+      "#28112EFF",
+      "#28112EFF"
     ],
 
     "INTERACTIVE_TEXT_DEFAULT": [
@@ -136,6 +136,7 @@
     "CARD_SECONDARY_BACKGROUND_DEFAULT": [
       "#3302401f",
       "#3302401f"    ],
+    
 "BADGE_INVERTED_BACKGROUND" : [
       "#fa8ce4",
       "#fa8ce4"
