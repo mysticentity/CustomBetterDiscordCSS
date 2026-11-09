@@ -291,7 +291,7 @@
       "#b846e8FF",
       "#b846e8FF"
     ],
-    "CONTROL_CRITICAL_SONDARY_BORDER_ACTIVE": [
+    "CONTROL_CRITICAL_SECONDARY_BORDER_ACTIVE": [
       "#fe0096FF",
       "#fe0096FF"
     ],
@@ -303,7 +303,7 @@
       "#28112EFF",
       "#28112EFF"
     ],
-    "CONTROL_CRITICAL_SECONDARY_BOARDER_DEFAULT": [
+    "CONTROL_CRITICAL_SECONDARY_BORDER_DEFAULT": [
       "#28112E",
       "#28112E"
     ],
@@ -362,10 +362,6 @@
     "ACTIVITY_TIMEBAR_PROGRESS_BACKGROUND": [
       "#fe0096",
       "#fe0096"
-    ],
-    "BACKGROUND_APP_LAUNCHER_ROW_DEFAULT": [
-      "#d11b9c",
-      "#d11b9c"
     ]
   },
   "rawColors": {
