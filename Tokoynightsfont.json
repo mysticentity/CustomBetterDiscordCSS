@@ -1,13 +1,9 @@
 {
-    "name": "Tokyo Nights v2",
-    "description": "Colorful Vaporwave Inspired Theme. Now Featuring Kuromi",
-    "authors": [
-        {
-            "name": "Lucky Jinx",
-            "id": "715175781227298876"
-        }
-    ],
-    "fonts": {
+    "spec": 2,
+    "name": "Tokyo Nights FontPack",
+    "previewText": "Colorful Vaporwave font",
+    
+    "main": {
         "ABCGintoNord-ExtraBold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
         "ggsans-Bold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
         "ggsans-BoldItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-BoldItalic.ttf",
@@ -26,6 +22,6 @@
         "NotoSans-NormalItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Italic.ttf",
         "NotoSans-Semibold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-SemiBold.ttf",
         "SourceCodePro-Semibold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-SemiBold.ttf"
-    },
-    "spec": 2
+    }
+    
 }
