@@ -172,8 +172,8 @@
     ],
     
     "BACKGROUND_BASE_LOW": [
-      "FF000040",
-      "FF000040"
+      "#1b0122",
+      "#1b0122"
     ],
     
     "BACKGROUND_BASE_LOWEST": [
