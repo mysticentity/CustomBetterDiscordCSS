@@ -9,6 +9,16 @@
   ],
   
   "semanticColors": {
+
+    "MOBILE_TYPING_INDICATOR_BACKGROUND_DEFAULT": [
+  "#1b012200",
+  "#1b012200"
+ ],
+
+ "MOBILE_FLOATINGBAR_BACKGROUND_SCRIM": [
+  "#1b012200",
+  "#1b012200"
+ ],
     "BORDER_SUBTLE": [
       "#d11b9cFF",
       "#d11b9cFF"
