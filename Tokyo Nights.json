@@ -11,18 +11,18 @@
   "semanticColors": {
     
    "CARD_PRIMARY_PRESSED_BG":  [ 
-"#1b0122", 
-"#1b0122"
+"#00FF00", 
+"#00FF00"
  ], 
 
    "MOBILE_KEYBOARD_GAP_BACKGROUND":  [ 
-"#1b0122", 
-"#1b0122" 
+"#00FF00", 
+"#00FF00" 
 ], 
 
    "MOBILE_KEYBOARD_PANEL_BACKGROUND":  [ 
-"#1b0122", 
-"#1b0122" 
+"#00FF00", 
+"#00FF00" 
 ], 
 
     
