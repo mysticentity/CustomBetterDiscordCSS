@@ -10,15 +10,7 @@
   
   "semanticColors": {
 
-    "MOBILE_TYPING_INDICATOR_BACKGROUND_DEFAULT": [
-  "#FF0000",
-  "#FF0000"
- ],
-
- "MOBILE_FLOATINGBAR_BACKGROUND_SCRIM": [
-  "#FF0000",
-  "#FF0000"
- ],
+    
     "BORDER_SUBTLE": [
       "#d11b9cFF",
       "#d11b9cFF"
@@ -177,13 +169,13 @@
     ],
     
     "BACKGROUND_BASE_LOWER": [
-      "#1b012200",
-      "#1b012200"
+      "#1b0122",
+      "#1b0122"
     ],
     
     "BACKGROUND_BASE_LOW": [
-      "#1b0122CC",
-      "#1b0122CC"
+      "#1b0122",
+      "#1b0122"
     ],
     
     "BACKGROUND_BASE_LOWEST": [
