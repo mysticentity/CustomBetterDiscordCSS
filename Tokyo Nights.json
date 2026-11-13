@@ -9,21 +9,12 @@
   ],
   
   "semanticColors": {
-    
-   "CARD_PRIMARY_PRESSED_BG":  [ 
-"#00FF00", 
-"#00FF00"
- ], 
+    "USER_PROFILE_CONTAINER_BACKGROUND": [
+     "#1b0122",
+      "#1b0122"
+      
+    ],
 
-   "MOBILE_KEYBOARD_GAP_BACKGROUND":  [ 
-"#00FF00", 
-"#00FF00" 
-], 
-
-   "MOBILE_KEYBOARD_PANEL_BACKGROUND":  [ 
-"#00FF00", 
-"#00FF00" 
-], 
 
     
     "BORDER_SUBTLE": [
