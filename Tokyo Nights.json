@@ -85,8 +85,8 @@
 ],
 
 "BADGE_CRITICAL_BORDER": [
-  "#1b0122",
-  "#1b0122"
+  "#d11b9c",
+  "#d11b9c"
 ],
 
 "BADGE_CRITICAL_TEXT": [
@@ -100,8 +100,8 @@
 ],
 
 "BADGE_EXPRESSIVE_BORDER": [
-  "#00b1dd",
-  "#00b1dd"
+  "#d11b9c",
+  "#d11b9c"
 ],
 
 "BADGE_INVERTED_BACKGROUND": [
@@ -110,8 +110,8 @@
 ],
 
 "BADGE_INVERTED_BORDER": [
-  "#fa8ce4",
-  "#fa8ce4"
+  "#d11b9c",
+  "#d11b9c"
 ],
 
 "BADGE_INVERTED_TEXT": [
@@ -140,8 +140,8 @@
 ],
 
 "BADGE_PRIMARY_BORDER": [
-  "#1b0122",
-  "#1b0122"
+  "#d11b9c",
+  "#d11b9c"
 ],
 
 "BADGE_PRIMARY_TEXT": [
@@ -289,6 +289,12 @@
   "#d11b9c"
 ],
 
+"CONTROL_OVERLAY_SECONDARY_BACKGROUND_DEFAULT": [
+"#84118a",
+"84118a"
+
+],
+
 "CONTROL_PRIMARY_BACKGROUND_DEFAULT": [
   "#1b0122",
   "#1b0122"
@@ -417,6 +423,11 @@
 "SWITCH_BACKGROUND_DEFAULT": [
   "#fa8ce4FF",
   "#fa8ce4FF"
+],
+
+"SWITCH_BACKGROUND_SELECTED_DEFAULT": [
+  "#9c1067",
+  "#9c1067"
 ],
 
 "TABLEROW_BACKGROUND_DEFAULT": [
