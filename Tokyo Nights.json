@@ -80,8 +80,13 @@
     ],
 
     "MOBILE_CHATINPUT_BORDER_ACTIVE": [
-      "#ff05ea",
-      "#ff05ea"
+      "#ff05eaFF",
+      "#ff05eaFF"
+    ],
+
+    "MOBILE_CHATINPUT_BORDER_DEFAULT": [
+      "#ff05eaFF",
+      "#ff05eaFF"
     ],
     
     "BADGE_INVERTED_BORDER": [
