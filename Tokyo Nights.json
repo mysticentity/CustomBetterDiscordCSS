@@ -345,6 +345,11 @@
   "#fa8ce4"
 ],
 
+"INPUT_PLACEHOLDER_TEXT_DEFAULT": [
+  "#fa8ce4",
+  "#fa8ce4"
+],
+
 "INTERACTIVE_BACKGROUND_DEFAULT": [
   "#28112EFF",
   "#28112EFF"
