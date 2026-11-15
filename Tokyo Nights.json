@@ -258,6 +258,12 @@
   "#d11b9c",
   "#d11b9c"
 ],
+    
+  "CONTROL_CRITICAL_PRIMARY_TEXT_DEFAULT": [
+  "#d52813",
+  "#d52813"
+],
+  
 
 "CONTROL_CRITICAL_PRIMARY_BACKGROUND_DEFAULT": [
   "#d11b9c",
