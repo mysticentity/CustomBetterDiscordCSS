@@ -220,8 +220,8 @@
 ],
 
 "CHANNEL_ICON": [
-  "#fa8ce4",
-  "#fa8ce4"
+  "#9744ed",
+  "#9744ed"
 ],
 
 "CHAT_BANNER_BG": [
@@ -235,8 +235,8 @@
 ],
 
 "CHAT_INPUT_ACTION_BUTTON_ICON_DEFAULT_TINT": [
-  "#00b1dd",
-  "#00b1dd"
+  "#84118a",
+  "#84118a"
 ],
 
 "CHAT_INPUT_ACTION_ICON_ACTIVE_TINT": [
@@ -305,8 +305,8 @@
 ],
 
 "CONTROL_SECONDARY_TEXT_DEFAULT": [
-  "#84118a",
-  "#84118a"
+  "#9744ed",
+  "#9744ed"
 ],
 
 "EMBED_BACKGROUND": [
@@ -410,8 +410,8 @@
 ],
 
 "REDESIGN_CHANNEL_NAME_TEXT": [
-  "#d11b9c",
-  "#d11b9c"
+  "#682d68",
+  "#682d68"
 ],
 
 "SWITCH_BACKGROUND_DEFAULT": [
