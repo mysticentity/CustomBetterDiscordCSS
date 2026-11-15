@@ -79,6 +79,11 @@
       "#fa8ce4"
     ],
 
+    "TEXT_OVERLAY_LIGHT": [
+      "#fa8ce4",
+      "#fa8ce4"
+    ],
+
     "MOBILE_CHATINPUT_BORDER_ACTIVE": [
       "#ff05eaFF",
       "#ff05eaFF"
