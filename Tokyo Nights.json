@@ -331,9 +331,14 @@
 ],
 
 "ICON_STRONG": [
-  "#fa8ce4",
-  "#fa8ce4"
+  "#e817c5",
+  "#e817c5"
 ],
+
+  "ICON_SUBTLE": [
+  "#b03cae",
+  "#b03cae"
+],  
 
 "INPUT_BACKGROUND_DEFAULT": [
   "#1b0329FF",
