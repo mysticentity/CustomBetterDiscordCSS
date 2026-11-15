@@ -421,13 +421,13 @@
 ],
 
 "SWITCH_BACKGROUND_DEFAULT": [
-  "#fa8ce4FF",
-  "#fa8ce4FF"
+  "#9c1067",
+  "#9c1067"
 ],
 
 "SWITCH_BACKGROUND_SELECTED_DEFAULT": [
-  "#9c1067",
-  "#9c1067"
+  "#fa8ce4",
+  "#fa8ce4"
 ],
 
 "TABLEROW_BACKGROUND_DEFAULT": [
