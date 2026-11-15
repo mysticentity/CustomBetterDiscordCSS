@@ -305,8 +305,8 @@
 ],
 
 "CONTROL_SECONDARY_TEXT_DEFAULT": [
-  "#00b1dd",
-  "#00b1dd"
+  "#84118a",
+  "#84118a"
 ],
 
 "EMBED_BACKGROUND": [
@@ -405,13 +405,13 @@
 ],
 
 "REDESIGN_CHANNEL_NAME_MUTED_TEXT": [
-  "#fa8ce4",
-  "#fa8ce4"
+  "#84118a",
+  "#84118a"
 ],
 
 "REDESIGN_CHANNEL_NAME_TEXT": [
-  "#e817c5",
-  "#e817c5"
+  "#d11b9c",
+  "#d11b9c"
 ],
 
 "SWITCH_BACKGROUND_DEFAULT": [
