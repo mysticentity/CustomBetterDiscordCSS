@@ -326,8 +326,8 @@
 ],
 
 "ICON_MUTED": [
-  "#fa8ce4",
-  "#fa8ce4"
+  "#84118a",
+  "#84118a"
 ],
 
 "ICON_STRONG": [
@@ -470,9 +470,9 @@
   "#a370f2"
 ],
 
-"USER_PROFILE_CONTAINER_BACKGROUND": [
-  "#1b0122",
-  "#1b0122"
+"USER_PROFILE_GRADIANT_BACKGROUND": [
+  "#0E0314",
+  "#0E0314"
 ]
   },
   "rawColors": {
