@@ -240,8 +240,8 @@
 ],
 
 "CHAT_INPUT_ACTION_BUTTON_ICON_DEFAULT_TINT": [
-  "#b846e8",
-  "#b846e8"
+  "#de59f2",
+  "#de59f2"
 ],
 
 "CHAT_INPUT_ACTION_ICON_ACTIVE_TINT": [
@@ -342,8 +342,8 @@
 ],    
   
 "ICON_MUTED": [
-  "#9c1067",
-  "#9c1067"
+  "#791e94",
+  "#791e94"
 ],
 
 "ICON_STATUS_DND": [
