@@ -264,7 +264,7 @@
   "#d11b9c"
 ],
       
-  "CONTROL_CRITICAL_SECONDARY_TEXT_DEFAULT": [
+"CONTROL_CRITICAL_SECONDARY_TEXT_DEFAULT": [
   "#d52813",
   "#d52813"
 ],  
@@ -366,7 +366,7 @@
   "#e817c5"
 ],
 
-  "ICON_SUBTLE": [
+"ICON_SUBTLE": [
   "#b03cae",
   "#b03cae"
 ],  
@@ -451,7 +451,7 @@
   "#fa8ce4"
 ],
 
-  "MOBILE_SEGMENTED_CONTROL_INDICATOR_BACKGROUND": [
+"MOBILE_SEGMENTED_CONTROL_INDICATOR_BACKGROUND": [
    "#0E0314",
    "#0E0314"
   ],
@@ -494,7 +494,12 @@
 "TEXT_BRAND": [
   "#9744ed",
   "#9744ed"
-],   
+], 
+
+"TEXT_CODE": [
+  "#9744ed",
+  "#9744ed"
+],
 
 "TEXT_DEFAULT": [
   "#fa8ce4",
