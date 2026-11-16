@@ -258,11 +258,6 @@
   "#b846e8",
   "#b846e8"
 ],
-
-"CHAT_INPUT_SEND_BUTTON_ACTIVE_BACKGROUND": [
-  "#d11b9c",
-  "#d11b9c"
-],
       
 "CONTROL_CRITICAL_SECONDARY_TEXT_DEFAULT": [
   "#d52813",
@@ -530,8 +525,6 @@
   "#da61a6",
   "#da61a6"
 ],
-
-
 
 "USER_PROFILE_ABOUT_ME_HEADING_TEXT": [
   "#a370f2",
