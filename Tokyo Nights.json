@@ -305,6 +305,12 @@
   "#d11b9c"
 ],
 
+ "CONTROL_ICON_ONLY_ICON_DEFAULT": [
+  "#b846e8",
+   "#b846e8"
+   
+ ],   
+
 "CONTROL_OVERLAY_SECONDARY_BACKGROUND_DEFAULT": [
   "#84118a",
   "#84118a"
