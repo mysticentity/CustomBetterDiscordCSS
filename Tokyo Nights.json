@@ -301,8 +301,8 @@
 ],
 
 "CONTROL_OVERLAY_SECONDARY_BACKGROUND_DEFAULT": [
-"#84118a",
-"#84118a"
+  "#84118a",
+  "#84118a"
 
 ],
 
@@ -342,23 +342,23 @@
 ],
 
 "ICON_STATUS_DND": [
-"#ff611a", 
-"#ff611a"
+  "#ff611a", 
+  "#ff611a"
 ],
 
 "ICON_STATUS_IDLE": [
-"#ffd401", 
-"#ffd401"
+  "#ffd401", 
+  "#ffd401"
 ],
 
 "ICON_STATUS_OFFLINE": [
-"#015bd5", 
-"#015bd5"
+  "#015bd5", 
+  "#015bd5"
 ],
 
 "ICON_STATUS_ONLINE": [
-"#fe0096", 
-"#fe0096"
+  "#fe0096", 
+  "#fe0096"
 ],   
 
 "ICON_STRONG": [
