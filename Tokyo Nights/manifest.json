@@ -1,0 +1,22 @@
+{
+	"format": 1,
+	"id": "Tokyo.Nights",
+	"name": "Tokyo Nights",
+	"description": "Colorful Vaporwave Inspired Theme. Now Featuring Kuromi",
+	"author": "LuckyJinx13 reimagined by Princeblueblood <131929165292240896>",
+	"version": "1.0.0",
+	"dependencies": {
+		"valenced.api": {
+			"version": ">=1 <2"
+		},
+		"discord": {
+			"version": "*"
+		},
+		"valenced.api.themes": {
+			"version": "*"
+		}
+	},
+	"dist": {
+		"script": "index.js"
+	}
+}
