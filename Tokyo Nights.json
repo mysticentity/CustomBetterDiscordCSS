@@ -168,6 +168,11 @@
   "#fa8ce4",
   "#fa8ce4"
 ],
+    
+"BADGE_WARNING_TEXT": [
+  "#d528131f",
+  "#d528131f"
+],
 
 "BORDER_MUTED": [
   "#d11b9cFF",
