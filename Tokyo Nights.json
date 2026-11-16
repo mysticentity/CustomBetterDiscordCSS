@@ -189,6 +189,11 @@
   "#1b0122"
 ],
 
+"BUTTON_OUTLINE_PRIMARY_TEXT": [
+    "#b846e8",
+    "#b846e8"
+  ]
+
 "CARD_BORDER_DEFAULT": [
   "#d11b9cFF",
   "#d11b9cFF"
@@ -258,6 +263,11 @@
   "#b846e8",
   "#b846e8"
 ],
+
+"CHAT_INPUT_SEND_BUTTON_ACTIVE_BACKGROUND": [
+  "#d11b9c",
+  "#d11b9c"
+],    
       
 "CONTROL_CRITICAL_SECONDARY_TEXT_DEFAULT": [
   "#d52813",
