@@ -240,13 +240,13 @@
 ],
 
 "CHAT_INPUT_ACTION_BUTTON_ICON_DEFAULT_TINT": [
-  "#b03cae",
-  "#b03cae"
+  "#b846e8",
+  "#b846e8"
 ],
 
 "CHAT_INPUT_ACTION_ICON_ACTIVE_TINT": [
-  "#b03cae",
-  "#b03cae"
+  "#b846e8",
+  "#b846e8"
 ],
 
 "CHAT_INPUT_BACKGROUND": [
@@ -255,8 +255,8 @@
 ],
 
 "CHAT_INPUT_ICON_DEFAULT_TINT": [
-  "#b03cae",
-  "#b03cae"
+  "#b846e8",
+  "#b846e8"
 ],
 
 "CHAT_INPUT_SEND_BUTTON_ACTIVE_BACKGROUND": [
@@ -337,8 +337,8 @@
 ],
 
 "ICON_DEFAULT": [
-  "#b03cae",
-  "#b03cae"
+  "#b846e8",
+  "#b846e8"
 ],    
   
 "ICON_MUTED": [
