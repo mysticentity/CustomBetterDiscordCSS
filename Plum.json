@@ -1,0 +1,41 @@
+{
+  "name": "whats a plum?",
+  "description": "testing each plum",
+  "authors": [
+    {
+      "name": "your mom",
+      "id": "715175781227298876"
+    }
+  ],
+"rawColors": {
+"PLUM_0": "#ff4500",
+"PLUM_1": "#ff8c00",
+"PLUM_2": "#ffd700",
+"PLUM_3": "#adff2f",
+"PLUM_4": "#00fa9a",
+"PLUM_5": "#00ffff",
+"PLUM_6": "#1e90ff",
+"PLUM_7": "#8a2be2",
+"PLUM_8": "#ff1493",
+"PLUM_9": "#ff69b4",
+"PLUM_10": "#dc143c",
+"PLUM_11": "#b22222",
+"PLUM_12": "#228b22",
+"PLUM_13": "#32cd32",
+"PLUM_14": "#00ced1",
+"PLUM_15": "#4169e1",
+"PLUM_16": "#9932cc",
+"PLUM_17": "#8b008b",
+"PLUM_18": "#ff00ff",
+"PLUM_19": "#cd5c5c",
+"PLUM_20": "#f4a460",
+"PLUM_21": "#2e8b57",
+"PLUM_22": "#4682b4",
+"PLUM_23": "#6a5acd",
+"PLUM_24": "#dda0dd",
+"PLUM_25": "#f0e68c",
+"PLUM_26": "#e9967a"
+},
+  
+  "spec": 2
+}
