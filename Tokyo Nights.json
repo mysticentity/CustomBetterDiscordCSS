@@ -128,7 +128,12 @@
   "#1b0122",
   "#1b0122"
 ],
-
+    
+"BADGE_NOTIFICATION_BORDER": [
+  "#d11b9cFF",
+  "#d11b9cFF"
+],
+    
 "BADGE_NOTIFICATION_TEXT": [
   "#fa8ce4",
   "#fa8ce4"
@@ -269,10 +274,15 @@
   "#b846e8"
 ],
 
-"CHAT_INPUT_SEND_BUTTON_ACTIVE_BACKGROUND": [
+  "CHAT_INPUT_SEND_BUTTON_ACTIVE_BACKGROUND": [
   "#d11b9c",
   "#d11b9c"
-],    
+],
+
+   "CHAT_INPUT_SEND_BUTTON_ICON_ACTIVE_TINT":[
+  "#b846e8",
+  "#b846e8"
+   ], 
       
 "CONTROL_CRITICAL_SECONDARY_TEXT_DEFAULT": [
   "#d52813",
