@@ -283,6 +283,21 @@
   "#b846e8",
   "#b846e8"
    ],
+    
+  "CHECKBOX_BACKGROUND_SELECTED_DEFAULT": [
+  "#0E0314",
+  "#0E0314"
+  ],
+
+  "CHECKBOX_BORDER_DEFAULT": [
+  "#d11b9cFF",
+  "#d11b9cFF"
+    ],
+
+  "CHECKBOX_BORDER_SELECTED_DEFAULT": [
+  "#d11b9cFF",
+  "#d11b9cFF"
+    ],
 
   "CHECKBOX_ICON_ACTIVE":[
     "#de59f2",
