@@ -362,6 +362,11 @@
   "#330240"
 ],
 
+"INPUT_BORDER_ACTIVE": [
+  "#d11b9cFF",
+  "#d11b9cFF"
+  ],
+
 "ICON_DEFAULT": [
   "#b846e8",
   "#b846e8"
