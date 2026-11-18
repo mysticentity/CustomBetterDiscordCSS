@@ -279,10 +279,15 @@
   "#fa8ce4"
 ],
 
-   "CHAT_INPUT_SEND_BUTTON_ICON_ACTIVE_TINT":[
+  "CHAT_INPUT_SEND_BUTTON_ICON_ACTIVE_TINT":[
   "#b846e8",
   "#b846e8"
-   ], 
+   ],
+
+  "CHECKBOX_ICON_ACTIVE":[
+    "#de59f2",
+    "#de59f2"
+  ],
       
 "CONTROL_CRITICAL_SECONDARY_TEXT_DEFAULT": [
   "#d52813",
