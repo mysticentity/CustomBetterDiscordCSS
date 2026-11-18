@@ -358,6 +358,11 @@
 
 ],
 
+  "CONTROL_OVERLAY_SECONDARY_TEXT_DEFAULT":[
+    "#b846e8",
+    "#b846e8"
+  ],  
+
 "CONTROL_PRIMARY_BACKGROUND_DEFAULT": [
   "#1b0122",
   "#1b0122"
@@ -529,6 +534,11 @@
   "#fa8ce4",
   "#fa8ce4"
 ],
+
+  "REDESIGN_BUTTON_TERTIARY_TEXT": [
+    "#b846e8",
+    "#b846e8"
+  ],  
 
 "REDESIGN_CHANNEL_NAME_MUTED_TEXT": [
   "#84118a",
