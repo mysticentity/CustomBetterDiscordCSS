@@ -89,7 +89,12 @@
   "#0E0314",
   "#0E0314"
 ],  
-
+    
+"BACKGROUND_VOICE_MUTED":[
+  "#1b0122",
+  "#1b0122"
+],
+    
 "BADGE_CRITICAL_BACKGROUND": [
   "#1b0122",
   "#1b0122"
@@ -309,6 +314,11 @@
     "#de59f2",
     "#de59f2"
   ],
+
+  "CONTROL_CONNECTED_BACKGROUND_DEFAULT":[
+  "#1b0122",
+  "#1b0122"  
+    ],
       
 "CONTROL_CRITICAL_SECONDARY_TEXT_DEFAULT": [
   "#d52813",
@@ -504,6 +514,11 @@
   "#ff05eaFF",
   "#ff05eaFF"
 ],
+
+   "MOBILE_FLOATINGBAR_BACKGROUND": [
+     "#0e0314",
+     "#0e0314"
+   ], 
 
 "MOBILE_KEYBOARD_PANEL_BACKGROUND": [
   "#1b0329FF",
