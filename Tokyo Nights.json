@@ -444,7 +444,12 @@
   "#b03cae",
   "#b03cae"
 ],  
-
+    
+"ICON_VOICE_MUTED": [
+  "#d52813",
+  "#d52813"
+],
+    
 "INPUT_BACKGROUND_DEFAULT": [
   "#1b0329FF",
   "#1b0329FF"
