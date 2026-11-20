@@ -672,7 +672,7 @@
 ]
   },
   "rawColors": {
-    
+    "BRAND_NEW_500_ALPHA_20":"#0E0314", 
     "BRAND_230": "#ff0000",
     "BRAND_260": "#f016f7",
     "BRAND_300": "#a370f2",
@@ -681,7 +681,7 @@
     "BRAND_360": "#a370f2",
     "BRAND_500": "#9c1067",
     "BRAND_530": "#a370f2",
-    "BRAND_560": "#3ad3e0",
+    "BRAND_560": "#ff05ea",
     "BRAND_600": "#a370f2",
     "BRAND_630": "#a370f2",
     "BRAND_660": "#a370f2",
