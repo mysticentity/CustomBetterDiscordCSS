@@ -532,6 +532,21 @@
   "#fa8ce4"
 ],
 
+"REACTION_BACKGROUND_REACTED_DEFAULT":[
+  "#0E0314FF",
+  "#0E0314FF"
+  ],
+    
+"REACTION_BORDER_REACTED_DEFAULT":[
+  "#d11b9cFF",
+  "#d11b9cFF"
+   ],
+
+  "REACTION_TEXT_REACTED_DEFAULT":[
+    "#b846e8",
+    "#b846e8"
+  ], 
+
   "REDESIGN_BUTTON_TERTIARY_TEXT": [
     "#b846e8",
     "#b846e8"
