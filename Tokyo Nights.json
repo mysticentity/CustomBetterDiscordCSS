@@ -425,26 +425,6 @@
   "#791e94"
 ],
 
-"ICON_STATUS_DND": [
-  "#ff611a", 
-  "#ff611a"
-],
-
-"ICON_STATUS_IDLE": [
-  "#ffd401", 
-  "#ffd401"
-],
-
-"ICON_STATUS_OFFLINE": [
-  "#015bd5", 
-  "#015bd5"
-],
-
-"ICON_STATUS_ONLINE": [
-  "#fe0096", 
-  "#fe0096"
-],   
-
 "ICON_STRONG": [
   "#e817c5",
   "#e817c5"
@@ -656,6 +636,26 @@
   "#fa8ce4"
 ],
 
+ "TEXT_STATUS_DND": [
+  "#ff611a", 
+  "#ff611a"
+],
+
+"TEXT_STATUS_IDLE": [
+  "#ffd401", 
+  "#ffd401"
+],
+
+"TEXT_STATUS_OFFLINE": [
+  "#015bd5", 
+  "#015bd5"
+],
+
+"TEXT_STATUS_ONLINE": [
+  "#fe0096", 
+  "#fe0096"
+],      
+
 "TEXT_STRONG": [
   "#fa8ce4",
   "#fa8ce4"
@@ -805,7 +805,7 @@
     "GREEN_300": "#f016f7",
     "GREEN_330": "#f016f7",
     "GREEN_345": "#682d68",
-    "GREEN_360": "#f016f7",
+    "GREEN_360": "#1b0122",
     "GREEN_400": "#f016f7",
     "GREEN_430": "#f016f7",
     "GREEN_460": "#f016f7",
