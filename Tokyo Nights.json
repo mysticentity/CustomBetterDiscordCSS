@@ -319,6 +319,11 @@
   "#1b0122",
   "#1b0122"  
     ],
+
+   "CONTROL_CONNECTED_TEXT_DEFAULT":[
+  "#0E0314",
+  "#0E0314"
+   ], 
       
 "CONTROL_CRITICAL_SECONDARY_TEXT_DEFAULT": [
   "#d52813",
