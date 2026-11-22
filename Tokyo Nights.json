@@ -399,7 +399,12 @@
   "#1B0122FF",
   "#1B0122FF"
 ],
-
+    
+"CONTROL_SECONDARY_BORDER_DEFAULT":[
+  "#d11b9cFF",
+  "#d11b9cFF"
+],
+    
 "CONTROL_SECONDARY_TEXT_DEFAULT": [
   "#9744ed",
   "#9744ed"
