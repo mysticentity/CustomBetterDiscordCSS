@@ -329,7 +329,12 @@
   "#b846e8",
   "#b846e8"
    ], 
-      
+
+  "CONTROL_OVERLAY_SECONDARY_TEXT_DEFAULT":[
+  "#fa8ce4",
+  "#fa8ce4"
+   ], 
+    
 "CONTROL_CRITICAL_SECONDARY_TEXT_DEFAULT": [
   "#d52813",
   "#d52813"
