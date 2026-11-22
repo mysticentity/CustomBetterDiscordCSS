@@ -708,7 +708,6 @@
     "RC_TEAL_345": "#FC8B00",
     "RC_YELLOW_300": "#FF9900"
   },
-    "spec": 1,
     "main": {
         "ABCGintoNord-ExtraBold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
         "ggsans-Bold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Bold.ttf",
@@ -728,6 +727,7 @@
         "NotoSans-NormalItalic": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-Italic.ttf",
         "NotoSans-Semibold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-SemiBold.ttf",
         "SourceCodePro-Semibold": "https://github.com/LuckyJinx13/Public-Themes/raw/main/Kodchasan-SemiBold.ttf"
-    }
+    },
+  "spec": 1
     
 }
